@@ -22,6 +22,7 @@ import { LucideSwirlLogo } from './PosterCanvas';
 interface HeaderNavProps {
   onShuffle: () => void;
   onResetToPreset: () => void;
+  onReturnToHome?: () => void;
   canUndo?: boolean;
   canRedo?: boolean;
   onUndo?: () => void;
@@ -49,6 +50,7 @@ interface HeaderNavProps {
 export function HeaderNav({
   onShuffle,
   onResetToPreset,
+  onReturnToHome,
   canUndo = false,
   canRedo = false,
   onUndo,
@@ -90,15 +92,20 @@ export function HeaderNav({
     <header className="h-14 sm:h-16 border-b border-black/10 bg-[#FDFCFB] text-[#1A1A1A] px-3 sm:px-6 flex items-center justify-between flex-none z-40 transition-colors select-none">
       {/* Brand & Editorial Title */}
       <div className="flex items-center gap-3 sm:gap-4">
-        <div className="flex items-center gap-2.5">
+        <button
+          type="button"
+          onClick={onReturnToHome}
+          className="flex items-center gap-2.5 hover:opacity-80 transition-opacity text-left cursor-pointer group"
+          title="Volver a la Landing Page"
+        >
           <LucideSwirlLogo size={24} color="#1A1815" accentColor="#DE5D53" strokeWidth={2.2} />
-          <span className="text-lg sm:text-xl font-bold font-sans tracking-tight text-[#1A1A1A]">
+          <span className="text-lg sm:text-xl font-bold font-sans tracking-tight text-[#1A1A1A] group-hover:text-rose-600 transition-colors">
             Lucide
           </span>
           <span className="text-[10px] uppercase tracking-[0.2em] font-bold opacity-40 hidden md:inline-block">
             Poster Studio
           </span>
-        </div>
+        </button>
 
         {/* Live specs badge */}
         <div className="hidden xl:flex items-center gap-2 text-[11px] font-mono text-black/50 bg-black/5 px-2.5 py-1 rounded">
@@ -291,6 +298,31 @@ export function HeaderNav({
             </div>
           )}
         </div>
+
+        {/* GitHub Repository Link Button */}
+        <div className="w-[1px] h-4 bg-black/15 mx-0.5 hidden sm:block" />
+        <a
+          href="https://github.com/martinproject/lucide-poster-studio"
+          target="_blank"
+          rel="noreferrer"
+          className="p-2 sm:px-2.5 sm:py-2 border border-black/15 hover:border-black/30 rounded bg-white hover:bg-black/5 text-[#1A1A1A] transition-colors flex items-center gap-1.5"
+          title="View on GitHub (martinproject/lucide-poster-studio)"
+        >
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+            <path d="M9 18c-4.51 2-5-2-7-2" />
+          </svg>
+          <span className="text-xs font-semibold hidden md:inline">GitHub</span>
+        </a>
       </div>
     </header>
   );

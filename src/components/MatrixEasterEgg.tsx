@@ -212,9 +212,9 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
 
     initColumns();
 
-    // Frame timer for FPS calculation
+    // Frame timer for reliable real-time FPS telemetry
     let frameCount = 0;
-    let fpsTimer = performance.now();
+    let lastFpsUpdate = performance.now();
 
     const currentColors = MATRIX_THEMES[theme];
 
@@ -224,10 +224,12 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
 
     const render = (time: number) => {
       frameCount++;
-      if (time - fpsTimer >= 1000) {
-        setStats((prev) => ({ ...prev, fps: frameCount }));
+      const elapsed = time - lastFpsUpdate;
+      if (elapsed >= 500) {
+        const calculatedFps = Math.round((frameCount * 1000) / elapsed);
+        setStats((prev) => ({ ...prev, fps: Math.max(1, Math.min(144, calculatedFps || 60)) }));
         frameCount = 0;
-        fpsTimer = time;
+        lastFpsUpdate = time;
       }
 
       // 1. Semi-transparent black background fade for smooth phosphor trails

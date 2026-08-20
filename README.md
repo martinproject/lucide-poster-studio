@@ -60,7 +60,7 @@ Whether creating wall art prints for design studios, technical cheat sheets, dev
 ### 🕶️ 5. The Matrix Digital Rain Easter Egg
 An authentic, full-screen cybernetic digital rain animation running at **60 FPS**:
 - **1,779 Falling Glyphs**: Cascading vector glyphs powered by `lucide.woff2` and native GPU font rendering.
-- **Don Davis Soundtrack**: Authentic synthesized orchestral polytonal score (Dm vs Ebm brass swells, 16th-note Phrygian code arpeggios, sub-bass drones) created with **Tone.js**.
+- **Soundtrack**: Authentic synthesized orchestral polytonal score (Dm vs Ebm brass swells, 16th-note Phrygian code arpeggios, sub-bass drones) created with **Tone.js**.
 - **Cyber Controls**: Switch between 5 cyberpunk color themes (*Classic 1999*, *Trinity Cyan*, *Zion Amber*, *Agent Red*, *Ghost Monochrome*).
 
 ---
@@ -75,7 +75,7 @@ An authentic, full-screen cybernetic digital rain animation running at **60 FPS*
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/lucide-poster-studio.git
+git clone https://github.com/martinproject/lucide-poster-studio.git
 cd lucide-poster-studio
 
 # 2. Install dependencies
@@ -114,12 +114,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | Type `matrix` | Trigger **The Matrix Code** Easter Egg |
 | <kbd>Space</kbd> *(in Matrix)* | Cycle Matrix color themes |
 | <kbd>R</kbd> *(in Matrix)* | Shuffle digital rain streams |
-| <kbd>M</kbd> *(in Matrix)* | Mute / Unmute Don Davis Synthesizer Soundtrack |
+| <kbd>M</kbd> *(in Matrix)* | Mute / Unmute Synthesizer Soundtrack |
 | <kbd>Esc</kbd> | Close any open modal or return from Matrix |
 
 ---
 
 ## 📄 License
 
-MIT © [Lucide Poster Studio Contributors](https://github.com/your-username/lucide-poster-studio).  
+MIT © [Lucide Poster Studio](https://github.com/martinproject/lucide-poster-studio).  
 Icons by [Lucide Contributors](https://lucide.dev) under the ISC License.

@@ -9,6 +9,7 @@ import { IconPickerModal } from './components/IconPickerModal';
 import { MockupStage } from './components/MockupStage';
 import { PrintDialog } from './components/PrintDialog';
 import { MatrixEasterEgg } from './components/MatrixEasterEgg';
+import { LandingPage } from './components/LandingPage';
 import { POSTER_PRESETS } from './data/presets';
 import { generateIconGrid } from './utils/gridGenerator';
 import {
@@ -218,6 +219,17 @@ export default function App() {
   const [stageSize, setStageSize] = useState<{ width: number; height: number }>({
     width: 0,
     height: 0,
+  });
+
+  const [currentView, setCurrentView] = useState<'landing' | 'studio'>(() => {
+    if (typeof window !== 'undefined') {
+      const search = window.location.search;
+      const hash = window.location.hash;
+      if (search.includes('c=') || search.includes('studio=true') || hash === '#studio') {
+        return 'studio';
+      }
+    }
+    return 'landing';
   });
 
   const [isMockupOpen, setIsMockupOpen] = useState<boolean>(false);
@@ -798,6 +810,27 @@ export default function App() {
     config.columns * config.rows -
     (config.headerPosition === 'vertical-left' && config.showSideHeader ? 3 : 0);
 
+  if (currentView === 'landing') {
+    return (
+      <>
+        <LandingPage
+          onEnterStudio={(preset) => {
+            if (preset) {
+              handleApplyPreset(preset);
+            }
+            setCurrentView('studio');
+            window.scrollTo(0, 0);
+          }}
+        />
+        {/* The Matrix Code Easter Egg (active in landing too) */}
+        <MatrixEasterEgg
+          isOpen={isMatrixOpen}
+          onClose={() => setIsMatrixOpen(false)}
+        />
+      </>
+    );
+  }
+
   return (
     <div className="h-screen max-h-screen w-screen overflow-hidden bg-[#FDFCFB] text-[#1A1A1A] flex flex-col font-sans selection:bg-[#1A1A1A] selection:text-white select-none">
       {/* Editorial Minimal Toast */}
@@ -812,6 +845,7 @@ export default function App() {
       <HeaderNav
         onShuffle={handleShuffle}
         onResetToPreset={handleResetToPreset}
+        onReturnToHome={() => setCurrentView('landing')}
         canUndo={past.length > 0}
         canRedo={future.length > 0}
         onUndo={undo}
