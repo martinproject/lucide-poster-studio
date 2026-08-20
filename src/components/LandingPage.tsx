@@ -47,7 +47,8 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
             <span className="text-xl font-bold font-sans tracking-tight text-[#1A1A1A] group-hover:text-[#DE5D53] transition-colors">
               Lucide
             </span>
-            <span className="text-[10px] uppercase tracking-[0.2em] font-bold opacity-40 hidden sm:inline-block">
+            <span className="text-sm">|</span>
+            <span className="text-xl font-bold font-sans tracking-tight opacity-40 hidden sm:inline-block">
               Poster Studio
             </span>
           </div>

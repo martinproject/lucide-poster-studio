@@ -105,7 +105,8 @@ export function HeaderNav({
           <span className="text-lg sm:text-xl font-bold font-sans tracking-tight text-[#1A1A1A] group-hover:text-rose-600 transition-colors">
             Lucide
           </span>
-          <span className="text-[10px] uppercase tracking-[0.2em] font-bold opacity-40 hidden md:inline-block">
+          <span className="text-sm">|</span>
+          <span className="text-xl font-bold font-sans tracking-tight opacity-40 hidden sm:inline-block">
             Poster Studio
           </span>
         </button>
@@ -304,7 +305,7 @@ export function HeaderNav({
 
         {/* GitHub Repository Link Button */}
         <div className="w-[1px] h-4 bg-black/15 mx-0.5 hidden sm:block" />
-        
+
         {/* Guide / Tour Button */}
         {onOpenOnboarding && (
           <button
