@@ -343,29 +343,31 @@ export default function App() {
         redo();
       }
 
-      // Matrix Easter Egg Shortcuts: Cmd+Shift+M or Ctrl+Shift+M or Alt+M
-      const isM = e.key.toLowerCase() === 'm';
-      if ((isMeta && e.shiftKey && isM) || (e.altKey && isM)) {
-        e.preventDefault();
-        setIsMatrixOpen((prev) => !prev);
-        return;
-      }
+      // Matrix Easter Egg Shortcuts (Only active inside studio app): Cmd+Shift+M or Ctrl+Shift+M or Alt+M
+      if (currentView === 'studio') {
+        const isM = e.key.toLowerCase() === 'm';
+        if ((isMeta && e.shiftKey && isM) || (e.altKey && isM)) {
+          e.preventDefault();
+          setIsMatrixOpen((prev) => !prev);
+          return;
+        }
 
-      // Typing "matrix" secret sequence anywhere outside inputs
-      const target = e.target as HTMLElement | null;
-      const isInput = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable);
-      if (!isInput && e.key.length === 1 && !e.metaKey && !e.ctrlKey) {
-        keySequenceRef.current = (keySequenceRef.current + e.key.toLowerCase()).slice(-10);
-        if (keySequenceRef.current.endsWith('matrix')) {
-          keySequenceRef.current = '';
-          setIsMatrixOpen(true);
+        // Typing "matrix" secret sequence anywhere outside inputs
+        const target = e.target as HTMLElement | null;
+        const isInput = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable);
+        if (!isInput && e.key.length === 1 && !e.metaKey && !e.ctrlKey) {
+          keySequenceRef.current = (keySequenceRef.current + e.key.toLowerCase()).slice(-10);
+          if (keySequenceRef.current.endsWith('matrix')) {
+            keySequenceRef.current = '';
+            setIsMatrixOpen(true);
+          }
         }
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [past, future, config, icons, undo, redo]);
+  }, [past, future, config, icons, undo, redo, currentView]);
 
   // Persist config changes automatically to localStorage
   useEffect(() => {
@@ -812,22 +814,15 @@ export default function App() {
 
   if (currentView === 'landing') {
     return (
-      <>
-        <LandingPage
-          onEnterStudio={(preset) => {
-            if (preset) {
-              handleApplyPreset(preset);
-            }
-            setCurrentView('studio');
-            window.scrollTo(0, 0);
-          }}
-        />
-        {/* The Matrix Code Easter Egg (active in landing too) */}
-        <MatrixEasterEgg
-          isOpen={isMatrixOpen}
-          onClose={() => setIsMatrixOpen(false)}
-        />
-      </>
+      <LandingPage
+        onEnterStudio={(preset) => {
+          if (preset) {
+            handleApplyPreset(preset);
+          }
+          setCurrentView('studio');
+          window.scrollTo(0, 0);
+        }}
+      />
     );
   }
 
