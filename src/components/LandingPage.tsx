@@ -131,13 +131,13 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
         {/* Showcase Poster Card in Gallery Stage */}
         <div
           onClick={() => onEnterStudio()}
-          className="relative rounded-2xl p-3 sm:p-4 bg-[#F0EFED] border border-black/10 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.12)] max-w-4xl w-full cursor-pointer group hover:border-black/25 transition-all duration-300 mb-12"
+          className="relative rounded-2xl p-2 sm:p-3 bg-[#F0EFED] border border-black/10 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.12)] max-w-4xl w-full cursor-pointer group hover:border-black/25 transition-all duration-300 mb-12"
         >
-          <div className="relative rounded-xl overflow-hidden bg-[#FAF8F5] border border-black/10 aspect-[16/9] flex items-center justify-center shadow-xs">
+          <div className="relative rounded-xl overflow-hidden border border-black/10 aspect-[1200/560] w-full flex items-center justify-center shadow-xs">
             <img
               src={bannerSvg}
               alt="Lucide Poster Studio Preview"
-              className="w-full h-full object-cover sm:object-contain transform group-hover:scale-[1.01] transition-transform duration-500"
+              className="w-full h-full object-cover block transform group-hover:scale-[1.01] transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-[#1A1815]/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
               <span className="px-5 py-2.5 rounded-lg bg-[#1A1815] text-white font-bold text-sm shadow-xl">
