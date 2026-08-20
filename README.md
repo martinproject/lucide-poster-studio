@@ -62,9 +62,6 @@ An authentic, full-screen cybernetic digital rain animation running at **60 FPS*
 - **1,779 Falling Glyphs**: Cascading vector glyphs powered by `lucide.woff2` and native GPU font rendering.
 - **Don Davis Soundtrack**: Authentic synthesized orchestral polytonal score (Dm vs Ebm brass swells, 16th-note Phrygian code arpeggios, sub-bass drones) created with **Tone.js**.
 - **Cyber Controls**: Switch between 5 cyberpunk color themes (*Classic 1999*, *Trinity Cyan*, *Zion Amber*, *Agent Red*, *Ghost Monochrome*).
-- **How to Activate**:
-  - Press <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> (or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> / <kbd>Alt</kbd> + <kbd>M</kbd>).
-  - Or type the word `matrix` anywhere in the app!
 
 ---
 
