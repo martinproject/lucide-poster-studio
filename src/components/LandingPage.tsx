@@ -151,25 +151,25 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-4xl text-left">
           <div className="p-5 rounded-xl bg-white border border-black/10 shadow-xs hover:border-black/25 transition-colors">
             <LayoutGrid size={18} className="text-[#DE5D53] mb-2.5" />
-            <h3 className="text-xs font-bold text-[#1A1815] uppercase tracking-wider mb-1">Custom Grids</h3>
+            <h2 className="text-xs font-bold text-[#1A1815] uppercase tracking-wider mb-1">Custom Grids</h2>
             <p className="text-xs text-[#78716C] leading-relaxed">A2, A3, A4, 16:9 and square ratios from 2×2 to 24×24.</p>
           </div>
 
           <div className="p-5 rounded-xl bg-white border border-black/10 shadow-xs hover:border-black/25 transition-colors">
             <Layers size={18} className="text-[#10B981] mb-2.5" />
-            <h3 className="text-xs font-bold text-[#1A1815] uppercase tracking-wider mb-1">Named Layers</h3>
+            <h2 className="text-xs font-bold text-[#1A1815] uppercase tracking-wider mb-1">Named Layers</h2>
             <p className="text-xs text-[#78716C] leading-relaxed">Export clean SVGs ready for Figma and Illustrator.</p>
           </div>
 
           <div className="p-5 rounded-xl bg-white border border-black/10 shadow-xs hover:border-black/25 transition-colors">
             <Eye size={18} className="text-[#F59E0B] mb-2.5" />
-            <h3 className="text-xs font-bold text-[#1A1815] uppercase tracking-wider mb-1">3D Mockups</h3>
+            <h2 className="text-xs font-bold text-[#1A1815] uppercase tracking-wider mb-1">3D Mockups</h2>
             <p className="text-xs text-[#78716C] leading-relaxed">Real-world room previews with oak and aluminum frames.</p>
           </div>
 
           <div className="p-5 rounded-xl bg-white border border-black/10 shadow-xs hover:border-black/25 transition-colors">
             <Download size={18} className="text-[#0284C7] mb-2.5" />
-            <h3 className="text-xs font-bold text-[#1A1815] uppercase tracking-wider mb-1">Print &amp; 8K</h3>
+            <h2 className="text-xs font-bold text-[#1A1815] uppercase tracking-wider mb-1">Print &amp; 8K</h2>
             <p className="text-xs text-[#78716C] leading-relaxed">300 DPI CMYK PDF and ultra-sharp 4K/8K PNGs.</p>
           </div>
         </div>

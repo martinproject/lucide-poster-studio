@@ -1,0 +1,23 @@
+# Lucide Poster Studio
+
+> Artisanal Grid Composition & High-Resolution Vector Poster Engine powered by 1,779+ official Lucide vector icons.
+
+## Overview
+Lucide Poster Studio is a web application designed for creating museum-grade iconography posters, technical cheat sheets, and wall prints with Swiss typography, 3D gallery mockups, and professional vector export formats (SVG with named layers, 300 DPI CMYK PDF with bleed marks, and 4K/8K PNG).
+
+## Key Features
+- **1,779 Official Icons**: Complete Lucide icon catalog rendered at 60 FPS via zero-lag WOFF2 vector font engine.
+- **Custom Grid Layouts**: Customize grid columns and rows (from 2x2 to 24x24) with ISO A2-A4, 16:9, and square aspect ratios.
+- **Archival Textures & Palettes**: Grain, blueprint, isometric, and dot grid backgrounds with curated color palettes.
+- **3D Spatial Mockup Stage**: Live spatial gallery previewer with oak, aluminum, gold, and glass frames.
+- **The Matrix Easter Egg**: Interactive cybernetic digital rain with polytonal synthesizer soundtrack.
+
+## Technical Details
+- **Frontend Stack**: React 19, TypeScript, Tailwind CSS, Vite
+- **Font & Icon Engine**: Lucide WOFF2 native font
+- **Audio**: Tone.js polyphonic synthesizer
+
+## Links & Attribution
+- Repository: https://github.com/martinproject/lucide-poster-studio
+- Official Lucide Icons: https://lucide.dev
+- License: MIT License (Icons under ISC License)

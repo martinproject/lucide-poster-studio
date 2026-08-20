@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://serene-margulis.82-223-216-124.plesk.page/sitemap.xml
