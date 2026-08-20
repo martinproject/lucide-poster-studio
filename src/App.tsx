@@ -8,6 +8,7 @@ import { HeaderNav } from './components/HeaderNav';
 import { IconPickerModal } from './components/IconPickerModal';
 import { MockupStage } from './components/MockupStage';
 import { PrintDialog } from './components/PrintDialog';
+import { MatrixEasterEgg } from './components/MatrixEasterEgg';
 import { POSTER_PRESETS } from './data/presets';
 import { generateIconGrid } from './utils/gridGenerator';
 import {
@@ -221,6 +222,8 @@ export default function App() {
 
   const [isMockupOpen, setIsMockupOpen] = useState<boolean>(false);
   const [isPrintDialogOpen, setIsPrintDialogOpen] = useState<boolean>(false);
+  const [isMatrixOpen, setIsMatrixOpen] = useState<boolean>(false);
+  const keySequenceRef = useRef<string>('');
 
   // Undo / Redo History States
   const [past, setPast] = useState<Array<{ config: PosterConfig; icons: IconGridItem[] }>>([]);
@@ -326,6 +329,25 @@ export default function App() {
       } else if (isMeta && isY) {
         e.preventDefault();
         redo();
+      }
+
+      // Matrix Easter Egg Shortcuts: Cmd+Shift+M or Ctrl+Shift+M or Alt+M
+      const isM = e.key.toLowerCase() === 'm';
+      if ((isMeta && e.shiftKey && isM) || (e.altKey && isM)) {
+        e.preventDefault();
+        setIsMatrixOpen((prev) => !prev);
+        return;
+      }
+
+      // Typing "matrix" secret sequence anywhere outside inputs
+      const target = e.target as HTMLElement | null;
+      const isInput = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable);
+      if (!isInput && e.key.length === 1 && !e.metaKey && !e.ctrlKey) {
+        keySequenceRef.current = (keySequenceRef.current + e.key.toLowerCase()).slice(-10);
+        if (keySequenceRef.current.endsWith('matrix')) {
+          keySequenceRef.current = '';
+          setIsMatrixOpen(true);
+        }
       }
     };
 
@@ -945,6 +967,12 @@ export default function App() {
         isOpen={isPrintDialogOpen}
         onClose={() => setIsPrintDialogOpen(false)}
         svgElement={svgRef.current}
+      />
+
+      {/* The Matrix Code Full Screen Easter Egg */}
+      <MatrixEasterEgg
+        isOpen={isMatrixOpen}
+        onClose={() => setIsMatrixOpen(false)}
       />
     </div>
   );
