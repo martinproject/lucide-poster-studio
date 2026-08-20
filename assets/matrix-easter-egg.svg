@@ -6,7 +6,7 @@
       <stop offset="100%" stop-color="#000502" />
     </linearGradient>
     <filter id="matrixGlow">
-      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#00FF66" flood-opacity="0.8" />
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#00FF66" flood-opacity="0.9" />
     </filter>
   </defs>
 
@@ -42,51 +42,150 @@
       &gt; 1,779 Vector Glyphs • Don Davis Synthesizer Soundtrack • CRT Shaders
     </text>
 
-    <g transform="translate(0, 115)">
-      <!-- Key Badge 1 -->
-      <rect x="0" y="0" width="150" height="30" rx="6" fill="#052E16" stroke="#00FF66" stroke-width="1" />
-      <text x="14" y="20" fill="#00FF66" font-family="monospace" font-size="12" font-weight="700">Cmd + Shift + M</text>
-
-      <text x="165" y="20" fill="#6EE7B7" font-family="monospace" font-size="12">or type </text>
-
-      <!-- Key Badge 2 -->
-      <rect x="230" y="0" width="84" height="30" rx="6" fill="#052E16" stroke="#00FF66" stroke-width="1" />
-      <text x="242" y="20" fill="#00FF66" font-family="monospace" font-size="12" font-weight="700">matrix</text>
+    <g transform="translate(0, 118)">
+      <rect x="0" y="0" width="280" height="28" rx="6" fill="#052E16" stroke="#00FF66" stroke-width="1" stroke-opacity="0.6" />
+      <text x="14" y="18" fill="#4ADE80" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1">✦ 60 FPS GPU VECTOR RAIN ENGINE</text>
     </g>
   </g>
 
-  <!-- Right: Digital Rain Stream Graphic -->
-  <g transform="translate(780, 25)" font-family="monospace" font-size="15" font-weight="bold">
-    <!-- Col 1 -->
-    <text x="0" y="30" fill="#FFFFFF" filter="url(#matrixGlow)">[T]</text>
-    <text x="0" y="55" fill="#4ADE80">[C]</text>
-    <text x="0" y="80" fill="#22C55E">[#]</text>
-    <text x="0" y="105" fill="#15803D">[&lt;&gt;]</text>
-    <text x="0" y="130" fill="#166534">[0]</text>
-    <text x="0" y="155" fill="#14532D">[1]</text>
-    <text x="0" y="180" fill="#052E16">[*]</text>
+  <!-- Right: Cascading Lucide Vector Icons Rain Streams -->
+  <g transform="translate(730, 12)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- ================= Column 1 ================= -->
+    <g transform="translate(0, 0)">
+      <!-- Terminal (Head Glow) -->
+      <g transform="translate(0, 15) scale(0.9)" stroke="#FFFFFF" stroke-width="2" filter="url(#matrixGlow)">
+        <path d="M4 17l6-6-6-6M12 19h8" />
+      </g>
+      <!-- Cpu (Bright) -->
+      <g transform="translate(0, 48) scale(0.9)" stroke="#22C55E" stroke-width="2">
+        <rect x="4" y="4" width="16" height="16" rx="2" />
+        <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" />
+      </g>
+      <!-- Shield (Mid) -->
+      <g transform="translate(0, 81) scale(0.9)" stroke="#15803D" stroke-width="2">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </g>
+      <!-- Code (Darker) -->
+      <g transform="translate(0, 114) scale(0.9)" stroke="#166534" stroke-width="2">
+        <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+      </g>
+      <!-- Zap (Fading) -->
+      <g transform="translate(0, 147) scale(0.9)" stroke="#14532D" stroke-width="2">
+        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+      </g>
+      <!-- Sparkles (Tail) -->
+      <g transform="translate(0, 180) scale(0.9)" stroke="#052E16" stroke-width="2">
+        <path d="M12 3l1.9 4.8L18 9l-4.1 1.2L12 15l-1.9-4.8L6 9l4.1-1.2L12 3z" />
+      </g>
+    </g>
 
-    <!-- Col 2 -->
-    <text x="60" y="70" fill="#FFFFFF" filter="url(#matrixGlow)">[⚡]</text>
-    <text x="60" y="95" fill="#4ADE80">[⎋]</text>
-    <text x="60" y="120" fill="#22C55E">[⌕]</text>
-    <text x="60" y="145" fill="#15803D">[⌘]</text>
-    <text x="60" y="170" fill="#166534">[∞]</text>
-    <text x="60" y="195" fill="#052E16">[#]</text>
+    <!-- ================= Column 2 ================= -->
+    <g transform="translate(68, 0)">
+      <!-- Atom (Head Glow) -->
+      <g transform="translate(0, 52) scale(0.9)" stroke="#FFFFFF" stroke-width="2" filter="url(#matrixGlow)">
+        <circle cx="12" cy="12" r="1.5" fill="#FFFFFF" />
+        <ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(35 12 12)" />
+        <ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(-35 12 12)" />
+      </g>
+      <!-- Wifi (Bright) -->
+      <g transform="translate(0, 85) scale(0.9)" stroke="#22C55E" stroke-width="2">
+        <path d="M12 20h.01M2 8.82a15 15 0 0120 0M5 12.86a10 10 0 0114 0M8.5 16.43a5 5 0 017 0" />
+      </g>
+      <!-- Database (Mid) -->
+      <g transform="translate(0, 118) scale(0.9)" stroke="#15803D" stroke-width="2">
+        <ellipse cx="12" cy="5" rx="9" ry="3" />
+        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+      </g>
+      <!-- Globe (Darker) -->
+      <g transform="translate(0, 151) scale(0.9)" stroke="#166534" stroke-width="2">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+      </g>
+      <!-- Activity (Tail) -->
+      <g transform="translate(0, 184) scale(0.9)" stroke="#052E16" stroke-width="2">
+        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+      </g>
+    </g>
 
-    <!-- Col 3 -->
-    <text x="120" y="45" fill="#FFFFFF" filter="url(#matrixGlow)">[Ω]</text>
-    <text x="120" y="70" fill="#4ADE80">[⏣]</text>
-    <text x="120" y="95" fill="#22C55E">[⚛]</text>
-    <text x="120" y="120" fill="#15803D">[✦]</text>
-    <text x="120" y="145" fill="#166534">[⌨]</text>
-    <text x="120" y="170" fill="#052E16">[⚿]</text>
+    <!-- ================= Column 3 ================= -->
+    <g transform="translate(136, 0)">
+      <!-- Lock (Head Glow) -->
+      <g transform="translate(0, 24) scale(0.9)" stroke="#FFFFFF" stroke-width="2" filter="url(#matrixGlow)">
+        <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+        <path d="M7 11V7a5 5 0 0110 0v4" />
+      </g>
+      <!-- Key (Bright) -->
+      <g transform="translate(0, 57) scale(0.9)" stroke="#22C55E" stroke-width="2">
+        <circle cx="7.5" cy="15.5" r="4.5" />
+        <path d="m21 3-9.5 9.5M15.5 7.5l3 3" />
+      </g>
+      <!-- Boxes (Mid) -->
+      <g transform="translate(0, 90) scale(0.9)" stroke="#15803D" stroke-width="2">
+        <path d="M2.97 12.92A2 2 0 002 14.63v3.24a2 2 0 00.97 1.71l6 3.43a2 2 0 002.06 0l6-3.43a2 2 0 00.97-1.71v-3.24a2 2 0 00-.97-1.71L12 10.06l-9.03 2.86zM12 10v12M12 2L3 7l9 5 9-5-9-5z" />
+      </g>
+      <!-- Compass (Darker) -->
+      <g transform="translate(0, 123) scale(0.9)" stroke="#166534" stroke-width="2">
+        <circle cx="12" cy="12" r="10" />
+        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="#166534" />
+      </g>
+      <!-- Bot (Fading) -->
+      <g transform="translate(0, 156) scale(0.9)" stroke="#14532D" stroke-width="2">
+        <rect x="3" y="11" width="18" height="10" rx="2" />
+        <circle cx="12" cy="5" r="2" />
+        <path d="M12 7v4M8 16h.01M16 16h.01" />
+      </g>
+      <!-- Infinity (Tail) -->
+      <g transform="translate(0, 189) scale(0.9)" stroke="#052E16" stroke-width="2">
+        <path d="M18.178 8c5.096 0 5.096 8 0 8-5.095 0-7.133-8-12.739-8-4.58 0-4.58 8 0 8 5.606 0 7.644-8 12.74-8z" />
+      </g>
+    </g>
 
-    <!-- Col 4 -->
-    <text x="180" y="90" fill="#FFFFFF" filter="url(#matrixGlow)">[&lt;/&gt;]</text>
-    <text x="180" y="115" fill="#4ADE80">[⌁]</text>
-    <text x="180" y="140" fill="#22C55E">[⎈]</text>
-    <text x="180" y="165" fill="#15803D">[⌗]</text>
-    <text x="180" y="190" fill="#052E16">[⍜]</text>
+    <!-- ================= Column 4 ================= -->
+    <g transform="translate(204, 0)">
+      <!-- Radar (Head Glow) -->
+      <g transform="translate(0, 42) scale(0.9)" stroke="#FFFFFF" stroke-width="2" filter="url(#matrixGlow)">
+        <path d="M19.07 4.93A10 10 0 004.93 19.07M16.24 7.76A6 6 0 007.76 16.24M12 12l5-5M12 12a1 1 0 100 2 1 1 0 000-2z" />
+      </g>
+      <!-- Layers (Bright) -->
+      <g transform="translate(0, 75) scale(0.9)" stroke="#22C55E" stroke-width="2">
+        <polygon points="12 2 2 7 12 12 22 7 12 2" />
+        <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
+      </g>
+      <!-- Camera (Mid) -->
+      <g transform="translate(0, 108) scale(0.9)" stroke="#15803D" stroke-width="2">
+        <path d="M14.5 4h-5L7 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2h-3l-2.5-3z" />
+        <circle cx="12" cy="13" r="3" />
+      </g>
+      <!-- Eye (Darker) -->
+      <g transform="translate(0, 141) scale(0.9)" stroke="#166534" stroke-width="2">
+        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z" />
+        <circle cx="12" cy="12" r="3" />
+      </g>
+      <!-- Heart (Tail) -->
+      <g transform="translate(0, 174) scale(0.9)" stroke="#052E16" stroke-width="2">
+        <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+      </g>
+    </g>
+
+    <!-- ================= Column 5 ================= -->
+    <g transform="translate(272, 0)">
+      <!-- Flame (Head Glow) -->
+      <g transform="translate(0, 68) scale(0.9)" stroke="#FFFFFF" stroke-width="2" filter="url(#matrixGlow)">
+        <path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z" />
+      </g>
+      <!-- Orbit (Bright) -->
+      <g transform="translate(0, 101) scale(0.9)" stroke="#22C55E" stroke-width="2">
+        <circle cx="12" cy="12" r="3" fill="#22C55E" />
+        <ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(-30 12 12)" />
+      </g>
+      <!-- Wand2 (Mid) -->
+      <g transform="translate(0, 134) scale(0.9)" stroke="#15803D" stroke-width="2">
+        <path d="M15 4V2m0 16v-2M8 9h2m10 0h2m-4.2 4.2l1.4 1.4M18.8 4.8l-1.4 1.4M3 21l9-9" />
+      </g>
+      <!-- Braces (Tail) -->
+      <g transform="translate(0, 167) scale(0.9)" stroke="#052E16" stroke-width="2">
+        <path d="M8 3H7a2 2 0 00-2 2v5a2 2 0 01-2 2 2 2 0 012 2v5a2 2 0 002 2h1M16 21h1a2 2 0 002-2v-5a2 2 0 012-2 2 2 0 01-2-2V5a2 2 0 00-2-2h-1" />
+      </g>
+    </g>
   </g>
 </svg>
