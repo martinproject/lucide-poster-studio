@@ -13,6 +13,7 @@ import {
   ZoomOut,
   Minus,
   Plus,
+  View,
 } from 'lucide-react';
 import { exportAsPNG, triggerCelebration } from '../utils/exportUtils';
 
@@ -170,7 +171,7 @@ export function MockupStage({
       <header className="h-14 sm:h-16 bg-[#FDFCFB] border-b border-black/10 px-4 sm:px-6 flex items-center justify-between text-[#1A1A1A]">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded bg-amber-50 text-amber-600 flex items-center justify-center border border-amber-200">
-            <Sparkles size={16} />
+            <View size={16} />
           </div>
           <div>
             <h2 className="text-sm font-bold tracking-tight text-[#1A1A1A]">3D Real-World Gallery Mockup</h2>
@@ -181,7 +182,7 @@ export function MockupStage({
         </div>
 
         {/* Action Buttons */}
-        <div className="flex items-center gap-2">          
+        <div className="flex items-center gap-2">
           <button
             type="button"
             onClick={handleDownloadMockup}
@@ -245,18 +246,18 @@ export function MockupStage({
                 config.aspectRatio === '1:1'
                   ? '1/1'
                   : config.aspectRatio === '16:9'
-                  ? '16/9'
-                  : config.aspectRatio === '9:16'
-                  ? '9/16'
-                  : config.aspectRatio === '2:3'
-                  ? '2/3'
-                  : config.aspectRatio === '3:4'
-                  ? '3/4'
-                  : config.aspectRatio === '4:5'
-                  ? '4/5'
-                  : config.aspectRatio === 'a4'
-                  ? '1200/1697'
-                  : '3/4',
+                    ? '16/9'
+                    : config.aspectRatio === '9:16'
+                      ? '9/16'
+                      : config.aspectRatio === '2:3'
+                        ? '2/3'
+                        : config.aspectRatio === '3:4'
+                          ? '3/4'
+                          : config.aspectRatio === '4:5'
+                            ? '4/5'
+                            : config.aspectRatio === 'a4'
+                              ? '1200/1697'
+                              : '3/4',
             }}
           >
             {/* Binder Clips on top if hanger scene */}
@@ -275,19 +276,17 @@ export function MockupStage({
 
             {/* Passe-partout / Mat Board (Acid-free Archival White Board) */}
             <div
-              className={`w-full h-full transition-all flex items-center justify-center relative ${
-                showMatte && scene !== 'hanger_clip' && scene !== 'magazine_flat'
-                  ? 'bg-[#FAF8F5] shadow-inner border border-black/10'
-                  : 'bg-transparent'
-              }`}
+              className={`w-full h-full transition-all flex items-center justify-center relative ${showMatte && scene !== 'hanger_clip' && scene !== 'magazine_flat'
+                ? 'bg-[#FAF8F5] shadow-inner border border-black/10'
+                : 'bg-transparent'
+                }`}
             >
               {/* Poster Surface with Proportional Sizing */}
               <div
-                className={`relative shadow-[0_2px_10px_rgba(0,0,0,0.08)] overflow-hidden bg-white transition-all duration-300 ${
-                  showMatte && scene !== 'hanger_clip' && scene !== 'magazine_flat'
-                    ? 'w-[84%] h-[84%] border border-black/5 shadow-[inset_0_0_10px_rgba(0,0,0,0.05)]'
-                    : 'w-full h-full'
-                }`}
+                className={`relative shadow-[0_2px_10px_rgba(0,0,0,0.08)] overflow-hidden bg-white transition-all duration-300 ${showMatte && scene !== 'hanger_clip' && scene !== 'magazine_flat'
+                  ? 'w-[84%] h-[84%] border border-black/5 shadow-[inset_0_0_10px_rgba(0,0,0,0.05)]'
+                  : 'w-full h-full'
+                  }`}
               >
                 {svgDataUrl ? (
                   <img
@@ -357,9 +356,8 @@ export function MockupStage({
 
         {/* Right Side: Mockup Studio Customizer Bar */}
         <aside
-          className={`w-full md:w-80 bg-[#FDFCFB] border-t md:border-t-0 md:border-l border-black/10 p-5 flex flex-col gap-5 text-[#1A1A1A] overflow-y-auto ${
-            isFullView ? 'hidden' : 'block'
-          }`}
+          className={`w-full md:w-80 bg-[#FDFCFB] border-t md:border-t-0 md:border-l border-black/10 p-5 flex flex-col gap-5 text-[#1A1A1A] overflow-y-auto ${isFullView ? 'hidden' : 'block'
+            }`}
         >
           <div>
             <span className="text-[10px] uppercase font-bold tracking-widest text-black/50 block mb-2">
@@ -371,11 +369,10 @@ export function MockupStage({
                   key={s.id}
                   type="button"
                   onClick={() => setScene(s.id)}
-                  className={`p-3 rounded-lg border text-left flex flex-col justify-between gap-2 transition-all ${
-                    scene === s.id
-                      ? 'bg-black text-white border-black ring-1 ring-black shadow-xs'
-                      : 'bg-white border-black/15 hover:border-black/30 hover:bg-black/5 text-[#1A1A1A]'
-                  }`}
+                  className={`p-3 rounded-lg border text-left flex flex-col justify-between gap-2 transition-all ${scene === s.id
+                    ? 'bg-black text-white border-black ring-1 ring-black shadow-xs'
+                    : 'bg-white border-black/15 hover:border-black/30 hover:bg-black/5 text-[#1A1A1A]'
+                    }`}
                 >
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold">{s.name}</span>
@@ -429,7 +426,7 @@ export function MockupStage({
                 onChange={(e) => setShowGlare(e.target.checked)}
                 className="w-4 h-4 rounded cursor-pointer accent-black"
               />
-            </label>            
+            </label>
           </div>
 
           {/* Poster Specifications Summary Card */}

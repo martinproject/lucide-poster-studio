@@ -32,6 +32,7 @@ import {
   EyeOff,
   Filter,
   X,
+  View,
 } from 'lucide-react';
 import { ICON_CATEGORIES, ALL_ICON_NAMES, getLucideIcon } from '../data/iconsCatalog';
 import { POSTER_PRESETS } from '../data/presets';
@@ -104,7 +105,7 @@ export function Sidebar({
 }: SidebarProps) {
   const [activeTab, setActiveTab] = useState<TabType>('presets');
   const [categorySearch, setCategorySearch] = useState('');
-  
+
   // Presets tab state
   const [presetSearch, setPresetSearch] = useState('');
   const [selectedPresetFilter, setSelectedPresetFilter] = useState<string>('all');
@@ -329,11 +330,10 @@ export function Sidebar({
                     onToggleCollapse();
                   }
                 }}
-                className={`w-full py-2.5 px-1 rounded flex flex-col items-center justify-center gap-1 text-[10px] uppercase font-bold tracking-wider transition-all relative group ${
-                  isActive
-                    ? 'bg-[#1A1A1A] text-white shadow-sm'
-                    : 'text-black/50 hover:text-black hover:bg-black/5'
-                }`}
+                className={`w-full py-2.5 px-1 rounded flex flex-col items-center justify-center gap-1 text-[10px] uppercase font-bold tracking-wider transition-all relative group ${isActive
+                  ? 'bg-[#1A1A1A] text-white shadow-sm'
+                  : 'text-black/50 hover:text-black hover:bg-black/5'
+                  }`}
                 title={tab.label}
               >
                 <Icon size={18} strokeWidth={isActive ? 2.2 : 1.75} />
@@ -356,7 +356,7 @@ export function Sidebar({
                 className="w-full py-2.5 px-1 rounded flex flex-col items-center justify-center gap-1 text-[10px] uppercase font-bold tracking-wider transition-all relative text-amber-800 hover:text-amber-950 bg-amber-50 hover:bg-amber-100 border border-amber-200/60 shadow-3xs"
                 title="Preview in 3D Mockup"
               >
-                <Sparkles size={18} strokeWidth={1.75} className="text-amber-600 animate-pulse" />
+                <View size={18} strokeWidth={1.75} className="text-amber-600 animate-pulse" />
                 <span className="text-[9px] scale-90 tracking-tighter truncate max-w-full">Mockup</span>
               </button>
             </>
@@ -375,11 +375,10 @@ export function Sidebar({
 
           <button
             onClick={allLocked ? onUnlockAll : onLockAll}
-            className={`w-10 h-10 rounded border flex items-center justify-center transition-all ${
-              allLocked
-                ? 'bg-amber-100 border-amber-300 text-amber-900'
-                : 'border-black/15 hover:border-black/40 text-black/60 hover:text-black'
-            }`}
+            className={`w-10 h-10 rounded border flex items-center justify-center transition-all ${allLocked
+              ? 'bg-amber-100 border-amber-300 text-amber-900'
+              : 'border-black/15 hover:border-black/40 text-black/60 hover:text-black'
+              }`}
             title={allLocked ? 'Unlock all cells' : 'Lock all icon positions'}
           >
             {allLocked ? <Lock size={14} /> : <Unlock size={14} />}
@@ -445,11 +444,10 @@ export function Sidebar({
                   <div className="grid grid-cols-3 gap-1.5 sm:gap-2">
                     <button
                       onClick={() => setIsCreatingPreset((v) => !v)}
-                      className={`p-2 sm:p-2.5 rounded border text-xs font-bold flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-2xs ${
-                        isCreatingPreset
-                          ? 'bg-[#1A1A1A] text-white border-black'
-                          : 'bg-white border-black/15 hover:border-black text-[#1A1A1A] hover:bg-black/5'
-                      }`}
+                      className={`p-2 sm:p-2.5 rounded border text-xs font-bold flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-2xs ${isCreatingPreset
+                        ? 'bg-[#1A1A1A] text-white border-black'
+                        : 'bg-white border-black/15 hover:border-black text-[#1A1A1A] hover:bg-black/5'
+                        }`}
                       title={isCreatingPreset ? 'Close Creator' : 'Save current design as custom preset'}
                     >
                       <Plus size={13} />
@@ -647,11 +645,10 @@ export function Sidebar({
                         <button
                           key={cat}
                           onClick={() => setSelectedPresetFilter(cat)}
-                          className={`px-2.5 py-1 rounded text-[11px] font-medium transition-all capitalize ${
-                            isSelected
-                              ? 'bg-[#1A1A1A] text-white font-bold shadow-2xs'
-                              : 'bg-white border border-black/10 text-black/70 hover:border-black/30 hover:text-black'
-                          }`}
+                          className={`px-2.5 py-1 rounded text-[11px] font-medium transition-all capitalize ${isSelected
+                            ? 'bg-[#1A1A1A] text-white font-bold shadow-2xs'
+                            : 'bg-white border border-black/10 text-black/70 hover:border-black/30 hover:text-black'
+                            }`}
                         >
                           {cat === 'all' ? `All (${POSTER_PRESETS.length + customPresets.length})` : cat}
                         </button>
@@ -939,11 +936,10 @@ export function Sidebar({
 
                   <button
                     onClick={allLocked ? onUnlockAll : onLockAll}
-                    className={`py-2.5 px-3 border text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-2 rounded ${
-                      allLocked
-                        ? 'bg-amber-50 border-amber-300 text-amber-900'
-                        : 'border-black/20 hover:border-black text-black/70 hover:text-black'
-                    }`}
+                    className={`py-2.5 px-3 border text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-2 rounded ${allLocked
+                      ? 'bg-amber-50 border-amber-300 text-amber-900'
+                      : 'border-black/20 hover:border-black text-black/70 hover:text-black'
+                      }`}
                   >
                     {allLocked ? <Lock size={13} /> : <Unlock size={13} />}
                     <span>{allLocked ? 'Unlock All' : 'Lock All'}</span>
@@ -959,9 +955,8 @@ export function Sidebar({
                     <div className="flex items-center gap-2">
                       <button
                         onClick={handleSelectAll}
-                        className={`text-[10px] font-semibold uppercase tracking-wider transition-colors ${
-                          isAllActive ? 'text-black font-bold' : 'text-black/40 hover:text-black'
-                        }`}
+                        className={`text-[10px] font-semibold uppercase tracking-wider transition-colors ${isAllActive ? 'text-black font-bold' : 'text-black/40 hover:text-black'
+                          }`}
                       >
                         All (1,776)
                       </button>
@@ -1000,20 +995,18 @@ export function Sidebar({
                         <button
                           key={cat.id}
                           onClick={() => handleToggleCategory(cat.id)}
-                          className={`w-full flex items-center justify-between px-2.5 py-1.5 text-xs rounded transition-all ${
-                            isSelected
-                              ? 'bg-[#1A1A1A] text-white font-medium shadow-xs'
-                              : 'hover:bg-black/5 text-black/80'
-                          }`}
+                          className={`w-full flex items-center justify-between px-2.5 py-1.5 text-xs rounded transition-all ${isSelected
+                            ? 'bg-[#1A1A1A] text-white font-medium shadow-xs'
+                            : 'hover:bg-black/5 text-black/80'
+                            }`}
                         >
                           <div className="flex items-center gap-2 truncate">
                             <IconComp size={13} className={isSelected ? 'text-white' : 'opacity-50'} />
                             <span className="truncate">{cat.label}</span>
                           </div>
                           <span
-                            className={`font-mono text-[10px] px-1.5 py-0.5 rounded ${
-                              isSelected ? 'bg-white/20 text-white' : 'bg-black/5 text-black/40'
-                            }`}
+                            className={`font-mono text-[10px] px-1.5 py-0.5 rounded ${isSelected ? 'bg-white/20 text-white' : 'bg-black/5 text-black/40'
+                              }`}
                           >
                             {cat.icons.length}
                           </span>
@@ -1038,11 +1031,10 @@ export function Sidebar({
                       <button
                         key={item.id}
                         onClick={() => onChangeConfig({ aspectRatio: item.id })}
-                        className={`p-2.5 border text-left flex flex-col justify-between transition-all rounded ${
-                          config.aspectRatio === item.id
-                            ? 'border-black bg-[#1A1A1A] text-white shadow-xs'
-                            : 'border-black/15 bg-white hover:border-black/40 text-black/80'
-                        }`}
+                        className={`p-2.5 border text-left flex flex-col justify-between transition-all rounded ${config.aspectRatio === item.id
+                          ? 'border-black bg-[#1A1A1A] text-white shadow-xs'
+                          : 'border-black/15 bg-white hover:border-black/40 text-black/80'
+                          }`}
                       >
                         <div className="flex items-center justify-between">
                           <span className="font-mono text-xs font-bold">{item.label}</span>
@@ -1051,9 +1043,8 @@ export function Sidebar({
                           />
                         </div>
                         <span
-                          className={`text-[9px] mt-1 truncate ${
-                            config.aspectRatio === item.id ? 'text-white/60' : 'text-black/40'
-                          }`}
+                          className={`text-[9px] mt-1 truncate ${config.aspectRatio === item.id ? 'text-white/60' : 'text-black/40'
+                            }`}
                         >
                           {item.desc}
                         </span>
@@ -1230,7 +1221,7 @@ export function Sidebar({
                       className="slider-editorial"
                     />
                     <span className="text-[10px] text-black/40 block">
-                      Encuadra el póster con la misma separación exacta arriba, abajo y a los lados.
+                      Frame the poster with exactly the same spacing at the top, bottom, and sides.
                     </span>
                   </div>
                 </div>
@@ -1248,21 +1239,19 @@ export function Sidebar({
                   <div className="grid grid-cols-2 gap-2">
                     <button
                       onClick={() => onChangeConfig({ backgroundType: 'solid' })}
-                      className={`py-2 text-xs font-semibold rounded border transition-all ${
-                        config.backgroundType === 'solid'
-                          ? 'bg-[#1A1A1A] text-white border-black'
-                          : 'bg-white border-black/15 text-black/70 hover:border-black/40'
-                      }`}
+                      className={`py-2 text-xs font-semibold rounded border transition-all ${config.backgroundType === 'solid'
+                        ? 'bg-[#1A1A1A] text-white border-black'
+                        : 'bg-white border-black/15 text-black/70 hover:border-black/40'
+                        }`}
                     >
                       Solid Color
                     </button>
                     <button
                       onClick={() => onChangeConfig({ backgroundType: 'gradient' })}
-                      className={`py-2 text-xs font-semibold rounded border transition-all ${
-                        config.backgroundType === 'gradient'
-                          ? 'bg-[#1A1A1A] text-white border-black'
-                          : 'bg-white border-black/15 text-black/70 hover:border-black/40'
-                      }`}
+                      className={`py-2 text-xs font-semibold rounded border transition-all ${config.backgroundType === 'gradient'
+                        ? 'bg-[#1A1A1A] text-white border-black'
+                        : 'bg-white border-black/15 text-black/70 hover:border-black/40'
+                        }`}
                     >
                       Linear Gradient
                     </button>
@@ -1328,11 +1317,10 @@ export function Sidebar({
                       <button
                         key={tex.id}
                         onClick={() => onChangeConfig({ texture: tex.id })}
-                        className={`p-2 text-xs font-medium rounded border transition-all text-center ${
-                          config.texture === tex.id
-                            ? 'bg-[#1A1A1A] text-white border-black'
-                            : 'bg-white border-black/15 text-black/70 hover:border-black/40'
-                        }`}
+                        className={`p-2 text-xs font-medium rounded border transition-all text-center ${config.texture === tex.id
+                          ? 'bg-[#1A1A1A] text-white border-black'
+                          : 'bg-white border-black/15 text-black/70 hover:border-black/40'
+                          }`}
                       >
                         {tex.label}
                       </button>
@@ -1368,18 +1356,16 @@ export function Sidebar({
                       <button
                         key={mode.id}
                         onClick={() => onChangeConfig({ iconColorMode: mode.id })}
-                        className={`w-full p-2.5 text-left border rounded transition-all flex items-center justify-between ${
-                          config.iconColorMode === mode.id
-                            ? 'bg-[#1A1A1A] text-white border-black'
-                            : 'bg-white border-black/15 hover:border-black/30 text-black/80'
-                        }`}
+                        className={`w-full p-2.5 text-left border rounded transition-all flex items-center justify-between ${config.iconColorMode === mode.id
+                          ? 'bg-[#1A1A1A] text-white border-black'
+                          : 'bg-white border-black/15 hover:border-black/30 text-black/80'
+                          }`}
                       >
                         <div>
                           <span className="text-xs font-bold block">{mode.label}</span>
                           <span
-                            className={`text-[10px] ${
-                              config.iconColorMode === mode.id ? 'text-white/60' : 'text-black/50'
-                            }`}
+                            className={`text-[10px] ${config.iconColorMode === mode.id ? 'text-white/60' : 'text-black/50'
+                              }`}
                           >
                             {mode.desc}
                           </span>
@@ -1433,8 +1419,8 @@ export function Sidebar({
                       {config.logoTheme === 'original-light'
                         ? 'Original Light'
                         : config.logoTheme === 'original-dark'
-                        ? 'Original Dark'
-                        : 'Custom Ink'}
+                          ? 'Original Dark'
+                          : 'Custom Ink'}
                     </span>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
@@ -1446,11 +1432,10 @@ export function Sidebar({
                           badgeColor: '#F56565',
                         })
                       }
-                      className={`p-2 rounded border flex items-center justify-center gap-2 transition-all ${
-                        config.logoTheme === 'original-light'
-                          ? 'bg-slate-100 border-slate-900 ring-1 ring-slate-900 font-bold'
-                          : 'bg-white border-black/15 hover:border-black/30 text-black/70'
-                      }`}
+                      className={`p-2 rounded border flex items-center justify-center gap-2 transition-all ${config.logoTheme === 'original-light'
+                        ? 'bg-slate-100 border-slate-900 ring-1 ring-slate-900 font-bold'
+                        : 'bg-white border-black/15 hover:border-black/30 text-black/70'
+                        }`}
                       title="Official Lucide Light Theme Logo (#F56565 / #2D3748)"
                     >
                       <LucideSwirlLogo size={16} color="#2D3748" accentColor="#F56565" strokeWidth={2} />
@@ -1464,11 +1449,10 @@ export function Sidebar({
                           badgeColor: '#F56565',
                         })
                       }
-                      className={`p-2 rounded border flex items-center justify-center gap-2 transition-all ${
-                        config.logoTheme === 'original-dark'
-                          ? 'bg-neutral-900 border-black ring-1 ring-black text-white font-bold'
-                          : 'bg-neutral-900/90 border-neutral-700 text-neutral-200'
-                      }`}
+                      className={`p-2 rounded border flex items-center justify-center gap-2 transition-all ${config.logoTheme === 'original-dark'
+                        ? 'bg-neutral-900 border-black ring-1 ring-black text-white font-bold'
+                        : 'bg-neutral-900/90 border-neutral-700 text-neutral-200'
+                        }`}
                       title="Official Lucide Dark Theme Logo (#F56565 / #FFFFFF)"
                     >
                       <LucideSwirlLogo size={16} color="#FFFFFF" accentColor="#F56565" strokeWidth={2} />
@@ -1501,14 +1485,12 @@ export function Sidebar({
                     <button
                       type="button"
                       onClick={() => onChangeConfig({ showTypography: config.showTypography === false ? true : false })}
-                      className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-                        config.showTypography !== false ? 'bg-[#1A1A1A]' : 'bg-black/20'
-                      }`}
+                      className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${config.showTypography !== false ? 'bg-[#1A1A1A]' : 'bg-black/20'
+                        }`}
                     >
                       <span
-                        className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
-                          config.showTypography !== false ? 'translate-x-6' : 'translate-x-1'
-                        }`}
+                        className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${config.showTypography !== false ? 'translate-x-6' : 'translate-x-1'
+                          }`}
                       />
                     </button>
                   </div>
@@ -1542,33 +1524,30 @@ export function Sidebar({
                         <button
                           type="button"
                           onClick={() => onChangeConfig({ headerPosition: 'vertical-left', showSideHeader: true })}
-                          className={`p-2 text-center rounded border transition-all text-xs ${
-                            config.showSideHeader && config.headerPosition === 'vertical-left'
-                              ? 'bg-[#1A1A1A] text-white border-black font-bold'
-                              : 'bg-white border-black/15 hover:border-black/30 text-black/70'
-                          }`}
+                          className={`p-2 text-center rounded border transition-all text-xs ${config.showSideHeader && config.headerPosition === 'vertical-left'
+                            ? 'bg-[#1A1A1A] text-white border-black font-bold'
+                            : 'bg-white border-black/15 hover:border-black/30 text-black/70'
+                            }`}
                         >
                           Vertical
                         </button>
                         <button
                           type="button"
                           onClick={() => onChangeConfig({ headerPosition: 'horizontal-top', showSideHeader: true })}
-                          className={`p-2 text-center rounded border transition-all text-xs ${
-                            config.showSideHeader && config.headerPosition === 'horizontal-top'
-                              ? 'bg-[#1A1A1A] text-white border-black font-bold'
-                              : 'bg-white border-black/15 hover:border-black/30 text-black/70'
-                          }`}
+                          className={`p-2 text-center rounded border transition-all text-xs ${config.showSideHeader && config.headerPosition === 'horizontal-top'
+                            ? 'bg-[#1A1A1A] text-white border-black font-bold'
+                            : 'bg-white border-black/15 hover:border-black/30 text-black/70'
+                            }`}
                         >
                           Top Banner
                         </button>
                         <button
                           type="button"
                           onClick={() => onChangeConfig({ showSideHeader: false })}
-                          className={`p-2 text-center rounded border transition-all text-xs ${
-                            !config.showSideHeader
-                              ? 'bg-[#1A1A1A] text-white border-black font-bold'
-                              : 'bg-white border-black/15 hover:border-black/30 text-black/70'
-                          }`}
+                          className={`p-2 text-center rounded border transition-all text-xs ${!config.showSideHeader
+                            ? 'bg-[#1A1A1A] text-white border-black font-bold'
+                            : 'bg-white border-black/15 hover:border-black/30 text-black/70'
+                            }`}
                         >
                           None
                         </button>
@@ -1592,11 +1571,10 @@ export function Sidebar({
                                   badgeColor: '#F56565',
                                 })
                               }
-                              className={`p-2 rounded border text-left flex flex-col items-center justify-between gap-1.5 transition-all ${
-                                config.logoTheme === 'original-light'
-                                  ? 'bg-slate-100 border-slate-900 ring-1 ring-slate-900 shadow-2xs'
-                                  : 'bg-slate-50/70 border-black/10 hover:border-black/30'
-                              }`}
+                              className={`p-2 rounded border text-left flex flex-col items-center justify-between gap-1.5 transition-all ${config.logoTheme === 'original-light'
+                                ? 'bg-slate-100 border-slate-900 ring-1 ring-slate-900 shadow-2xs'
+                                : 'bg-slate-50/70 border-black/10 hover:border-black/30'
+                                }`}
                               title="Official Lucide Light Theme Logo (#F56565 / #2D3748)"
                             >
                               <div className="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center shadow-2xs">
@@ -1617,11 +1595,10 @@ export function Sidebar({
                                   badgeColor: '#F56565',
                                 })
                               }
-                              className={`p-2 rounded border text-left flex flex-col items-center justify-between gap-1.5 transition-all ${
-                                config.logoTheme === 'original-dark'
-                                  ? 'bg-neutral-900 border-black ring-1 ring-black text-white shadow-2xs'
-                                  : 'bg-neutral-900/90 border-neutral-700 hover:border-neutral-500 text-neutral-200'
-                              }`}
+                              className={`p-2 rounded border text-left flex flex-col items-center justify-between gap-1.5 transition-all ${config.logoTheme === 'original-dark'
+                                ? 'bg-neutral-900 border-black ring-1 ring-black text-white shadow-2xs'
+                                : 'bg-neutral-900/90 border-neutral-700 hover:border-neutral-500 text-neutral-200'
+                                }`}
                               title="Official Lucide Dark Theme Logo (#F56565 / #FFFFFF)"
                             >
                               <div className="w-8 h-8 rounded-full bg-neutral-950 border border-neutral-800 flex items-center justify-center shadow-2xs">
@@ -1641,11 +1618,10 @@ export function Sidebar({
                                   logoTheme: 'custom',
                                 })
                               }
-                              className={`p-2 rounded border text-left flex flex-col items-center justify-between gap-1.5 transition-all ${
-                                config.logoTheme === 'custom' || (!config.logoTheme && config.badgeColor !== '#F56565')
-                                  ? 'bg-amber-50/80 border-amber-900 ring-1 ring-amber-900 shadow-2xs'
-                                  : 'bg-white border-black/10 hover:border-black/30'
-                              }`}
+                              className={`p-2 rounded border text-left flex flex-col items-center justify-between gap-1.5 transition-all ${config.logoTheme === 'custom' || (!config.logoTheme && config.badgeColor !== '#F56565')
+                                ? 'bg-amber-50/80 border-amber-900 ring-1 ring-amber-900 shadow-2xs'
+                                : 'bg-white border-black/10 hover:border-black/30'
+                                }`}
                               title="Custom Accent Ink matched to poster palette"
                             >
                               <div className="w-8 h-8 rounded-full bg-white border border-black/15 flex items-center justify-center shadow-2xs">
@@ -1709,11 +1685,10 @@ export function Sidebar({
                                     })
                                   }
                                   style={{ backgroundColor: swatch.hex }}
-                                  className={`w-5 h-5 rounded-full border transition-all ${
-                                    config.badgeColor?.toLowerCase() === swatch.hex.toLowerCase()
-                                      ? 'ring-2 ring-black ring-offset-1 scale-110 border-transparent'
-                                      : 'border-black/20 hover:scale-110'
-                                  }`}
+                                  className={`w-5 h-5 rounded-full border transition-all ${config.badgeColor?.toLowerCase() === swatch.hex.toLowerCase()
+                                    ? 'ring-2 ring-black ring-offset-1 scale-110 border-transparent'
+                                    : 'border-black/20 hover:scale-110'
+                                    }`}
                                   title={swatch.name}
                                 />
                               ))}
@@ -1733,11 +1708,10 @@ export function Sidebar({
                           <button
                             key={font}
                             onClick={() => onChangeConfig({ fontFamily: font })}
-                            className={`p-2.5 text-xs text-left rounded border transition-all ${
-                              config.fontFamily === font
-                                ? 'bg-[#1A1A1A] text-white border-black font-bold'
-                                : 'bg-white border-black/15 hover:border-black/30 text-black/70'
-                            }`}
+                            className={`p-2.5 text-xs text-left rounded border transition-all ${config.fontFamily === font
+                              ? 'bg-[#1A1A1A] text-white border-black font-bold'
+                              : 'bg-white border-black/15 hover:border-black/30 text-black/70'
+                              }`}
                             style={{ fontFamily: font }}
                           >
                             {font}
