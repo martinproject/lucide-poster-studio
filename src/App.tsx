@@ -6,12 +6,22 @@ import {
 import { Sidebar } from './components/Sidebar';
 import { HeaderNav } from './components/HeaderNav';
 import { IconPickerModal } from './components/IconPickerModal';
-import { MockupStage } from './components/MockupStage';
-import { PrintDialog } from './components/PrintDialog';
-import { MatrixEasterEgg } from './components/MatrixEasterEgg';
 import { LandingPage } from './components/LandingPage';
-import { OnboardingModal } from './components/OnboardingModal';
 import { POSTER_PRESETS } from './data/presets';
+
+// Lazy load heavy modal components to drastically reduce initial landing bundle size
+const MockupStage = React.lazy(() =>
+  import('./components/MockupStage').then((m) => ({ default: m.MockupStage }))
+);
+const PrintDialog = React.lazy(() =>
+  import('./components/PrintDialog').then((m) => ({ default: m.PrintDialog }))
+);
+const MatrixEasterEgg = React.lazy(() =>
+  import('./components/MatrixEasterEgg').then((m) => ({ default: m.MatrixEasterEgg }))
+);
+const OnboardingModal = React.lazy(() =>
+  import('./components/OnboardingModal').then((m) => ({ default: m.OnboardingModal }))
+);
 import { generateIconGrid } from './utils/gridGenerator';
 import {
   exportAsPNG,
@@ -1039,32 +1049,39 @@ export default function App() {
         primaryColor={config.primaryIconColor}
       />
 
-      {/* 3D Mockup Modal */}
-      <MockupStage
-        isOpen={isMockupOpen}
-        onClose={() => setIsMockupOpen(false)}
-        config={config}
-        svgElement={svgRef.current}
-      />
+      {/* Lazy-loaded Heavy Studio Modals & Dialogs (Suspense) */}
+      <React.Suspense fallback={null}>
+        {isMockupOpen && (
+          <MockupStage
+            isOpen={isMockupOpen}
+            onClose={() => setIsMockupOpen(false)}
+            config={config}
+            svgElement={svgRef.current}
+          />
+        )}
 
-      {/* Print Production Settings Dialog */}
-      <PrintDialog
-        isOpen={isPrintDialogOpen}
-        onClose={() => setIsPrintDialogOpen(false)}
-        svgElement={svgRef.current}
-      />
+        {isPrintDialogOpen && (
+          <PrintDialog
+            isOpen={isPrintDialogOpen}
+            onClose={() => setIsPrintDialogOpen(false)}
+            svgElement={svgRef.current}
+          />
+        )}
 
-      {/* The Matrix Code Full Screen Easter Egg */}
-      <MatrixEasterEgg
-        isOpen={isMatrixOpen}
-        onClose={() => setIsMatrixOpen(false)}
-      />
+        {isMatrixOpen && (
+          <MatrixEasterEgg
+            isOpen={isMatrixOpen}
+            onClose={() => setIsMatrixOpen(false)}
+          />
+        )}
 
-      {/* Interactive App Onboarding & Tour Modal */}
-      <OnboardingModal
-        isOpen={isOnboardingOpen}
-        onClose={() => setIsOnboardingOpen(false)}
-      />
+        {isOnboardingOpen && (
+          <OnboardingModal
+            isOpen={isOnboardingOpen}
+            onClose={() => setIsOnboardingOpen(false)}
+          />
+        )}
+      </React.Suspense>
     </div>
   );
 }
