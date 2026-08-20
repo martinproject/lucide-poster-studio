@@ -136,6 +136,7 @@ export function IconPickerModal({
             <button
               onClick={() => onRerollCell(cellIndex)}
               className="flex items-center gap-1.5 px-3 py-1.5 border border-dashed border-black/30 hover:border-black hover:bg-black/5 text-black/80 text-[11px] uppercase tracking-wider font-semibold transition-colors"
+              title="Pick another random icon for this cell"
             >
               <Shuffle size={12} />
               Re-Roll

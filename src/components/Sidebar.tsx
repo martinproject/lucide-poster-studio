@@ -59,6 +59,7 @@ interface SidebarProps {
   onExportAllPresetsJSON?: () => void;
   onExportConfigJSON?: () => void;
   onShuffle: () => void;
+  onResetToPreset?: () => void;
   onLockAll: () => void;
   onUnlockAll: () => void;
   allLocked: boolean;
@@ -87,6 +88,7 @@ export function Sidebar({
   onExportAllPresetsJSON,
   onExportConfigJSON,
   onShuffle,
+  onResetToPreset,
   onLockAll,
   onUnlockAll,
   allLocked,
@@ -438,29 +440,42 @@ export function Sidebar({
                   className="hidden"
                 />
 
-                {/* Top Action Bar: Create Custom & Import JSON */}
+                {/* Top Action Bar: Create Custom, Import JSON & Reset */}
                 <div className="space-y-2">
-                  <div className="grid grid-cols-2 gap-2">
+                  <div className="grid grid-cols-3 gap-1.5 sm:gap-2">
                     <button
                       onClick={() => setIsCreatingPreset((v) => !v)}
-                      className={`p-2.5 rounded border text-xs font-bold flex items-center justify-center gap-1.5 transition-all shadow-2xs ${
+                      className={`p-2 sm:p-2.5 rounded border text-xs font-bold flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-2xs ${
                         isCreatingPreset
                           ? 'bg-[#1A1A1A] text-white border-black'
                           : 'bg-white border-black/15 hover:border-black text-[#1A1A1A] hover:bg-black/5'
                       }`}
+                      title={isCreatingPreset ? 'Close Creator' : 'Save current design as custom preset'}
                     >
-                      <Plus size={14} />
-                      <span>{isCreatingPreset ? 'Close Creator' : 'Save as Preset'}</span>
+                      <Plus size={13} />
+                      <span className="truncate">{isCreatingPreset ? 'Close' : 'Save'}</span>
                     </button>
 
                     <button
                       onClick={() => fileInputRef.current?.click()}
-                      className="p-2.5 rounded border border-black/15 hover:border-black bg-white hover:bg-black/5 text-xs font-bold text-[#1A1A1A] flex items-center justify-center gap-1.5 transition-all shadow-2xs"
+                      className="p-2 sm:p-2.5 rounded border border-black/15 hover:border-black bg-white hover:bg-black/5 text-xs font-bold text-[#1A1A1A] flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-2xs"
                       title="Import preset from a .json file"
                     >
-                      <Upload size={14} className="text-black/70" />
-                      <span>Import JSON</span>
+                      <Upload size={13} className="text-black/70" />
+                      <span className="truncate">Import</span>
                     </button>
+
+                    {onResetToPreset && (
+                      <button
+                        type="button"
+                        onClick={onResetToPreset}
+                        className="p-2 sm:p-2.5 rounded border border-black/15 hover:border-black bg-white hover:bg-black/5 text-xs font-bold text-[#1A1A1A] flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-2xs"
+                        title="Reset poster to default original design"
+                      >
+                        <RotateCcw size={13} className="text-black/70" />
+                        <span className="truncate">Reset</span>
+                      </button>
+                    )}
                   </div>
 
                   {customPresets.length > 0 && onExportAllPresetsJSON && (

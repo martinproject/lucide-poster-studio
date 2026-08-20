@@ -135,6 +135,17 @@ export function HeaderNav({
           </button>
         </div>
 
+        {/* Reset Poster / Design Button */}
+        <button
+          type="button"
+          onClick={onResetToPreset}
+          className="flex items-center gap-1.5 px-2.5 sm:px-3.5 py-1.5 sm:py-2 border border-black/15 hover:border-black hover:bg-black/5 text-[#1A1A1A] font-semibold text-xs uppercase tracking-wider rounded transition-all"
+          title="Reset to default poster layout and design"
+        >
+          <RotateCcw size={13} />
+          <span className="hidden sm:inline">Reset</span>
+        </button>
+
         {/* Shuffle Button */}
         <button
           type="button"

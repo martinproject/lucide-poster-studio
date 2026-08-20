@@ -829,6 +829,7 @@ export default function App() {
           onExportAllPresetsJSON={handleExportAllPresetsJSON}
           onExportConfigJSON={handleExportConfigJSON}
           onShuffle={handleShuffle}
+          onResetToPreset={handleResetToPreset}
           onLockAll={handleLockAll}
           onUnlockAll={handleUnlockAll}
           allLocked={allLocked}
