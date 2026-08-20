@@ -1,0 +1,7 @@
+allowBuilds:
+  '@google/genai': true
+  core-js: true
+  esbuild: true
+  protobufjs: true
+minimumReleaseAgeExclude:
+  - lucide-react@1.33.0

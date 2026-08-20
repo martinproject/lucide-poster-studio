@@ -1,0 +1,10640 @@
+{
+  "categoryIconsMap": {
+    "medical": [
+      "Activity",
+      "Accessibility",
+      "Ambulance",
+      "Bandage",
+      "BoneFracture",
+      "Brain",
+      "Bone",
+      "BriefcaseMedical",
+      "CigaretteOff",
+      "CircleSmall",
+      "Cigarette",
+      "ClipboardPlus",
+      "ClipboardMinus",
+      "Ear",
+      "EarOff",
+      "Dna",
+      "DnaOff",
+      "FingerprintPattern",
+      "HeartPulse",
+      "HeartPlus",
+      "Hospital",
+      "HouseHeart",
+      "HeartMinus",
+      "Heart",
+      "HousePlus",
+      "LifeBuoy",
+      "Mars",
+      "MarsStroke",
+      "Microscope",
+      "NonBinary",
+      "PillBottle",
+      "Pill",
+      "Ribbon",
+      "ShieldPlus",
+      "ScanHeart",
+      "Siren",
+      "SquareActivity",
+      "Stethoscope",
+      "Syringe",
+      "Tablets",
+      "Transgender",
+      "Venus",
+      "VenusAndMars"
+    ],
+    "account": [
+      "Activity",
+      "AtSign",
+      "BadgeInfo",
+      "BadgeAlert",
+      "Award",
+      "Badge",
+      "Ban",
+      "BellCheck",
+      "BellDot",
+      "Bell",
+      "BookmarkCheck",
+      "BookUser",
+      "BookmarkX",
+      "BookmarkMinus",
+      "BookmarkPlus",
+      "Bookmark",
+      "BookmarkOff",
+      "Cake",
+      "Building2",
+      "Building",
+      "CircleUserRound",
+      "CircleUser",
+      "Cog",
+      "Contact",
+      "CreditCard",
+      "ContactRound",
+      "Cookie",
+      "FaceSlightlyFrowning",
+      "FaceSlightlySmiling",
+      "FingerprintPattern",
+      "FlagOff",
+      "FileUser",
+      "Flag",
+      "Gift",
+      "HandCoins",
+      "HeartPlus",
+      "HeartHandshake",
+      "HatGlasses",
+      "Handshake",
+      "HeartMinus",
+      "KeyRound",
+      "IdCard",
+      "KeySquare",
+      "Inbox",
+      "Key",
+      "IdCardLanyard",
+      "Link2",
+      "LogIn",
+      "LogOut",
+      "Link",
+      "MapPinMinusInside",
+      "Menu",
+      "MapPinPlusInside",
+      "MapPinMinus",
+      "MapPinHouse",
+      "MapPinX",
+      "MessageCircleCheck",
+      "MapPinPen",
+      "Mail",
+      "MapPinCheck",
+      "MessageCircleX",
+      "MessageSquareCheck",
+      "MapPinXInside",
+      "MapPin",
+      "MapPinned",
+      "MapPinCheckInside",
+      "MapPinSearch",
+      "MapPinPlus",
+      "NotebookTabs",
+      "Pin",
+      "ScanFace",
+      "ScanEye",
+      "RotateCcwKey",
+      "Settings",
+      "ShieldKeyhole",
+      "Shield",
+      "Settings2",
+      "Share2",
+      "ShieldOff",
+      "ShieldPlus",
+      "Share",
+      "ShieldHalf",
+      "ScanQrCode",
+      "ShieldCogCorner",
+      "ShieldAlert",
+      "ShieldBan",
+      "ShieldMinus",
+      "ShieldCog",
+      "ShieldX",
+      "ShieldQuestionMark",
+      "ShieldCheck",
+      "ShieldUser",
+      "ShieldEllipsis",
+      "SlidersHorizontal",
+      "SlidersVertical",
+      "SquareUserRound",
+      "StarPlus",
+      "Star",
+      "SquareUser",
+      "StarX",
+      "StarCheck",
+      "StarMinus",
+      "ToggleLeft",
+      "TagPlus",
+      "Tickets",
+      "Tag",
+      "TagX",
+      "Tags",
+      "ToggleRight",
+      "ThumbsUp",
+      "Ticket",
+      "ThumbsDown",
+      "UserRoundMinus",
+      "UserRoundCog",
+      "UserRoundKey",
+      "UserCheck",
+      "UserPlus",
+      "UserRoundCheck",
+      "UserMinus",
+      "UserCog",
+      "UserRoundArrowLeft",
+      "UserPen",
+      "UserKey",
+      "UserLock",
+      "User",
+      "WalletMinimal",
+      "UsersRound",
+      "VibrateOff",
+      "UserRound",
+      "UserSearch",
+      "UserRoundX",
+      "Wallpaper",
+      "WebhookOff",
+      "UserStar",
+      "UserRoundPlus",
+      "VenetianMask",
+      "UserShield",
+      "UserRoundPen",
+      "Wallet",
+      "UserRoundSearch",
+      "Waypoints",
+      "Webhook",
+      "UserX",
+      "Vibrate",
+      "Users",
+      "WalletCards",
+      "WrenchOff",
+      "Wrench"
+    ],
+    "social": [
+      "Activity",
+      "BadgeCheck",
+      "BadgeInfo",
+      "BadgePercent",
+      "BadgeMinus",
+      "BadgeAlert",
+      "BadgePlus",
+      "BadgeX",
+      "Badge",
+      "BadgeQuestionMark",
+      "BookUser",
+      "BotMessageSquare",
+      "BookImage",
+      "BotOff",
+      "BoomBox",
+      "BookHeart",
+      "Bot",
+      "Cake",
+      "CakeSlice",
+      "CirclePercent",
+      "CircleFadingPlus",
+      "Contact",
+      "DiamondPercent",
+      "ContactRound",
+      "ExternalLink",
+      "FaceSlightlySmilingPlus",
+      "FlagOff",
+      "Flame",
+      "Flag",
+      "FlameKindling",
+      "Hash",
+      "HeartPlus",
+      "HeartOff",
+      "HandHeart",
+      "HandFist",
+      "HatGlasses",
+      "Handshake",
+      "HeartMinus",
+      "Heart",
+      "HeartX",
+      "MessageCircleWarning",
+      "MessageCircleCheck",
+      "MessageSquareMore",
+      "MessageSquareCode",
+      "MessageCircleCode",
+      "MessageCircleX",
+      "MessageCircleReply",
+      "MessageSquareCheck",
+      "MessageSquareDot",
+      "MessageCirclePlus",
+      "MessageCircleMore",
+      "MessageCircleHeart",
+      "MessageSquareHeart",
+      "MessageCircleQuestionMark",
+      "MessageCircleOff",
+      "MessageSquareDashed",
+      "MessageSquareDiff",
+      "MessageCircle",
+      "MessageCircleDashed",
+      "MessageSquareLock",
+      "MessageSquare",
+      "MessagesSquare",
+      "MessageSquareQuote",
+      "MessageSquareX",
+      "MessageSquareShare",
+      "MessageSquareOff",
+      "MessageSquareReply",
+      "MessageSquarePlus",
+      "MessageSquareWarning",
+      "MessageSquareText",
+      "NotepadTextDashed",
+      "Notebook",
+      "NotepadText",
+      "NotebookText",
+      "NotebookTabs",
+      "NotebookPen",
+      "Radio",
+      "RadioOff",
+      "QrCode",
+      "RadioTower",
+      "Ribbon",
+      "ScanFace",
+      "Repeat2",
+      "Rss",
+      "Rose",
+      "Share2",
+      "SearchX",
+      "Search",
+      "Share",
+      "SearchCheck",
+      "SearchAlert",
+      "SearchCode",
+      "Scan",
+      "SearchSlash",
+      "SquareArrowOutUpRight",
+      "SquareActivity",
+      "Spool",
+      "SquareArrowUpRight",
+      "SquarePercent",
+      "StickyNoteOff",
+      "StarPlus",
+      "Star",
+      "StickyNotePlus",
+      "Sticker",
+      "StickyNotes",
+      "StarX",
+      "StickyNoteMinus",
+      "StarOff",
+      "StickyNoteCheck",
+      "StarCheck",
+      "StarHalf",
+      "StickyNoteX",
+      "StarMinus",
+      "StickyNote",
+      "ThumbsUp",
+      "Theater",
+      "ThumbsDown",
+      "UserSearch",
+      "WebhookOff",
+      "Vote",
+      "UserRoundSearch",
+      "Waypoints",
+      "Webhook",
+      "Voicemail",
+      "ZodiacAries",
+      "ZodiacCapricorn",
+      "ZodiacScorpio",
+      "ZodiacGemini",
+      "ZodiacVirgo",
+      "ZodiacAquarius",
+      "ZodiacCancer",
+      "ZodiacTaurus",
+      "ZodiacPisces",
+      "ZodiacLibra",
+      "ZodiacOphiuchus",
+      "ZodiacLeo",
+      "ZodiacSagittarius"
+    ],
+    "science": [
+      "Activity",
+      "Atom",
+      "Beaker",
+      "Binoculars",
+      "Biohazard",
+      "BrainCog",
+      "Brain",
+      "BrainCircuit",
+      "CircuitBoard",
+      "CircleGauge",
+      "Eclipse",
+      "FlaskConicalOff",
+      "FlaskConical",
+      "FlaskRound",
+      "Gauge",
+      "LensConvex",
+      "LensConcave",
+      "MirrorRound",
+      "MirrorRectangular",
+      "Microscope",
+      "Omega",
+      "Orbit",
+      "Phi",
+      "Pipette",
+      "Radiation",
+      "Satellite",
+      "Scale",
+      "Shell",
+      "Sigma",
+      "SolarPanel",
+      "SquareActivity",
+      "Stethoscope",
+      "Syringe",
+      "TestTubes",
+      "Telescope",
+      "TestTube",
+      "TestTubeDiagonal"
+    ],
+    "multimedia": [
+      "Activity",
+      "Album",
+      "Airplay",
+      "Ad",
+      "Antenna",
+      "AudioLinesOff",
+      "AudioWaveform",
+      "AudioLines",
+      "AudioLinesX",
+      "BookAudio",
+      "BookHeadphones",
+      "BookImage",
+      "BoomBox",
+      "CaptionsOff",
+      "Cable",
+      "Captions",
+      "CardSim",
+      "ChevronLast",
+      "ChevronsLeftRightEllipsis",
+      "CassetteTape",
+      "ChevronFirst",
+      "Clapperboard",
+      "CirclePause",
+      "CircleStop",
+      "CirclePlay",
+      "ClosedCaption",
+      "DiamondMinus",
+      "DiamondPlus",
+      "EthernetPort",
+      "Disc2",
+      "Eject",
+      "DiscAlbum",
+      "Disc3",
+      "Drum",
+      "Drama",
+      "Disc",
+      "FastForward",
+      "FileMusic",
+      "Film",
+      "GalleryVerticalEnd",
+      "GalleryHorizontal",
+      "GalleryVertical",
+      "GalleryThumbnails",
+      "Fullscreen",
+      "GalleryHorizontalEnd",
+      "HeartPlus",
+      "HdmiPort",
+      "Hd",
+      "HeartOff",
+      "HeadphoneOff",
+      "Guitar",
+      "Headset",
+      "HeartMinus",
+      "Heart",
+      "HandMetal",
+      "Headphones",
+      "HeartX",
+      "ImageOff",
+      "ImageMinus",
+      "ImageUpscale",
+      "ImagePlay",
+      "Images",
+      "ImagePlus",
+      "Infinity",
+      "KeyboardMusic",
+      "ImageDown",
+      "Image",
+      "ImageUp",
+      "ListMusic",
+      "ListStart",
+      "ListMinus",
+      "ListRestart",
+      "ListX",
+      "LoaderCircle",
+      "Library",
+      "ListEnd",
+      "ListPlus",
+      "Lectern",
+      "Loader",
+      "LibraryBig",
+      "ListVideo",
+      "Megaphone",
+      "MegaphoneOff",
+      "MidiPort",
+      "MicAudioLines",
+      "Metronome",
+      "MonitorStop",
+      "MonitorPlay",
+      "Mic",
+      "MicOff",
+      "MicVocal",
+      "MicSignal",
+      "MonitorPause",
+      "Music4",
+      "Music3",
+      "Music2",
+      "OctagonPause",
+      "Newspaper",
+      "Music",
+      "PictureInPicture2",
+      "Piano",
+      "PictureInPicture",
+      "Pause",
+      "Radio",
+      "Popcorn",
+      "Projector",
+      "PlayOff",
+      "RadioOff",
+      "Presentation",
+      "RadioTower",
+      "RectangleGoggles",
+      "Play",
+      "Repeat",
+      "Repeat2",
+      "SatelliteDish",
+      "ScanEye",
+      "Rewind",
+      "Repeat1",
+      "RepeatOff",
+      "ScanSearch",
+      "Sparkles",
+      "Shuffle",
+      "Speaker",
+      "Spotlight",
+      "SkipForward",
+      "SquareActivity",
+      "SkipBack",
+      "SquareStop",
+      "SquareArrowRightExit",
+      "SquarePause",
+      "SquareArrowRightEnter",
+      "SquareLibrary",
+      "SquarePlay",
+      "StarPlus",
+      "Star",
+      "StepForward",
+      "StarX",
+      "StarOff",
+      "StarCheck",
+      "StarHalf",
+      "StepBack",
+      "Square",
+      "StarMinus",
+      "Turntable",
+      "Usb",
+      "TvMinimal",
+      "TvMinimalPlay",
+      "Tv",
+      "UsbCPort",
+      "WavesHorizontal",
+      "Volume",
+      "VolumeX",
+      "VolumeOff",
+      "Volume1",
+      "Volume2"
+    ],
+    "accessibility": [
+      "Accessibility",
+      "Ad",
+      "Baby",
+      "BadgeInfo",
+      "BadgeQuestionMark",
+      "CircleQuestionMark",
+      "ClosedCaption",
+      "Contrast",
+      "Eye",
+      "EyeOff",
+      "Ear",
+      "EyeClosed",
+      "EyeDashed",
+      "EarOff",
+      "Eclipse",
+      "Glasses",
+      "Hand",
+      "Info",
+      "LifeBuoy",
+      "Moon",
+      "MoonStar",
+      "PersonStanding",
+      "ScanEye",
+      "ScanSearch",
+      "Speech",
+      "Sun",
+      "SunMoon",
+      "SunDim",
+      "SunMedium",
+      "Transgender",
+      "ZoomOut",
+      "ZoomIn"
+    ],
+    "text": [
+      "AArrowDown",
+      "AArrowUp",
+      "Ampersands",
+      "ALargeSmall",
+      "Anchor",
+      "Ampersand",
+      "ArrowBigUpDash",
+      "ArrowDownNarrowWide",
+      "ArrowUpWideNarrow",
+      "ArrowUp10",
+      "ArrowDownZA",
+      "ArrowDownWideNarrow",
+      "ArrowBigUp",
+      "ArrowUp01",
+      "ArrowUpAZ",
+      "AtSign",
+      "Asterisk",
+      "ArrowDown01",
+      "ArrowDown10",
+      "ArrowUpNarrowWide",
+      "ArrowUpZA",
+      "ArrowDownAZ",
+      "Binary",
+      "Baseline",
+      "BookX",
+      "BookSearch",
+      "Book",
+      "BookOpen",
+      "BookAudio",
+      "BookOpenText",
+      "BookHeadphones",
+      "BookCopy",
+      "BookCheck",
+      "BookOpenCheck",
+      "BookPlus",
+      "BookText",
+      "BookImage",
+      "BookAlert",
+      "Bold",
+      "BookA",
+      "BookMarked",
+      "BookHeart",
+      "BookMinus",
+      "BookType",
+      "Brush",
+      "CaseLower",
+      "CaseUpper",
+      "CaseSensitive",
+      "ClipboardList",
+      "ClipboardPenLine",
+      "CircleQuestionMark",
+      "ClipboardCheck",
+      "ClipboardPen",
+      "ClipboardClock",
+      "ClipboardPlus",
+      "ClipboardMinus",
+      "ClipboardCopy",
+      "ClipboardPaste",
+      "ClipboardX",
+      "Clipboard",
+      "Columns4",
+      "ClipboardType",
+      "Columns3",
+      "Columns2",
+      "Code",
+      "CodeXml",
+      "Copyright",
+      "CopySlash",
+      "DecimalsArrowRight",
+      "CopyMinus",
+      "CopyCheck",
+      "Copyleft",
+      "CreativeCommons",
+      "Delete",
+      "Copy",
+      "CornerDownRight",
+      "CopyPlus",
+      "DecimalsArrowLeft",
+      "Expand",
+      "Eraser",
+      "Dot",
+      "ExternalLink",
+      "FileText",
+      "FileTypeCorner",
+      "FileType",
+      "Feather",
+      "Grid2x2X",
+      "Grid2x2Plus",
+      "Grid2x2Check",
+      "Heading",
+      "Grid3x2",
+      "Grid2x2",
+      "Hash",
+      "Heading6",
+      "Heading1",
+      "Heading4",
+      "Grid3x3",
+      "Heading2",
+      "Heading3",
+      "Highlighter",
+      "Heading5",
+      "Keyboard",
+      "ImagePlay",
+      "Images",
+      "Languages",
+      "KeyboardOff",
+      "ImageDown",
+      "Italic",
+      "Image",
+      "LayoutList",
+      "ImageUp",
+      "Link2",
+      "ListChevronsUpDown",
+      "ListChevronsDownUp",
+      "ListOrdered",
+      "Ligature",
+      "ListStart",
+      "ListFilter",
+      "ListIndentIncrease",
+      "ListMinus",
+      "Logs",
+      "ListRestart",
+      "ListX",
+      "ListChecks",
+      "Link2Off",
+      "ListTree",
+      "Library",
+      "ListIndentDecrease",
+      "ListEnd",
+      "ListPlus",
+      "ListCheck",
+      "ListClock",
+      "ListTodo",
+      "LibraryBig",
+      "ListCollapse",
+      "ListSortAscending",
+      "ListFilterPlus",
+      "ListSortDescending",
+      "List",
+      "Link",
+      "Mail",
+      "Map",
+      "MapPinSearch",
+      "MessageSquareQuote",
+      "Minus",
+      "NotepadTextDashed",
+      "Paintbrush",
+      "PaintbrushVertical",
+      "Notebook",
+      "PaintRoller",
+      "NotepadText",
+      "Palette",
+      "NotebookText",
+      "Omega",
+      "NotebookPen",
+      "PencilSparkles",
+      "Pencil",
+      "PilcrowLeft",
+      "PenOff",
+      "PencilLine",
+      "PilcrowRight",
+      "PenLine",
+      "Pilcrow",
+      "PencilRuler",
+      "Phone",
+      "Pen",
+      "Paperclip",
+      "PenTool",
+      "PencilOff",
+      "RectangleEllipsis",
+      "Redo2",
+      "Plus",
+      "Pipette",
+      "Quote",
+      "RedoDot",
+      "RectangleCircle",
+      "ReplaceAll",
+      "SaveCheck",
+      "RemoveFormatting",
+      "Regex",
+      "SaveAll",
+      "Replace",
+      "Rows3",
+      "Redo",
+      "Rows2",
+      "Save",
+      "SavePlus",
+      "Rows4",
+      "SaveOff",
+      "SavePen",
+      "SearchX",
+      "Section",
+      "SeparatorHorizontal",
+      "Search",
+      "SearchCheck",
+      "ScrollText",
+      "SearchAlert",
+      "Sheet",
+      "Scissors",
+      "SearchCode",
+      "SeparatorVertical",
+      "ScanText",
+      "SearchSlash",
+      "Scroll",
+      "Sigma",
+      "SpellCheck2",
+      "Signature",
+      "SpellCheck",
+      "Space",
+      "SquareSigma",
+      "SquareStack",
+      "SquareScissors",
+      "SquareDashedText",
+      "SquarePilcrow",
+      "SquareAsterisk",
+      "SquareMinus",
+      "SquareText",
+      "SquareLibrary",
+      "SquareCode",
+      "SquarePen",
+      "SquarePlus",
+      "SquareBottomDashedScissors",
+      "SquareDashed",
+      "Superscript",
+      "TableProperties",
+      "StickyNoteOff",
+      "StickyNotePlus",
+      "Table",
+      "TableOfContents",
+      "Strikethrough",
+      "Table2",
+      "Subscript",
+      "StickyNotes",
+      "StickyNoteMinus",
+      "TableCellsSplit",
+      "StickyNoteCheck",
+      "Summary",
+      "TableColumnsSplit",
+      "TableCellsMerge",
+      "TableRowsSplit",
+      "StickyNoteX",
+      "StickyNote",
+      "TextCursorInput",
+      "TextAlignStart",
+      "TextInitial",
+      "TextWrap",
+      "TextSearch",
+      "TextAlignJustify",
+      "TextAlignCenter",
+      "TextAlignEnd",
+      "TextQuote",
+      "TextCursor",
+      "TypeOutline",
+      "Unlink",
+      "Undo2",
+      "Undo",
+      "Type",
+      "Underline",
+      "UndoDot",
+      "Unlink2",
+      "ZoomOut",
+      "ZoomIn",
+      "WholeWord"
+    ],
+    "design": [
+      "AArrowDown",
+      "AArrowUp",
+      "AppWindowMac",
+      "AppWindow",
+      "ALargeSmall",
+      "Angle",
+      "Axis3d",
+      "BetweenHorizontalStart",
+      "BetweenHorizontalEnd",
+      "BetweenVerticalEnd",
+      "Blend",
+      "BetweenVerticalStart",
+      "BookType",
+      "Brush",
+      "BringToFront",
+      "BrushCleaning",
+      "ChartNoAxesGantt",
+      "Columns4",
+      "Columns3",
+      "Columns2",
+      "Columns3Cog",
+      "Contrast",
+      "DecimalsArrowRight",
+      "Diameter",
+      "DatabaseBackup",
+      "Cylinder",
+      "Component",
+      "Crop",
+      "DecimalsArrowLeft",
+      "Eye",
+      "EyeOff",
+      "EyeClosed",
+      "EyeDashed",
+      "DraftingCompass",
+      "Eclipse",
+      "Dock",
+      "FileAxis3d",
+      "FileBox",
+      "FlipVertical2",
+      "FlipHorizontal2",
+      "FolderKanban",
+      "GalleryVerticalEnd",
+      "GalleryHorizontal",
+      "GalleryVertical",
+      "Frame",
+      "GalleryThumbnails",
+      "Fullscreen",
+      "GalleryHorizontalEnd",
+      "Grid3x2",
+      "Grid2x2",
+      "HandGrab",
+      "Grid3x3",
+      "Highlighter",
+      "HeartX",
+      "LassoSelect",
+      "LayerArrowUp",
+      "LayersArrowUp",
+      "LayoutDashboard",
+      "Kanban",
+      "LayerArrowDown",
+      "LayoutFreeform",
+      "IterationCcw",
+      "LandPlot",
+      "LayersPlus",
+      "Lasso",
+      "LayersArrowDown",
+      "LayersMinus",
+      "Layers2",
+      "LayoutGrid",
+      "IterationCw",
+      "LayoutList",
+      "Layers",
+      "LoaderPinwheel",
+      "LayoutPanelLeft",
+      "LineSquiggle",
+      "Magnet",
+      "Loader",
+      "LineStyle",
+      "Maximize2",
+      "Maximize",
+      "Minimize",
+      "Minimize2",
+      "MopSparkles",
+      "Move3d",
+      "Paintbrush",
+      "PaintbrushVertical",
+      "Notebook",
+      "PaintBucket",
+      "PaintRoller",
+      "Palette",
+      "Origami",
+      "PencilSparkles",
+      "Pencil",
+      "PanelTop",
+      "PenOff",
+      "PencilLine",
+      "PenLine",
+      "PencilRuler",
+      "PanelsTopLeft",
+      "Pen",
+      "Paperclip",
+      "PenTool",
+      "PencilOff",
+      "Ratio",
+      "RectangleVertical",
+      "Pipette",
+      "Presentation",
+      "RectangleHorizontal",
+      "Radius",
+      "Proportions",
+      "RulerDimensionLine",
+      "RotateCwSquare",
+      "RotateCw",
+      "RotateCcwSquare",
+      "Rotate3d",
+      "RotateCcw",
+      "ScanBox",
+      "Rows3",
+      "Ruler",
+      "Scale3d",
+      "Rows2",
+      "Scaling",
+      "Rows4",
+      "SendToBack",
+      "ScanSquare",
+      "Scissors",
+      "ScissorsLineDashed",
+      "Spline",
+      "SprayCan",
+      "Slice",
+      "SplinePointer",
+      "SquareKanban",
+      "SquareCenterlineDashedVertical",
+      "SquareScissors",
+      "SquareDashedTopSolid",
+      "SquareDimensions",
+      "SquareRoundCorner",
+      "SquareChartGantt",
+      "SquareDashedKanban",
+      "SquareOff",
+      "SquareCenterlineDashedHorizontal",
+      "SquareBottomDashedScissors",
+      "SquareDashed",
+      "SquaresExclude",
+      "SquaresUnite",
+      "Stamp",
+      "SquircleDashed",
+      "SquaresSubtract",
+      "TabletSmartphone",
+      "SquaresIntersect",
+      "SwatchBook",
+      "Torus",
+      "Tangent",
+      "Wand",
+      "View",
+      "VectorSquare",
+      "WandSparkles",
+      "ZoomOut",
+      "ZoomIn"
+    ],
+    "home": [
+      "AirVent",
+      "AlarmSmoke",
+      "Armchair",
+      "BellElectric",
+      "Birdhouse",
+      "Bed",
+      "BedSingle",
+      "Blender",
+      "BedDouble",
+      "BrickWallFire",
+      "BrickWall",
+      "BrickWallShield",
+      "Blinds",
+      "Bolt",
+      "Broom",
+      "BroomSparkles",
+      "BrushCleaning",
+      "CookingPot",
+      "DoorClosedLocked",
+      "Drill",
+      "DoorOpen",
+      "DoorClosed",
+      "Fence",
+      "Fan",
+      "FireExtinguisher",
+      "Heater",
+      "Hammer",
+      "HouseHeart",
+      "HousePlug",
+      "HouseWifi",
+      "LampFloor",
+      "LampWallUp",
+      "LampWallDown",
+      "LampCeiling",
+      "LampDesk",
+      "Lamp",
+      "House",
+      "Mop",
+      "MopSparkles",
+      "MirrorRound",
+      "MirrorRectangular",
+      "Microwave",
+      "Paintbrush",
+      "PaintbrushVertical",
+      "PaintRoller",
+      "RockingChair",
+      "Refrigerator",
+      "Router",
+      "Rose",
+      "Shell",
+      "ShelvingUnit",
+      "SoapDispenserDroplet",
+      "Sofa",
+      "ShowerHead",
+      "SolarPanel",
+      "SwatchBook",
+      "Toolbox",
+      "Toilet",
+      "ToolCase",
+      "TowelRack",
+      "Turntable",
+      "Usb",
+      "UsbCPort",
+      "UtilityPole",
+      "WashingMachine",
+      "Vault",
+      "WavesLadder"
+    ],
+    "layout": [
+      "AlignCenterVertical",
+      "AlignEndHorizontal",
+      "AlignCenterHorizontal",
+      "AlignEndVertical",
+      "AlignHorizontalDistributeCenter",
+      "AlignHorizontalJustifyCenter",
+      "AlignHorizontalJustifyEnd",
+      "AlignHorizontalDistributeStart",
+      "AlignVerticalDistributeEnd",
+      "AlignStartVertical",
+      "AlignVerticalDistributeCenter",
+      "AppWindowMac",
+      "AlignStartHorizontal",
+      "AlignVerticalSpaceAround",
+      "AlignVerticalSpaceBetween",
+      "AlignVerticalJustifyEnd",
+      "AlignHorizontalSpaceBetween",
+      "AppWindow",
+      "AlignVerticalDistributeStart",
+      "AlignHorizontalDistributeEnd",
+      "AlignHorizontalJustifyStart",
+      "AlignHorizontalSpaceAround",
+      "AlignVerticalJustifyCenter",
+      "AlignVerticalJustifyStart",
+      "ArrowDownNarrowWide",
+      "ArrowUpWideNarrow",
+      "ArrowUp10",
+      "ArrowDownZA",
+      "ArrowDownWideNarrow",
+      "ArrowUp01",
+      "ArrowUpAZ",
+      "ArrowDown01",
+      "ArrowDown10",
+      "ArrowUpNarrowWide",
+      "ArrowUpZA",
+      "ArrowDownAZ",
+      "BetweenHorizontalStart",
+      "BetweenHorizontalEnd",
+      "BetweenVerticalEnd",
+      "BetweenVerticalStart",
+      "Blocks",
+      "BringToFront",
+      "CircleEllipsis",
+      "Columns4",
+      "Columns3",
+      "Columns2",
+      "Columns3Cog",
+      "EllipsisVertical",
+      "Ellipsis",
+      "Dock",
+      "FoldVertical",
+      "FoldHorizontal",
+      "FunnelPlus",
+      "GalleryVerticalEnd",
+      "GalleryHorizontal",
+      "Grid2x2X",
+      "Grid2x2Plus",
+      "FunnelX",
+      "GalleryVertical",
+      "Funnel",
+      "GalleryThumbnails",
+      "Fullscreen",
+      "GalleryHorizontalEnd",
+      "Grid2x2Check",
+      "GripVertical",
+      "Grid3x2",
+      "Grid2x2",
+      "GripHorizontal",
+      "HandGrab",
+      "Grip",
+      "Grid3x3",
+      "LayerArrowUp",
+      "LayersArrowUp",
+      "LayoutDashboard",
+      "LayerArrowDown",
+      "LayoutFreeform",
+      "LayersPlus",
+      "LayersArrowDown",
+      "LayersMinus",
+      "Layers2",
+      "LayoutGrid",
+      "LayoutList",
+      "Layers",
+      "LayoutPanelTop",
+      "LayoutPanelLeft",
+      "ListTree",
+      "LoaderCircle",
+      "Loader",
+      "LayoutTemplate",
+      "ListSortAscending",
+      "ListFilterPlus",
+      "ListSortDescending",
+      "Menu",
+      "Maximize2",
+      "Maximize",
+      "Minimize",
+      "Minimize2",
+      "PanelBottomDashed",
+      "PanelBottomClose",
+      "PanelBottomOpen",
+      "PanelBottom",
+      "PanelLeftOpen",
+      "PanelLeftRightDashed",
+      "PanelRight",
+      "PanelLeftDashed",
+      "PanelRightClose",
+      "PanelTopBottomDashed",
+      "PanelTop",
+      "PanelsRightBottom",
+      "PanelTopOpen",
+      "PanelLeft",
+      "PanelRightOpen",
+      "PencilRuler",
+      "PanelsTopLeft",
+      "PanelTopDashed",
+      "PanelLeftClose",
+      "PanelsLeftBottom",
+      "PanelRightDashed",
+      "PanelTopClose",
+      "Ratio",
+      "Proportions",
+      "RulerDimensionLine",
+      "RotateCwSquare",
+      "RotateCcwSquare",
+      "Rows3",
+      "Ruler",
+      "Rows2",
+      "Rows4",
+      "SendToBack",
+      "SeparatorHorizontal",
+      "SeparatorVertical",
+      "Shrink",
+      "SquareSquare",
+      "SquareDashedTopSolid",
+      "SquareDimensions",
+      "SquareRoundCorner",
+      "SquareArrowRightExit",
+      "SquareSplitHorizontal",
+      "SquareArrowRightEnter",
+      "SquareSplitVertical",
+      "SquareMenu",
+      "StretchVertical",
+      "StretchHorizontal",
+      "ToggleLeft",
+      "TextCursorInput",
+      "ToggleRight",
+      "UnfoldVertical",
+      "UnfoldHorizontal",
+      "ZoomOut",
+      "ZoomIn"
+    ],
+    "photography": [
+      "Album",
+      "Aperture",
+      "Backpack",
+      "Blend",
+      "Binoculars",
+      "BookImage",
+      "Camera",
+      "CameraOff",
+      "CctvOff",
+      "Cctv",
+      "Contrast",
+      "Crosshair",
+      "DatabaseBackup",
+      "DiamondMinus",
+      "DiamondPlus",
+      "Crop",
+      "Eye",
+      "EyeOff",
+      "EyeClosed",
+      "EyeDashed",
+      "Eclipse",
+      "Focus",
+      "FlipVertical2",
+      "FlashlightOff",
+      "Flashlight",
+      "FlipHorizontal2",
+      "Film",
+      "GalleryVerticalEnd",
+      "GalleryHorizontal",
+      "GalleryVertical",
+      "Frame",
+      "GalleryThumbnails",
+      "Fullscreen",
+      "GalleryHorizontalEnd",
+      "ImageOff",
+      "ImageMinus",
+      "ImageUpscale",
+      "ImagePlay",
+      "Images",
+      "ImagePlus",
+      "ImageDown",
+      "Image",
+      "LayoutList",
+      "ImageUp",
+      "Library",
+      "LibraryBig",
+      "Lightbulb",
+      "LightbulbOff",
+      "Paintbrush",
+      "PaintbrushVertical",
+      "Palette",
+      "PencilSparkles",
+      "Ratio",
+      "Projector",
+      "Presentation",
+      "Proportions",
+      "RotateCwSquare",
+      "RotateCw",
+      "RotateCcwSquare",
+      "RotateCcw",
+      "ScanEye",
+      "ScanSquare",
+      "ScanSearch",
+      "Spotlight",
+      "SquareCenterlineDashedVertical",
+      "SquareLibrary",
+      "SquareCenterlineDashedHorizontal",
+      "SwatchBook",
+      "Videotape",
+      "VideoOff",
+      "Wand",
+      "View",
+      "WandSparkles",
+      "Video",
+      "ZoomOut",
+      "ZoomIn",
+      "Zap",
+      "ZapOff"
+    ],
+    "devices": [
+      "AlarmSmoke",
+      "AlarmClock",
+      "AlarmClockOff",
+      "AlarmClockPlus",
+      "AlarmClockCheck",
+      "AlarmClockMinus",
+      "Antenna",
+      "BellElectric",
+      "BatteryLow",
+      "BatteryPlus",
+      "BatteryFull",
+      "BatteryMedium",
+      "BatteryCharging",
+      "Battery",
+      "BatteryWarning",
+      "BluetoothOff",
+      "BluetoothSearching",
+      "Bluetooth",
+      "BoomBox",
+      "BluetoothConnected",
+      "Camera",
+      "Cable",
+      "CameraOff",
+      "Calculator",
+      "CardSim",
+      "ChevronsLeftRightEllipsis",
+      "CassetteTape",
+      "CctvOff",
+      "Cctv",
+      "Cast",
+      "DatabaseCheck",
+      "DatabaseArrowDown",
+      "Computer",
+      "DatabaseArrowUp",
+      "DatabaseMinus",
+      "DatabaseSearch",
+      "DatabaseX",
+      "DatabasePlus",
+      "DatabaseBackup",
+      "DiamondMinus",
+      "Database",
+      "DatabaseZap",
+      "DiamondPlus",
+      "Cpu",
+      "EthernetPort",
+      "Disc2",
+      "Drill",
+      "Eject",
+      "DiscAlbum",
+      "Disc3",
+      "EarthLock",
+      "Drum",
+      "Drone",
+      "Disc",
+      "FingerprintPattern",
+      "FlashlightOff",
+      "Flashlight",
+      "GlobeOff",
+      "GlobeX",
+      "Gamepad",
+      "Gamepad2",
+      "Gpu",
+      "GlobeLock",
+      "GamepadDirectional",
+      "HardDrive",
+      "HardDriveUpload",
+      "HdmiPort",
+      "Heater",
+      "Hd",
+      "HeadphoneOff",
+      "Headset",
+      "Headphones",
+      "HardDriveDownload",
+      "LaptopMinimalCheck",
+      "LaptopMinimal",
+      "Keyboard",
+      "Laptop",
+      "KeyboardOff",
+      "KeyboardMusic",
+      "Joystick",
+      "MemoryStick",
+      "MonitorSpeaker",
+      "Monitor",
+      "MidiPort",
+      "MouseRight",
+      "MicAudioLines",
+      "MonitorX",
+      "MonitorStop",
+      "MouseOff",
+      "MonitorDot",
+      "MonitorOff",
+      "MonitorUp",
+      "Microchip",
+      "MonitorPlay",
+      "Mic",
+      "Mouse",
+      "MicOff",
+      "MonitorCheck",
+      "MicVocal",
+      "MicSignal",
+      "MonitorDown",
+      "MouseLeft",
+      "MonitorPause",
+      "MonitorCog",
+      "MonitorCloud",
+      "MonitorSmartphone",
+      "Nfc",
+      "PhoneMissed",
+      "PhoneIncoming",
+      "Piano",
+      "PhoneOutgoing",
+      "PhoneCall",
+      "PhoneForwarded",
+      "PcCase",
+      "Phone",
+      "PhoneOff",
+      "Radio",
+      "PlugZap",
+      "PrinterCheck",
+      "Plug",
+      "Projector",
+      "PrinterX",
+      "RadioOff",
+      "Presentation",
+      "RadioTower",
+      "RectangleGoggles",
+      "RadioReceiver",
+      "Proportions",
+      "Plug2",
+      "Printer",
+      "ScanFace",
+      "SatelliteDish",
+      "ScanBox",
+      "ScanEye",
+      "ScanBarcode",
+      "Router",
+      "Server",
+      "ServerPlus",
+      "ScreenShare",
+      "ScreenShareOff",
+      "ScanLine",
+      "ScanQrCode",
+      "ServerCrash",
+      "ScanText",
+      "Scan",
+      "ServerCog",
+      "ServerOff",
+      "SmartphoneCharging",
+      "SmartphoneNfc",
+      "Speaker",
+      "Spotlight",
+      "Smartphone",
+      "SquareMinus",
+      "TabletSmartphone",
+      "SwitchCamera",
+      "Toilet",
+      "Tablet",
+      "TouchpadOff",
+      "Touchpad",
+      "Unplug",
+      "Usb",
+      "TvMinimal",
+      "TvMinimalPlay",
+      "Tv",
+      "UsbCPort",
+      "Videotape",
+      "VideoOff",
+      "VibrateOff",
+      "Wallpaper",
+      "WashingMachine",
+      "Webcam",
+      "Vibrate",
+      "Voicemail",
+      "WebcamOff",
+      "Video",
+      "WifiCog",
+      "WifiLow",
+      "WifiPen",
+      "WifiZero",
+      "WifiOff",
+      "WifiHigh",
+      "Wifi",
+      "WifiSync",
+      "Zap",
+      "ZapOff"
+    ],
+    "travel": [
+      "AlarmSmoke",
+      "Backpack",
+      "BaggageClaim",
+      "Bath",
+      "Binoculars",
+      "BookImage",
+      "Caravan",
+      "CableCar",
+      "BriefcaseConveyorBelt",
+      "CigaretteOff",
+      "Cigarette",
+      "Compass",
+      "ConciergeBell",
+      "DoorClosedLocked",
+      "DoorOpen",
+      "DoorClosed",
+      "FireExtinguisher",
+      "FishingRod",
+      "FishingHook",
+      "Hotel",
+      "Heater",
+      "Hospital",
+      "Helicopter",
+      "Luggage",
+      "MapPinOff",
+      "MapPinMinusInside",
+      "MapPinPlusInside",
+      "MapPinMinus",
+      "MapPinHouse",
+      "MapPinX",
+      "MapPinPen",
+      "MapPinCheck",
+      "MapMinus",
+      "MapPinXInside",
+      "MapPin",
+      "MapPinned",
+      "MapPinCheckInside",
+      "MapPinSearch",
+      "MapPinPlus",
+      "Mosque",
+      "Parasol",
+      "ReceiptCent",
+      "Receipt",
+      "Plane",
+      "ReceiptTurkishLira",
+      "ReceiptEuro",
+      "ReceiptJapaneseYen",
+      "ReceiptText",
+      "ReceiptPoundSterling",
+      "PlaneTakeoff",
+      "ReceiptIndianRupee",
+      "ReceiptRussianRuble",
+      "ReceiptSwissFranc",
+      "Pyramid",
+      "PlaneLanding",
+      "Sailboat",
+      "ShipWheel",
+      "Shell",
+      "Ship",
+      "SoapDispenserDroplet",
+      "ShowerHead",
+      "Tickets",
+      "TicketsPlane",
+      "TentTree",
+      "Tent",
+      "TowelRack",
+      "TowerControl",
+      "Volleyball",
+      "UtensilsCrossed",
+      "WashingMachine",
+      "Vault",
+      "Utensils"
+    ],
+    "connectivity": [
+      "Airplay",
+      "BatteryLow",
+      "BatteryFull",
+      "BatteryMedium",
+      "BatteryCharging",
+      "Battery",
+      "BatteryWarning",
+      "BrickWallFire",
+      "BluetoothOff",
+      "BluetoothSearching",
+      "BookUser",
+      "Bluetooth",
+      "BrickWallShield",
+      "BluetoothConnected",
+      "CarBattery",
+      "Cable",
+      "CardSim",
+      "CassetteTape",
+      "CctvOff",
+      "Cctv",
+      "Cast",
+      "CirclePower",
+      "CloudOff",
+      "Contact",
+      "ContactRound",
+      "GlobeOff",
+      "GlobeX",
+      "HeadphoneOff",
+      "Headset",
+      "Headphones",
+      "HouseWifi",
+      "MonitorSpeaker",
+      "Monitor",
+      "MidiPort",
+      "MonitorX",
+      "MonitorStop",
+      "MonitorDot",
+      "MonitorOff",
+      "MonitorUp",
+      "MonitorPlay",
+      "Mic",
+      "MicOff",
+      "MonitorCheck",
+      "MicSignal",
+      "MonitorDown",
+      "MonitorPause",
+      "MonitorCog",
+      "MonitorCloud",
+      "MonitorSmartphone",
+      "PhoneMissed",
+      "PhoneIncoming",
+      "PhoneOutgoing",
+      "PhoneCall",
+      "PhoneForwarded",
+      "Phone",
+      "PhoneOff",
+      "Power",
+      "RectangleGoggles",
+      "PowerOff",
+      "Satellite",
+      "SatelliteDish",
+      "Router",
+      "ScreenShare",
+      "ScreenShareOff",
+      "Send",
+      "SendHorizontal",
+      "SmartphoneCharging",
+      "SignalMedium",
+      "SignalZero",
+      "Signal",
+      "SignalLow",
+      "SignalHigh",
+      "Smartphone",
+      "SquarePower",
+      "Videotape",
+      "VideoOff",
+      "VibrateOff",
+      "Volume",
+      "Webcam",
+      "VolumeX",
+      "VolumeOff",
+      "Vibrate",
+      "Volume1",
+      "Voicemail",
+      "WebcamOff",
+      "Volume2",
+      "Video",
+      "WifiCog",
+      "WifiLow",
+      "WifiPen",
+      "WifiZero",
+      "WifiOff",
+      "WifiHigh",
+      "Wifi",
+      "WifiSync",
+      "Zap",
+      "ZapOff"
+    ],
+    "notifications": [
+      "AlarmClock",
+      "AlarmClockOff",
+      "AlarmClockPlus",
+      "Ad",
+      "AlarmClockCheck",
+      "AlarmClockMinus",
+      "BellElectric",
+      "BellMinus",
+      "BellOff",
+      "BellCheck",
+      "BellRing",
+      "BellPlus",
+      "BellDot",
+      "Bell",
+      "CheckCheck",
+      "CheckLine",
+      "Check",
+      "CircleCheckBig",
+      "CircleQuestionMark",
+      "CircleAlert",
+      "CircleCheck",
+      "CopyCheck",
+      "CopyX",
+      "FileExclamationPoint",
+      "FaceSlightlySmilingPlus",
+      "Info",
+      "LaptopMinimalCheck",
+      "ListClock",
+      "MessageCircleWarning",
+      "MessageSquareDot",
+      "Megaphone",
+      "MegaphoneOff",
+      "MessageSquareWarning",
+      "OctagonAlert",
+      "OctagonX",
+      "ShieldAlert",
+      "SquareCheckBig",
+      "SquareCheck",
+      "SquareX",
+      "TriangleAlert",
+      "Vibrate",
+      "X",
+      "XLineTop"
+    ],
+    "time": [
+      "AlarmClock",
+      "AlarmClockOff",
+      "AlarmClockPlus",
+      "AlarmClockCheck",
+      "AlarmClockMinus",
+      "CalendarClock",
+      "CalendarPlus",
+      "CalendarX",
+      "CalendarX2",
+      "CalendarPlus2",
+      "CalendarArrowUp",
+      "CalendarOff",
+      "CalendarMinus",
+      "CalendarSearch",
+      "CalendarCheck",
+      "CalendarSync",
+      "CalendarRange",
+      "CalendarArrowDown",
+      "CalendarMinus2",
+      "CalendarDays",
+      "Calendar1",
+      "Calendar",
+      "CalendarFold",
+      "CalendarCog",
+      "CalendarHeart",
+      "Calendars",
+      "CalendarCheck2",
+      "ChartNoAxesGantt",
+      "ClipboardClock",
+      "Clock",
+      "Clock11",
+      "Clock2",
+      "Clock10",
+      "ClockArrowUp",
+      "Clock5",
+      "Clock6",
+      "Clock3",
+      "Clock8",
+      "Clock9",
+      "ClockAlert",
+      "Clock12",
+      "ClockCheck",
+      "ClockArrowDown",
+      "Clock4",
+      "Clock7",
+      "ClockFading",
+      "ClockPlus",
+      "ClockArrowRight",
+      "Clock1",
+      "ClockArrowLeft",
+      "FileClock",
+      "FolderClock",
+      "Hourglass",
+      "ListClock",
+      "Metronome",
+      "RotateCcwClock",
+      "RotateCwFadingClock",
+      "SquareChartGantt",
+      "Sunrise",
+      "TimerOff",
+      "TimerReset",
+      "Timeline",
+      "Timer",
+      "Watch"
+    ],
+    "development": [
+      "AppWindowMac",
+      "AppWindow",
+      "Ampersands",
+      "Ampersand",
+      "ArrowBigUpDash",
+      "ArrowBigUp",
+      "ArrowDownToLine",
+      "Asterisk",
+      "ArrowRightToLine",
+      "ArrowUpFromLine",
+      "Bitcoin",
+      "Binary",
+      "Blend",
+      "Binoculars",
+      "BookUp",
+      "BrainCog",
+      "BookDashed",
+      "BookSearch",
+      "Box",
+      "Brackets",
+      "Book",
+      "BookOpen",
+      "BookKey",
+      "Boxes",
+      "BookOpenText",
+      "BookCopy",
+      "BookCheck",
+      "BrainCircuit",
+      "BookOpenCheck",
+      "BotMessageSquare",
+      "BookUp2",
+      "BookPlus",
+      "BotOff",
+      "BookAlert",
+      "Blocks",
+      "BookDown",
+      "BookLock",
+      "Braces",
+      "BookMarked",
+      "BookMinus",
+      "Bot",
+      "BugPlay",
+      "Bug",
+      "BugOff",
+      "CaseLower",
+      "CaseUpper",
+      "ChartNoAxesGantt",
+      "ChevronRight",
+      "CircleDashed",
+      "CircleEllipsis",
+      "CircleArrowOutUpLeft",
+      "CircuitBoard",
+      "CircleX",
+      "CircleSlash",
+      "CircleDot",
+      "CircleDotDashed",
+      "CirclePlus",
+      "CircleFadingArrowUp",
+      "CircleSlash2",
+      "CloudAlert",
+      "Command",
+      "CloudCog",
+      "CloudCheck",
+      "Combine",
+      "Code",
+      "CodeXml",
+      "DatabaseCheck",
+      "DatabaseArrowDown",
+      "Computer",
+      "CopySlash",
+      "DatabaseArrowUp",
+      "DatabaseMinus",
+      "DatabaseSearch",
+      "Container",
+      "DatabaseX",
+      "DatabasePlus",
+      "DatabaseBackup",
+      "Construction",
+      "Database",
+      "CornerDownRight",
+      "DatabaseZap",
+      "Component",
+      "Divide",
+      "Equal",
+      "Diff",
+      "EqualNot",
+      "EarthLock",
+      "Eclipse",
+      "Ellipsis",
+      "Dock",
+      "FileDiff",
+      "FileBraces",
+      "FileBracesCorner",
+      "FileSliders",
+      "FileDigit",
+      "FileCodeCorner",
+      "FileBox",
+      "FileCode",
+      "FileTerminal",
+      "FileStack",
+      "FolderOpenDot",
+      "FolderRoot",
+      "FolderDot",
+      "FolderCode",
+      "FolderKanban",
+      "FlagTriangleRight",
+      "FlagTriangleLeft",
+      "GitMerge",
+      "Gem",
+      "Form",
+      "GalleryVerticalEnd",
+      "GitPullRequestArrow",
+      "GalleryHorizontal",
+      "GitCompare",
+      "GitPullRequestClosed",
+      "GitPullRequestCreateArrow",
+      "GalleryVertical",
+      "GitPullRequestCreate",
+      "GitBranch",
+      "GitCommitHorizontal",
+      "GalleryThumbnails",
+      "GitMergeConflict",
+      "GitCommitVertical",
+      "GitPullRequest",
+      "GitCompareArrows",
+      "GlobeLock",
+      "GitFork",
+      "GitPullRequestDraft",
+      "GalleryHorizontalEnd",
+      "GitGraph",
+      "GitBranchMinus",
+      "GitBranchPlus",
+      "HardDrive",
+      "HardDriveUpload",
+      "Hexagon",
+      "HardDriveDownload",
+      "Kanban",
+      "Keyboard",
+      "KeyboardOff",
+      "ListIndentIncrease",
+      "Library",
+      "ListIndentDecrease",
+      "LineDotRightHorizontal",
+      "LibraryBig",
+      "Merge",
+      "MessageSquareCode",
+      "MessageCircleCode",
+      "MessageSquareDiff",
+      "Minus",
+      "MonitorCloud",
+      "Milestone",
+      "Package",
+      "PackageOpen",
+      "Package2",
+      "PackageSearch",
+      "PackageCheck",
+      "PackageX",
+      "Network",
+      "Omega",
+      "Option",
+      "PackagePlus",
+      "PackageMinus",
+      "Percent",
+      "Pi",
+      "PanelTop",
+      "PanelsTopLeft",
+      "Parentheses",
+      "RectangleEllipsis",
+      "Plus",
+      "Plug",
+      "Puzzle",
+      "QrCode",
+      "RectangleCircle",
+      "Plug2",
+      "Radical",
+      "SaveCheck",
+      "Regex",
+      "Rocket",
+      "Rss",
+      "Router",
+      "RefreshCcwDot",
+      "Server",
+      "ShieldKeyhole",
+      "Shield",
+      "ServerPlus",
+      "ShieldOff",
+      "ShieldPlus",
+      "ScanSquare",
+      "ScrollText",
+      "ShieldHalf",
+      "SearchCode",
+      "ShieldCogCorner",
+      "ShieldAlert",
+      "ServerCrash",
+      "ShieldBan",
+      "ShieldMinus",
+      "ShieldCog",
+      "ShieldX",
+      "ServerCog",
+      "Shell",
+      "Scroll",
+      "ShieldQuestionMark",
+      "ShieldCheck",
+      "ServerOff",
+      "ShieldUser",
+      "ShieldEllipsis",
+      "SpellCheck2",
+      "Slash",
+      "SignpostBig",
+      "Split",
+      "SpellCheck",
+      "Signpost",
+      "SquareTerminal",
+      "SquareStack",
+      "SquareKanban",
+      "SquareDot",
+      "SquareScissors",
+      "SquareDashedMousePointer",
+      "SquarePi",
+      "SquareDashedTopSolid",
+      "SquareRoundCorner",
+      "SquareChartGantt",
+      "SquareRadical",
+      "SquareAsterisk",
+      "SquareMinus",
+      "SquareSlash",
+      "SquareText",
+      "SquareDashedBottom",
+      "SquareDashedKanban",
+      "SquareLibrary",
+      "SquareMousePointer",
+      "SquareCode",
+      "SquarePlus",
+      "SquareDashedBottomCode",
+      "SquareFunction",
+      "SquareChevronRight",
+      "SquareBottomDashedScissors",
+      "TableProperties",
+      "SquircleDashed",
+      "TabletSmartphone",
+      "ToggleLeft",
+      "Telescope",
+      "ToggleRight",
+      "ToolCase",
+      "Terminal",
+      "Unplug",
+      "TriangleAlert",
+      "ToyBrick",
+      "WebhookOff",
+      "Variable",
+      "UserShield",
+      "Waypoints",
+      "Webhook",
+      "WrenchOff",
+      "Wrench",
+      "Workflow"
+    ],
+    "files": [
+      "AppWindowMac",
+      "ArchiveX",
+      "ArrowBigDownDash",
+      "AppWindow",
+      "Archive",
+      "ArchiveRestore",
+      "ArrowDownToLine",
+      "ArrowDownFromLine",
+      "ArrowUpFromLine",
+      "ArrowUpToLine",
+      "Brackets",
+      "BookImage",
+      "Braces",
+      "CalendarFold",
+      "ChartPie",
+      "CassetteTape",
+      "CloudUpload",
+      "CloudBackup",
+      "CloudDownload",
+      "CloudSync",
+      "Combine",
+      "Eject",
+      "Diff",
+      "Download",
+      "Dock",
+      "FileHeart",
+      "FileImage",
+      "FileArchive",
+      "FileChartColumnIncreasing",
+      "FileSpreadsheet",
+      "FileChartColumn",
+      "FileCheck",
+      "FileSearch",
+      "FileCheckCorner",
+      "FileClock",
+      "FilePlus",
+      "FileDiff",
+      "FileChartPie",
+      "FileBraces",
+      "FileText",
+      "FilePlusCorner",
+      "FileExclamationPoint",
+      "FileLock",
+      "FilePen",
+      "FileDown",
+      "FileSymlink",
+      "FileAxis3d",
+      "FileBracesCorner",
+      "FileMinusCorner",
+      "FileTypeCorner",
+      "FileOutput",
+      "FileSliders",
+      "FileDigit",
+      "FileCog",
+      "FileCodeCorner",
+      "FileKey",
+      "FileType",
+      "FileInput",
+      "FileMusic",
+      "FileHeadphone",
+      "FileChartLine",
+      "FileUp",
+      "FileBox",
+      "FileBadge",
+      "FileCode",
+      "FileScan",
+      "FileSignal",
+      "FilePenLine",
+      "FileQuestionMark",
+      "FileMinus",
+      "FileSearchCorner",
+      "FilePlay",
+      "FileTerminal",
+      "FileStack",
+      "FolderSearch2",
+      "FolderOpenDot",
+      "FolderRoot",
+      "FolderDot",
+      "FolderOpen",
+      "Files",
+      "FolderSymlink",
+      "FileUser",
+      "FolderGit2",
+      "FileVideoCamera",
+      "FolderLock",
+      "FolderPen",
+      "FolderClock",
+      "FolderCog",
+      "FolderDown",
+      "FolderKey",
+      "FolderCode",
+      "FolderPlus",
+      "FolderKanban",
+      "File",
+      "FileVolume",
+      "FolderSearch",
+      "FileXCorner",
+      "FolderGit",
+      "FolderOutput",
+      "FolderArchive",
+      "FolderClosed",
+      "FolderMinus",
+      "FolderInput",
+      "FolderCheck",
+      "FolderSync",
+      "FileX",
+      "FolderBookmark",
+      "FolderHeart",
+      "FolderTree",
+      "GalleryVerticalEnd",
+      "FolderX",
+      "FolderUp",
+      "Folders",
+      "GalleryHorizontalEnd",
+      "Folder",
+      "HardDriveUpload",
+      "Headset",
+      "Headphones",
+      "HardDriveDownload",
+      "Group",
+      "ImageOff",
+      "ImageMinus",
+      "ImagePlay",
+      "Images",
+      "ImagePlus",
+      "Import",
+      "ImageDown",
+      "Image",
+      "ImageUp",
+      "ListTree",
+      "MessageSquareDiff",
+      "Music4",
+      "Package",
+      "PackageOpen",
+      "Music3",
+      "Music2",
+      "Package2",
+      "PackageSearch",
+      "Music",
+      "Paperclip",
+      "Parentheses",
+      "SaveCheck",
+      "SaveAll",
+      "Save",
+      "SavePlus",
+      "SaveOff",
+      "SavePen",
+      "ShieldKeyhole",
+      "Sheet",
+      "Shredder",
+      "SquareStack",
+      "SquareScissors",
+      "SquareDashedBottom",
+      "SquareDashedBottomCode",
+      "SquareBottomDashedScissors",
+      "TableProperties",
+      "Table",
+      "Table2",
+      "TableCellsSplit",
+      "TableColumnsSplit",
+      "TableCellsMerge",
+      "TableRowsSplit",
+      "Trash2",
+      "Ungroup",
+      "Upload",
+      "Trash",
+      "Videotape",
+      "WifiCog"
+    ],
+    "mail": [
+      "ArchiveX",
+      "Archive",
+      "ArchiveRestore",
+      "ArrowsUpFromLine",
+      "Container",
+      "Forward",
+      "Inbox",
+      "Mailbox",
+      "MailSearch",
+      "Mails",
+      "MailCheck",
+      "MailX",
+      "Mail",
+      "MailQuestionMark",
+      "MailWarning",
+      "MailMinus",
+      "MailBadge",
+      "MailPlus",
+      "MailOpen",
+      "Paperclip",
+      "Reply",
+      "ReplyAll",
+      "Send",
+      "SendHorizontal",
+      "Shredder",
+      "Trash2",
+      "Trash"
+    ],
+    "buildings": [
+      "Anvil",
+      "BrickWall",
+      "Building2",
+      "Building",
+      "Church",
+      "Castle",
+      "Dam",
+      "Factory",
+      "Fence",
+      "GraduationCap",
+      "Hotel",
+      "Hospital",
+      "HouseHeart",
+      "HousePlug",
+      "HousePlus",
+      "HouseWifi",
+      "Landmark",
+      "House",
+      "Mosque",
+      "School",
+      "Store",
+      "Theater",
+      "University",
+      "UtilityPole",
+      "Warehouse"
+    ],
+    "tools": [
+      "Anvil",
+      "Axe",
+      "BetweenHorizontalStart",
+      "BetweenHorizontalEnd",
+      "BetweenVerticalEnd",
+      "Blend",
+      "BetweenVerticalStart",
+      "BowArrow",
+      "Bolt",
+      "Bomb",
+      "Brush",
+      "Broom",
+      "BroomSparkles",
+      "BrushCleaning",
+      "Diameter",
+      "DiamondMinus",
+      "DiamondPlus",
+      "Drill",
+      "DraftingCompass",
+      "FireExtinguisher",
+      "Gavel",
+      "Hammer",
+      "HardHat",
+      "LandPlot",
+      "InspectionPanel",
+      "LensConvex",
+      "LensConcave",
+      "LineStyle",
+      "Minus",
+      "Mop",
+      "MopSparkles",
+      "MirrorRound",
+      "MirrorRectangular",
+      "Paintbrush",
+      "PaintbrushVertical",
+      "PaintBucket",
+      "PaintRoller",
+      "PencilSparkles",
+      "Pencil",
+      "PenOff",
+      "PencilLine",
+      "PenLine",
+      "PencilRuler",
+      "Pen",
+      "Pickaxe",
+      "PencilOff",
+      "Plus",
+      "PocketKnife",
+      "Radius",
+      "RulerDimensionLine",
+      "RotateCwSquare",
+      "RotateCcwSquare",
+      "Ruler",
+      "Scissors",
+      "ScissorsLineDashed",
+      "Shovel",
+      "SprayCan",
+      "Spool",
+      "SplinePointer",
+      "SquareScissors",
+      "SquareDashedMousePointer",
+      "SquareMinus",
+      "SquareMousePointer",
+      "SquarePlus",
+      "SquareBottomDashedScissors",
+      "Stamp",
+      "Swords",
+      "Sword",
+      "TabletSmartphone",
+      "Toolbox",
+      "Torus",
+      "Telescope",
+      "ToolCase",
+      "Tangent",
+      "VectorSquare",
+      "WrenchOff",
+      "Wrench"
+    ],
+    "gaming": [
+      "Anvil",
+      "Amphora",
+      "ArrowBigDownDash",
+      "ArrowBigRightDash",
+      "ArrowBigRight",
+      "ArrowBigLeftDash",
+      "ArrowBigDown",
+      "ArrowBigLeft",
+      "ArrowBigUpDash",
+      "Axe",
+      "ArrowBigUp",
+      "Backpack",
+      "Award",
+      "Beaker",
+      "BookX",
+      "BookSearch",
+      "Box",
+      "Book",
+      "BookOpen",
+      "BookKey",
+      "Boxes",
+      "BookCopy",
+      "BookCheck",
+      "BookOpenCheck",
+      "BookPlus",
+      "BookText",
+      "BookAlert",
+      "Bone",
+      "BookLock",
+      "BookA",
+      "BookMarked",
+      "BowArrow",
+      "BookHeart",
+      "BookMinus",
+      "BookType",
+      "Broom",
+      "BroomSparkles",
+      "ChessBishop",
+      "ChevronsDown",
+      "ChevronDown",
+      "ChessPawn",
+      "ChessRook",
+      "ChevronsLeftRightEllipsis",
+      "ChevronUp",
+      "ChessKnight",
+      "ChevronsLeft",
+      "ChessQueen",
+      "ChevronsUp",
+      "ChessKing",
+      "ChevronsRight",
+      "Castle",
+      "CircleArrowUp",
+      "CircleArrowDown",
+      "CircleArrowRight",
+      "CircleArrowLeft",
+      "CirclePlus",
+      "CircleStar",
+      "Club",
+      "Coins",
+      "Clover",
+      "Dice1",
+      "Computer",
+      "Crown",
+      "Diamond",
+      "Dices",
+      "EthernetPort",
+      "Droplet",
+      "Dice5",
+      "Dice4",
+      "Dice3",
+      "Dice6",
+      "Dice2",
+      "DropletOff",
+      "Feather",
+      "FlaskConicalOff",
+      "FlaskConical",
+      "Flame",
+      "FlaskRound",
+      "Flower",
+      "FlameKindling",
+      "Gem",
+      "Gamepad",
+      "Gift",
+      "Gamepad2",
+      "Goal",
+      "Gpu",
+      "Ghost",
+      "GamepadDirectional",
+      "HeartPlus",
+      "HdmiPort",
+      "HeadphoneOff",
+      "Hourglass",
+      "Headset",
+      "HeartMinus",
+      "Heart",
+      "Headphones",
+      "LandPlot",
+      "Joystick",
+      "MemoryStick",
+      "Medal",
+      "Mountain",
+      "Milestone",
+      "PcCase",
+      "Pickaxe",
+      "Plus",
+      "Podium",
+      "Puzzle",
+      "RectangleGoggles",
+      "ScanBox",
+      "Rocket",
+      "Shapes",
+      "Shield",
+      "ShieldOff",
+      "ShieldPlus",
+      "ScrollText",
+      "ShieldHalf",
+      "ShieldCogCorner",
+      "ShieldAlert",
+      "ShieldBan",
+      "ShieldMinus",
+      "ShieldCog",
+      "ShieldX",
+      "Scan",
+      "Scroll",
+      "ShieldQuestionMark",
+      "ShieldCheck",
+      "ShieldEllipsis",
+      "Sparkles",
+      "Shovel",
+      "SquareArrowDownRight",
+      "SquareArrowDownLeft",
+      "SignpostBig",
+      "Skull",
+      "Spade",
+      "Sprout",
+      "SquareArrowDown",
+      "Signpost",
+      "SquareStar",
+      "StarPlus",
+      "Star",
+      "Swords",
+      "Sword",
+      "StarX",
+      "StarCheck",
+      "StarMinus",
+      "Tally4",
+      "Tally1",
+      "Tally5",
+      "Tally3",
+      "Tally2",
+      "Target",
+      "ToyBrick",
+      "Trophy",
+      "UsbCPort",
+      "Volleyball",
+      "Wand",
+      "VenetianMask",
+      "WandSparkles"
+    ],
+    "food-beverage": [
+      "Amphora",
+      "Apple",
+      "BeefOff",
+      "Barrel",
+      "Banana",
+      "Beef",
+      "BeerOff",
+      "Blender",
+      "Bean",
+      "Beer",
+      "BeanOff",
+      "BottleWine",
+      "Candy",
+      "CandyOff",
+      "Cake",
+      "CandyCane",
+      "CakeSlice",
+      "Carrot",
+      "Broccoli",
+      "ChefHat",
+      "Cherry",
+      "Citrus",
+      "Coffee",
+      "Dessert",
+      "Cookie",
+      "CookingPot",
+      "Croissant",
+      "CupSoda",
+      "Cuboid",
+      "Drumstick",
+      "EggFried",
+      "Donut",
+      "EggOff",
+      "Egg",
+      "DnaOff",
+      "FishOff",
+      "Fish",
+      "FishSymbol",
+      "GlassWater",
+      "Grape",
+      "Ham",
+      "HopOff",
+      "HandPlatter",
+      "Hamburger",
+      "Hop",
+      "IceCreamCone",
+      "IceCreamBowl",
+      "LeafyGreen",
+      "Lollipop",
+      "Martini",
+      "Milk",
+      "MilkOff",
+      "Microwave",
+      "NutOff",
+      "Nut",
+      "PaperBag",
+      "Popcorn",
+      "Popsicle",
+      "Pizza",
+      "Sandwich",
+      "Refrigerator",
+      "Salad",
+      "Shell",
+      "Snail",
+      "Soup",
+      "Torus",
+      "Tractor",
+      "UtensilsCrossed",
+      "Vegan",
+      "WheatOff",
+      "Utensils",
+      "Wheat",
+      "WineOff",
+      "Wine"
+    ],
+    "arrows": [
+      "ArrowBigDownDash",
+      "ArrowBigRightDash",
+      "ArrowBigRight",
+      "ArrowBigLeftDash",
+      "ArrowBigDown",
+      "ArrowBigLeft",
+      "ArrowBigUpDash",
+      "ArrowDownLeft",
+      "ArrowUp",
+      "ArrowDownNarrowWide",
+      "ArrowUpWideNarrow",
+      "ArrowUpLeft",
+      "ArrowUp10",
+      "ArrowRight",
+      "ArrowDown",
+      "ArrowUpDown",
+      "ArrowDownUp",
+      "ArrowDownZA",
+      "ArrowDownWideNarrow",
+      "ArrowsUpFromLine",
+      "ArrowBigUp",
+      "ArrowLeftRight",
+      "ArrowUp01",
+      "ArrowUpAZ",
+      "ArrowRightLeft",
+      "ArrowDownToLine",
+      "ArrowLeftFromLine",
+      "ArrowDownToDot",
+      "ArrowLeftToLine",
+      "ArrowRightToLine",
+      "ArrowDown01",
+      "ArrowDown10",
+      "ArrowDownFromLine",
+      "ArrowUpFromLine",
+      "ArrowUpToLine",
+      "ArrowUpFromDot",
+      "ArrowUpNarrowWide",
+      "ArrowUpZA",
+      "ArrowDownRight",
+      "ArrowUpRight",
+      "ArrowRightFromLine",
+      "ArrowLeft",
+      "ArrowDownAZ",
+      "CalendarSync",
+      "ChevronLast",
+      "ChevronsDown",
+      "ChevronDown",
+      "ChevronLeft",
+      "ChevronsUpDown",
+      "ChevronUp",
+      "ChevronsDownUp",
+      "ChevronsLeft",
+      "ChevronsLeftRight",
+      "ChevronsRightLeft",
+      "ChevronFirst",
+      "ChevronsUp",
+      "ChevronsRight",
+      "ChevronRight",
+      "CircleChevronRight",
+      "CircleChevronDown",
+      "CircleArrowUp",
+      "CircleArrowOutUpLeft",
+      "CircleChevronLeft",
+      "CircleArrowOutUpRight",
+      "CircleArrowDown",
+      "CircleArrowRight",
+      "CircleChevronUp",
+      "ClipboardCopy",
+      "CircleArrowLeft",
+      "CircleArrowOutDownLeft",
+      "CircleArrowOutDownRight",
+      "ClipboardPaste",
+      "CircleFadingArrowUp",
+      "CloudUpload",
+      "CloudBackup",
+      "CloudDownload",
+      "CloudSync",
+      "ClockArrowRight",
+      "CornerRightUp",
+      "DecimalsArrowRight",
+      "CornerLeftDown",
+      "DatabaseBackup",
+      "Delete",
+      "CornerRightDown",
+      "CornerLeftUp",
+      "CornerUpLeft",
+      "CornerUpRight",
+      "CornerDownRight",
+      "CornerDownLeft",
+      "DecimalsArrowLeft",
+      "Expand",
+      "Download",
+      "ExternalLink",
+      "FastForward",
+      "FileDown",
+      "FileOutput",
+      "FileInput",
+      "FileUp",
+      "FolderDown",
+      "FoldVertical",
+      "FolderOutput",
+      "FolderInput",
+      "FoldHorizontal",
+      "FolderSync",
+      "GitPullRequestArrow",
+      "FolderUp",
+      "GitPullRequestCreateArrow",
+      "GitCompareArrows",
+      "HardDriveUpload",
+      "HardDriveDownload",
+      "LassoSelect",
+      "LayersArrowUp",
+      "IterationCcw",
+      "Import",
+      "IterationCw",
+      "ListChevronsUpDown",
+      "ListChevronsDownUp",
+      "LogIn",
+      "LogOut",
+      "Maximize2",
+      "Merge",
+      "MousePointer",
+      "MousePointerBan",
+      "Minimize2",
+      "MousePointerClick",
+      "MousePointer2",
+      "MousePointer2Off",
+      "Milestone",
+      "Move",
+      "MoveDownLeft",
+      "MoveVertical",
+      "MoveHorizontal",
+      "PanelBottomClose",
+      "MoveUpRight",
+      "MoveDown",
+      "MoveUpLeft",
+      "PanelBottomOpen",
+      "MoveUp",
+      "MoveDiagonal2",
+      "MoveDownRight",
+      "MoveLeft",
+      "MoveRight",
+      "MoveDiagonal",
+      "PanelLeftOpen",
+      "PanelRightClose",
+      "PhoneIncoming",
+      "PhoneOutgoing",
+      "PanelTopOpen",
+      "PhoneForwarded",
+      "PanelRightOpen",
+      "PanelLeftClose",
+      "PanelTopClose",
+      "Redo2",
+      "RedoDot",
+      "Play",
+      "Repeat",
+      "RotateCwSquare",
+      "RefreshCw",
+      "RotateCcwClock",
+      "RotateCw",
+      "RotateCcwSquare",
+      "RotateCcw",
+      "RefreshCwOff",
+      "Repeat2",
+      "Rewind",
+      "RefreshCcw",
+      "Redo",
+      "RepeatOff",
+      "RefreshCcwDot",
+      "SeparatorHorizontal",
+      "SeparatorVertical",
+      "Shuffle",
+      "SquareArrowOutUpLeft",
+      "SquareArrowDownRight",
+      "SquareArrowOutUpRight",
+      "SquareArrowDownLeft",
+      "SignpostBig",
+      "SquareArrowOutDownLeft",
+      "Split",
+      "SkipForward",
+      "SquareArrowOutDownRight",
+      "Shrink",
+      "SquareArrowDown",
+      "SquareArrowLeft",
+      "SkipBack",
+      "SplinePointer",
+      "Signpost",
+      "SquareDashedMousePointer",
+      "SquareChevronLeft",
+      "SquareArrowUpRight",
+      "SquareArrowRightExit",
+      "SquareArrowUp",
+      "SquareArrowUpLeft",
+      "SquareChevronUp",
+      "SquareChevronDown",
+      "SquareArrowRightEnter",
+      "SquareMousePointer",
+      "SquareArrowRight",
+      "SquareChevronRight",
+      "SquarePlay",
+      "Sunset",
+      "StepForward",
+      "Sunrise",
+      "StepBack",
+      "TextWrap",
+      "TrendingUpDown",
+      "UnfoldVertical",
+      "Undo2",
+      "Undo",
+      "UnfoldHorizontal",
+      "UserRoundArrowLeft",
+      "TrendingUp",
+      "UndoDot",
+      "Upload",
+      "TrendingDown"
+    ],
+    "transportation": [
+      "Anchor",
+      "Ambulance",
+      "ArrowsUpFromLine",
+      "BaggageClaim",
+      "Bike",
+      "BriefcaseBusiness",
+      "Briefcase",
+      "Caravan",
+      "CableCar",
+      "CarFront",
+      "Bus",
+      "CarBattery",
+      "CarTaxiFront",
+      "BusFront",
+      "Car",
+      "BriefcaseConveyorBelt",
+      "BriefcaseMedical",
+      "CigaretteOff",
+      "CircleParkingOff",
+      "Cigarette",
+      "CircleParking",
+      "CircleGauge",
+      "Container",
+      "EvCharger",
+      "Drone",
+      "Gauge",
+      "Forklift",
+      "Fuel",
+      "Helicopter",
+      "Handbag",
+      "Kayak",
+      "Luggage",
+      "Motorbike",
+      "OctagonMinus",
+      "ParkingMeter",
+      "Plane",
+      "PlaneTakeoff",
+      "PlaneLanding",
+      "Road",
+      "Sailboat",
+      "Scooter",
+      "ShipWheel",
+      "Ship",
+      "SquareM",
+      "SquareParking",
+      "SquareParkingOff",
+      "Tickets",
+      "TicketSlash",
+      "TicketMinus",
+      "TicketPercent",
+      "TicketsPlane",
+      "TicketX",
+      "TicketCheck",
+      "Ticket",
+      "TicketPlus",
+      "TowerControl",
+      "TramFront",
+      "TrainFront",
+      "TruckElectric",
+      "TrainFrontTunnel",
+      "Tractor",
+      "Truck",
+      "TrafficCone",
+      "TrainTrack",
+      "Van"
+    ],
+    "math": [
+      "Angle",
+      "Asterisk",
+      "BadgePercent",
+      "Astroid",
+      "Box",
+      "Calculator",
+      "ChevronUp",
+      "ChevronRight",
+      "CircleEqual",
+      "CirclePercent",
+      "CircleDivide",
+      "CircleX",
+      "CircleSlash",
+      "CircleMinus",
+      "CirclePlus",
+      "CircleSlash2",
+      "CopySlash",
+      "DiamondPercent",
+      "DecimalsArrowRight",
+      "CopyMinus",
+      "CopyX",
+      "Diameter",
+      "Cylinder",
+      "CopyPlus",
+      "Cuboid",
+      "DecimalsArrowLeft",
+      "Cone",
+      "Divide",
+      "Equal",
+      "EqualNot",
+      "EqualApproximately",
+      "DraftingCompass",
+      "Grid2x2X",
+      "Grid2x2Plus",
+      "Grid2x2Check",
+      "Grid3x2",
+      "Grid2x2",
+      "LandPlot",
+      "LineSquiggle",
+      "Minus",
+      "Omega",
+      "OctagonX",
+      "Percent",
+      "Pi",
+      "Phi",
+      "Parentheses",
+      "Plus",
+      "Radius",
+      "Pyramid",
+      "Radical",
+      "Sigma",
+      "Slash",
+      "SquareSigma",
+      "SquareDivide",
+      "SquareEqual",
+      "SquarePi",
+      "SquarePercent",
+      "SquareChevronUp",
+      "SquareRadical",
+      "SquareAsterisk",
+      "SquareMinus",
+      "SquareSlash",
+      "SquarePlus",
+      "SquareFunction",
+      "SquareX",
+      "Tally4",
+      "Tally1",
+      "Tally5",
+      "Tally3",
+      "Tally2",
+      "Tangent",
+      "TriangleRight",
+      "Weight",
+      "Variable",
+      "VectorSquare",
+      "WeightTilde",
+      "X",
+      "XLineTop"
+    ],
+    "communication": [
+      "Antenna",
+      "AudioLinesOff",
+      "AudioWaveform",
+      "AudioLines",
+      "AudioLinesX",
+      "BookUser",
+      "Camera",
+      "CameraOff",
+      "CardSim",
+      "ChevronsLeftRightEllipsis",
+      "CassetteTape",
+      "CctvOff",
+      "Cctv",
+      "CircleFadingPlus",
+      "Contact",
+      "ContactRound",
+      "EthernetPort",
+      "FaceSlightlySmilingPlus",
+      "HandFist",
+      "HeadphoneOff",
+      "Handshake",
+      "Lectern",
+      "MailBadge",
+      "MicAudioLines",
+      "Mic",
+      "MicOff",
+      "MicSignal",
+      "Nfc",
+      "Notebook",
+      "NotebookTabs",
+      "Newspaper",
+      "PhoneMissed",
+      "PhoneIncoming",
+      "PhoneOutgoing",
+      "PhoneCall",
+      "PhoneForwarded",
+      "Phone",
+      "PhoneOff",
+      "Projector",
+      "Radar",
+      "Presentation",
+      "ScreenShare",
+      "ScreenShareOff",
+      "Send",
+      "SendHorizontal",
+      "SmartphoneNfc",
+      "Speech",
+      "Spotlight",
+      "Spool",
+      "SwitchCamera",
+      "Tv",
+      "Videotape",
+      "VideoOff",
+      "Volume",
+      "Webcam",
+      "VolumeX",
+      "VolumeOff",
+      "Volume1",
+      "WebcamOff",
+      "Volume2",
+      "Video"
+    ],
+    "people": [
+      "Baby",
+      "ClockArrowRight",
+      "HandPlatter",
+      "PersonStanding",
+      "UserRoundArrowLeft",
+      "UserShield"
+    ],
+    "shopping": [
+      "BadgeEuro",
+      "BadgeDollarSign",
+      "BadgeJapaneseYen",
+      "BadgePercent",
+      "BadgeCent",
+      "BadgeIndianRupee",
+      "BadgeRussianRuble",
+      "BadgeTurkishLira",
+      "BadgePoundSterling",
+      "BadgeSwissFranc",
+      "Barcode",
+      "BookImage",
+      "CirclePercent",
+      "CircleEuro",
+      "DiamondPercent",
+      "Handbag",
+      "Percent",
+      "PaperBag",
+      "ScanBox",
+      "ScanBarcode",
+      "ScanLine",
+      "Shirt",
+      "ShoppingBag",
+      "ScanQrCode",
+      "Scan",
+      "ShoppingBasket",
+      "ShoppingCart",
+      "SquarePercent",
+      "Store",
+      "TicketPercent"
+    ],
+    "finance": [
+      "BadgeEuro",
+      "BadgeDollarSign",
+      "BadgeJapaneseYen",
+      "BadgePercent",
+      "BadgeCent",
+      "BadgeIndianRupee",
+      "Bitcoin",
+      "BanknoteArrowDown",
+      "BanknoteCheck",
+      "BadgeRussianRuble",
+      "BanknoteX",
+      "Banknote",
+      "BanknoteArrowUp",
+      "BadgeTurkishLira",
+      "BadgePoundSterling",
+      "BadgeSwissFranc",
+      "ChartCandlestick",
+      "CirclePercent",
+      "CirclePoundSterling",
+      "CircleEuro",
+      "CircleDollarSign",
+      "Currency",
+      "CreditCard",
+      "DiamondPercent",
+      "Euro",
+      "DollarSign",
+      "Gem",
+      "GeorgianLari",
+      "HandCoins",
+      "Handshake",
+      "IndianRupee",
+      "Landmark",
+      "JapaneseYen",
+      "Nfc",
+      "Percent",
+      "PiggyBank",
+      "PhilippinePeso",
+      "ReceiptCent",
+      "Receipt",
+      "ReceiptTurkishLira",
+      "ReceiptEuro",
+      "ReceiptJapaneseYen",
+      "ReceiptText",
+      "ReceiptPoundSterling",
+      "ReceiptIndianRupee",
+      "ReceiptRussianRuble",
+      "ReceiptSwissFranc",
+      "PoundSterling",
+      "Scale",
+      "SaudiRiyal",
+      "RussianRuble",
+      "SmartphoneNfc",
+      "SquarePercent",
+      "SwissFranc",
+      "TurkishLira",
+      "WalletMinimal",
+      "Wallet",
+      "WalletCards"
+    ],
+    "shapes": [
+      "Astroid",
+      "Badge",
+      "BadgeQuestionMark",
+      "Box",
+      "Boxes",
+      "Blocks",
+      "CircleSmall",
+      "CircleDashed",
+      "CircleDot",
+      "Circle",
+      "CirclePile",
+      "CircleOff",
+      "CircleDotDashed",
+      "CircleSlash2",
+      "Club",
+      "Diameter",
+      "Cylinder",
+      "Cross",
+      "Diamond",
+      "Cuboid",
+      "Cone",
+      "Ellipse",
+      "Dot",
+      "Hexagon",
+      "Heart",
+      "HeartX",
+      "LensConvex",
+      "LensConcave",
+      "LineSquiggle",
+      "Octagon",
+      "OctagonPause",
+      "OctagonAlert",
+      "Pentagon",
+      "RectangleVertical",
+      "RectangleHorizontal",
+      "Radius",
+      "Pyramid",
+      "Shapes",
+      "Shield",
+      "ShieldCogCorner",
+      "ShieldCog",
+      "Spade",
+      "Sparkle",
+      "SquareArrowRightExit",
+      "SquareArrowRightEnter",
+      "SquareText",
+      "SquareOff",
+      "Squircle",
+      "StarPlus",
+      "Star",
+      "StarX",
+      "SquircleDashed",
+      "StarCheck",
+      "Square",
+      "StarMinus",
+      "Torus",
+      "Tangent",
+      "TriangleAlert",
+      "Ungroup",
+      "Triangle",
+      "TriangleDashed",
+      "TriangleRight",
+      "VectorSquare"
+    ],
+    "sports": [
+      "Award",
+      "CircleGauge",
+      "CircleStar",
+      "Dumbbell",
+      "FishingRod",
+      "FishingHook",
+      "Gauge",
+      "HandFist",
+      "LandPlot",
+      "Medal",
+      "Podium",
+      "SportShoe",
+      "SquareStar",
+      "Trophy",
+      "Volleyball",
+      "WavesLadder"
+    ],
+    "navigation": [
+      "Barrel",
+      "Birdhouse",
+      "Binoculars",
+      "Church",
+      "Castle",
+      "CircleParkingOff",
+      "CircleParking",
+      "Compass",
+      "Dam",
+      "Dumbbell",
+      "EvCharger",
+      "Earth",
+      "Factory",
+      "FerrisWheel",
+      "FlagTriangleRight",
+      "FlagTriangleLeft",
+      "Footprints",
+      "GlobeOff",
+      "GlobeX",
+      "Gavel",
+      "GitCommitHorizontal",
+      "Globe",
+      "Fuel",
+      "GitCommitVertical",
+      "GlobeCheck",
+      "Hotel",
+      "Hospital",
+      "Landmark",
+      "House",
+      "LocateFixed",
+      "Library",
+      "LineDotRightHorizontal",
+      "LibraryBig",
+      "LocateOff",
+      "Locate",
+      "MapPinOff",
+      "MapPinMinusInside",
+      "MapPinPlusInside",
+      "MapPinMinus",
+      "MapPinHouse",
+      "MapPinX",
+      "MapPinPen",
+      "MapPlus",
+      "MapPinCheck",
+      "MapMinus",
+      "Map",
+      "MapPinXInside",
+      "MapPin",
+      "MapPinned",
+      "MapPinCheckInside",
+      "MapPinSearch",
+      "MapPinPlus",
+      "Mosque",
+      "Milestone",
+      "NavigationOff",
+      "Navigation2",
+      "Navigation2Off",
+      "Navigation",
+      "Pin",
+      "ParkingMeter",
+      "PinOff",
+      "Plane",
+      "Radar",
+      "RollerCoaster",
+      "Scale",
+      "Route",
+      "RouteOff",
+      "ShipWheel",
+      "School",
+      "Ship",
+      "SignpostBig",
+      "Signpost",
+      "SquareChevronLeft",
+      "SquareChevronUp",
+      "SquareM",
+      "SquareChevronDown",
+      "SquareParking",
+      "SquareParkingOff",
+      "SquareLibrary",
+      "SquareChevronRight",
+      "Store",
+      "TrainFrontTunnel",
+      "University",
+      "TrainTrack",
+      "UtensilsCrossed",
+      "WavesHorizontal",
+      "Waypoints",
+      "Utensils",
+      "Warehouse"
+    ],
+    "nature": [
+      "Birdhouse",
+      "Binoculars",
+      "Caravan",
+      "CannabisOff",
+      "Cannabis",
+      "Feather",
+      "Flower2",
+      "Flower",
+      "FlameKindling",
+      "Leaf",
+      "MountainSnow",
+      "Mountain",
+      "Rose",
+      "Shell",
+      "Shovel",
+      "Shrub",
+      "Sprout",
+      "Stone",
+      "TentTree",
+      "Tent",
+      "TreePine",
+      "TreePalm",
+      "Trees",
+      "TreeDeciduous"
+    ],
+    "animals": [
+      "Birdhouse",
+      "Bird",
+      "BoneFracture",
+      "Bone",
+      "BugPlay",
+      "Bug",
+      "BugOff",
+      "Cat",
+      "Dog",
+      "Egg",
+      "Feather",
+      "FishOff",
+      "Fish",
+      "FishSymbol",
+      "Origami",
+      "Panda",
+      "PawPrint",
+      "Rabbit",
+      "Rat",
+      "Shell",
+      "Shrimp",
+      "Snail",
+      "Squirrel",
+      "Turtle",
+      "Worm"
+    ],
+    "emoji": [
+      "Balloon",
+      "BicepsFlexed",
+      "ChessBishop",
+      "ChessPawn",
+      "ChessRook",
+      "ChessKnight",
+      "ChessQueen",
+      "ChessKing",
+      "FaceExpressionless",
+      "FaceAngry",
+      "FaceGrinning",
+      "FaceSlightlyFrowning",
+      "FaceSlightlySmilingPlus",
+      "FaceSlightlySmiling",
+      "FaceNeutral",
+      "HeartHandshake",
+      "HandFist",
+      "HeartCrack",
+      "HandHelping",
+      "Heart",
+      "HandMetal",
+      "LeafyGreen",
+      "PartyPopper",
+      "Ribbon",
+      "Salad",
+      "StarPlus",
+      "Star",
+      "StarX",
+      "StarCheck",
+      "StarMinus",
+      "ThumbsUp",
+      "ThumbsDown",
+      "ZodiacAries",
+      "ZodiacCapricorn",
+      "ZodiacScorpio",
+      "ZodiacGemini",
+      "ZodiacVirgo",
+      "ZodiacAquarius",
+      "ZodiacCancer",
+      "ZodiacTaurus",
+      "ZodiacPisces",
+      "ZodiacLibra",
+      "ZodiacOphiuchus",
+      "ZodiacLeo",
+      "ZodiacSagittarius"
+    ],
+    "security": [
+      "BrickWallFire",
+      "BookKey",
+      "BrickWallShield",
+      "BookLock",
+      "Bomb",
+      "CctvOff",
+      "Cctv",
+      "Columns4",
+      "Eye",
+      "EyeOff",
+      "DoorClosedLocked",
+      "EyeClosed",
+      "DoorOpen",
+      "EarthLock",
+      "EyeDashed",
+      "DoorClosed",
+      "FileLock",
+      "FileKey",
+      "FingerprintPattern",
+      "FolderLock",
+      "FolderKey",
+      "GlobeLock",
+      "HeartHandshake",
+      "HatGlasses",
+      "Handshake",
+      "KeyRound",
+      "IdCard",
+      "KeySquare",
+      "Key",
+      "IdCardLanyard",
+      "LockKeyholeOpen",
+      "LockOpen",
+      "Lock",
+      "LockKeyhole",
+      "MailBadge",
+      "Radar",
+      "ScanFace",
+      "ScanEye",
+      "RotateCcwKey",
+      "ShieldKeyhole",
+      "Shield",
+      "ShieldOff",
+      "ShieldPlus",
+      "ShieldLock",
+      "ShieldHalf",
+      "ScanQrCode",
+      "ShieldCogCorner",
+      "ShieldAlert",
+      "ShieldBan",
+      "ShieldMinus",
+      "ShieldCog",
+      "ShieldX",
+      "Scan",
+      "ShieldQuestionMark",
+      "ShieldCheck",
+      "ShieldUser",
+      "ShieldEllipsis",
+      "SquareAsterisk",
+      "UserLock",
+      "UserShield",
+      "Waypoints",
+      "Vault",
+      "Worm"
+    ],
+    "weather": [
+      "Bubbles",
+      "CloudMoonRain",
+      "CloudSun",
+      "Cloud",
+      "CloudDrizzle",
+      "CloudFog",
+      "CloudSunRain",
+      "Cloudy",
+      "CloudRainWind",
+      "CloudMoon",
+      "CloudRain",
+      "CloudSnow",
+      "CloudOff",
+      "CloudHail",
+      "CloudLightning",
+      "Droplet",
+      "Droplets",
+      "DropletOff",
+      "Flame",
+      "Haze",
+      "MoonStar",
+      "Parasol",
+      "Rainbow",
+      "Sparkles",
+      "SolarPanel",
+      "Snowflake",
+      "StarPlus",
+      "Star",
+      "Sun",
+      "SunSnow",
+      "Sunset",
+      "Sunrise",
+      "StarX",
+      "StarCheck",
+      "SunDim",
+      "SunMedium",
+      "StarMinus",
+      "Tornado",
+      "ThermometerSnowflake",
+      "ThermometerSun",
+      "Thermometer",
+      "Umbrella",
+      "UmbrellaOff",
+      "WavesArrowUp",
+      "WavesVertical",
+      "WavesHorizontal",
+      "WavesArrowDown",
+      "Wind",
+      "WindArrowDown",
+      "Zap",
+      "ZapOff"
+    ],
+    "charts": [
+      "ChartColumnStacked",
+      "ChartColumnBig",
+      "ChartCandlestick",
+      "ChartGantt",
+      "ChartBarDecreasing",
+      "ChartLine",
+      "ChartBarBig",
+      "ChartNoAxesColumnDecreasing",
+      "ChartSpline",
+      "ChartNoAxesCombined",
+      "ChartBarStacked",
+      "ChartNoAxesColumnIncreasing",
+      "ChartPie",
+      "ChartNetwork",
+      "ChartBar",
+      "ChartNoAxesGantt",
+      "ChartColumn",
+      "ChartScatter",
+      "ChartColumnIncreasing",
+      "ChartNoAxesColumn",
+      "ChartColumnDecreasing",
+      "ChartArea",
+      "ChartBarIncreasing",
+      "FolderKanban",
+      "Kanban",
+      "SquareKanban",
+      "SquareChartGantt",
+      "SquareDashedKanban",
+      "TrendingUpDown",
+      "TrendingUp",
+      "TrendingDown"
+    ],
+    "cursors": [
+      "CirclePlus",
+      "HandGrab",
+      "Hand",
+      "LassoSelect",
+      "Lasso",
+      "LoaderPinwheel",
+      "LoaderCircle",
+      "Loader",
+      "MousePointer",
+      "MousePointerBan",
+      "MousePointerClick",
+      "MousePointer2",
+      "MousePointer2Off",
+      "Move",
+      "MoveVertical",
+      "MoveHorizontal",
+      "MoveDiagonal2",
+      "MoveDiagonal",
+      "PencilSparkles",
+      "Pencil",
+      "PenTool",
+      "PencilOff",
+      "Plus",
+      "PointerOff",
+      "Pointer",
+      "Sparkles",
+      "SplinePointer",
+      "SquareDashedMousePointer",
+      "SquareDashedText",
+      "SquareMousePointer",
+      "Stamp",
+      "TextCursor",
+      "Wand",
+      "WandSparkles"
+    ],
+    "sustainability": [
+      "Dam",
+      "Flower2",
+      "Flower",
+      "HousePlug",
+      "LeafyGreen",
+      "Leaf",
+      "Recycle",
+      "Rose",
+      "SolarPanel",
+      "Sprout",
+      "Sun",
+      "Tent",
+      "TreePine",
+      "TreePalm",
+      "Tractor",
+      "Trees",
+      "TreeDeciduous",
+      "WavesArrowUp",
+      "WavesVertical",
+      "UtilityPole",
+      "WavesHorizontal",
+      "Vegan",
+      "WavesArrowDown",
+      "Wind",
+      "WindArrowDown"
+    ],
+    "seasons": [
+      "Flower2",
+      "Leaf",
+      "Rose",
+      "Snowflake",
+      "Sun"
+    ]
+  },
+  "iconCategoriesMap": {
+    "Activity": [
+      "medical",
+      "account",
+      "social",
+      "science",
+      "multimedia"
+    ],
+    "Accessibility": [
+      "accessibility",
+      "medical"
+    ],
+    "AArrowDown": [
+      "text",
+      "design"
+    ],
+    "AirVent": [
+      "home"
+    ],
+    "AArrowUp": [
+      "text",
+      "design"
+    ],
+    "AlignCenterVertical": [
+      "layout"
+    ],
+    "Album": [
+      "photography",
+      "multimedia"
+    ],
+    "AlarmSmoke": [
+      "home",
+      "devices",
+      "travel"
+    ],
+    "AlignEndHorizontal": [
+      "layout"
+    ],
+    "AlignCenterHorizontal": [
+      "layout"
+    ],
+    "AlignEndVertical": [
+      "layout"
+    ],
+    "Airplay": [
+      "multimedia",
+      "connectivity"
+    ],
+    "AlarmClock": [
+      "devices",
+      "notifications",
+      "time"
+    ],
+    "AlignHorizontalDistributeCenter": [
+      "layout"
+    ],
+    "AlignHorizontalJustifyCenter": [
+      "layout"
+    ],
+    "AlignHorizontalJustifyEnd": [
+      "layout"
+    ],
+    "AlignHorizontalDistributeStart": [
+      "layout"
+    ],
+    "AlarmClockOff": [
+      "devices",
+      "notifications",
+      "time"
+    ],
+    "AlignVerticalDistributeEnd": [
+      "layout"
+    ],
+    "AlignStartVertical": [
+      "layout"
+    ],
+    "AlignVerticalDistributeCenter": [
+      "layout"
+    ],
+    "AppWindowMac": [
+      "layout",
+      "design",
+      "development",
+      "files"
+    ],
+    "AlarmClockPlus": [
+      "devices",
+      "notifications",
+      "time"
+    ],
+    "AlignStartHorizontal": [
+      "layout"
+    ],
+    "AlignVerticalSpaceAround": [
+      "layout"
+    ],
+    "ArchiveX": [
+      "files",
+      "mail"
+    ],
+    "AlignVerticalSpaceBetween": [
+      "layout"
+    ],
+    "AlignVerticalJustifyEnd": [
+      "layout"
+    ],
+    "AlignHorizontalSpaceBetween": [
+      "layout"
+    ],
+    "Armchair": [
+      "home"
+    ],
+    "Anvil": [
+      "buildings",
+      "tools",
+      "gaming"
+    ],
+    "Amphora": [
+      "food-beverage",
+      "gaming"
+    ],
+    "ArrowBigDownDash": [
+      "arrows",
+      "gaming",
+      "files"
+    ],
+    "AppWindow": [
+      "layout",
+      "design",
+      "development",
+      "files"
+    ],
+    "Ad": [
+      "multimedia",
+      "accessibility",
+      "notifications"
+    ],
+    "ArrowBigRightDash": [
+      "arrows",
+      "gaming"
+    ],
+    "Apple": [
+      "food-beverage"
+    ],
+    "Ampersands": [
+      "text",
+      "development"
+    ],
+    "Archive": [
+      "files",
+      "mail"
+    ],
+    "ALargeSmall": [
+      "text",
+      "design"
+    ],
+    "AlignVerticalDistributeStart": [
+      "layout"
+    ],
+    "Anchor": [
+      "transportation",
+      "text"
+    ],
+    "AlignHorizontalDistributeEnd": [
+      "layout"
+    ],
+    "Aperture": [
+      "photography"
+    ],
+    "ArrowBigRight": [
+      "arrows",
+      "gaming"
+    ],
+    "AlignHorizontalJustifyStart": [
+      "layout"
+    ],
+    "Angle": [
+      "math",
+      "design"
+    ],
+    "ArrowBigLeftDash": [
+      "arrows",
+      "gaming"
+    ],
+    "ArrowBigDown": [
+      "arrows",
+      "gaming"
+    ],
+    "ArrowBigLeft": [
+      "arrows",
+      "gaming"
+    ],
+    "AlarmClockCheck": [
+      "devices",
+      "notifications",
+      "time"
+    ],
+    "AlarmClockMinus": [
+      "devices",
+      "notifications",
+      "time"
+    ],
+    "AlignHorizontalSpaceAround": [
+      "layout"
+    ],
+    "AlignVerticalJustifyCenter": [
+      "layout"
+    ],
+    "Ampersand": [
+      "text",
+      "development"
+    ],
+    "ArrowBigUpDash": [
+      "arrows",
+      "text",
+      "development",
+      "gaming"
+    ],
+    "AlignVerticalJustifyStart": [
+      "layout"
+    ],
+    "Ambulance": [
+      "medical",
+      "transportation"
+    ],
+    "ArchiveRestore": [
+      "files",
+      "mail"
+    ],
+    "Antenna": [
+      "devices",
+      "multimedia",
+      "communication"
+    ],
+    "ArrowDownLeft": [
+      "arrows"
+    ],
+    "Axe": [
+      "tools",
+      "gaming"
+    ],
+    "ArrowUp": [
+      "arrows"
+    ],
+    "ArrowDownNarrowWide": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "ArrowUpWideNarrow": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "ArrowUpLeft": [
+      "arrows"
+    ],
+    "Baby": [
+      "accessibility",
+      "people"
+    ],
+    "ArrowUp10": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "ArrowRight": [
+      "arrows"
+    ],
+    "ArrowDown": [
+      "arrows"
+    ],
+    "ArrowUpDown": [
+      "arrows"
+    ],
+    "ArrowDownUp": [
+      "arrows"
+    ],
+    "ArrowDownZA": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "ArrowDownWideNarrow": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "BadgeEuro": [
+      "shopping",
+      "finance"
+    ],
+    "BadgeDollarSign": [
+      "shopping",
+      "finance"
+    ],
+    "ArrowsUpFromLine": [
+      "arrows",
+      "transportation",
+      "mail"
+    ],
+    "ArrowBigUp": [
+      "arrows",
+      "text",
+      "development",
+      "gaming"
+    ],
+    "AudioLinesOff": [
+      "multimedia",
+      "communication"
+    ],
+    "ArrowLeftRight": [
+      "arrows"
+    ],
+    "Atom": [
+      "science"
+    ],
+    "BadgeJapaneseYen": [
+      "shopping",
+      "finance"
+    ],
+    "ArrowUp01": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "ArrowUpAZ": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "ArrowRightLeft": [
+      "arrows"
+    ],
+    "ArrowDownToLine": [
+      "arrows",
+      "files",
+      "development"
+    ],
+    "AudioWaveform": [
+      "multimedia",
+      "communication"
+    ],
+    "ArrowLeftFromLine": [
+      "arrows"
+    ],
+    "ArrowDownToDot": [
+      "arrows"
+    ],
+    "AtSign": [
+      "text",
+      "account"
+    ],
+    "Asterisk": [
+      "text",
+      "math",
+      "development"
+    ],
+    "ArrowLeftToLine": [
+      "arrows"
+    ],
+    "ArrowRightToLine": [
+      "arrows",
+      "development"
+    ],
+    "AudioLines": [
+      "multimedia",
+      "communication"
+    ],
+    "ArrowDown01": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "BadgeCheck": [
+      "social"
+    ],
+    "ArrowDown10": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "AudioLinesX": [
+      "multimedia",
+      "communication"
+    ],
+    "BadgeInfo": [
+      "account",
+      "accessibility",
+      "social"
+    ],
+    "ArrowDownFromLine": [
+      "arrows",
+      "files"
+    ],
+    "ArrowUpFromLine": [
+      "arrows",
+      "files",
+      "development"
+    ],
+    "BadgePercent": [
+      "social",
+      "finance",
+      "shopping",
+      "math"
+    ],
+    "ArrowUpToLine": [
+      "arrows",
+      "files"
+    ],
+    "BadgeMinus": [
+      "social"
+    ],
+    "ArrowUpFromDot": [
+      "arrows"
+    ],
+    "ArrowUpNarrowWide": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "ArrowUpZA": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "Axis3d": [
+      "design"
+    ],
+    "Backpack": [
+      "gaming",
+      "photography",
+      "travel"
+    ],
+    "ArrowDownRight": [
+      "arrows"
+    ],
+    "ArrowUpRight": [
+      "arrows"
+    ],
+    "ArrowRightFromLine": [
+      "arrows"
+    ],
+    "BadgeAlert": [
+      "account",
+      "social"
+    ],
+    "BadgeCent": [
+      "shopping",
+      "finance"
+    ],
+    "BadgePlus": [
+      "social"
+    ],
+    "Astroid": [
+      "shapes",
+      "math"
+    ],
+    "ArrowLeft": [
+      "arrows"
+    ],
+    "Award": [
+      "account",
+      "sports",
+      "gaming"
+    ],
+    "BadgeIndianRupee": [
+      "shopping",
+      "finance"
+    ],
+    "ArrowDownAZ": [
+      "text",
+      "layout",
+      "arrows"
+    ],
+    "BellElectric": [
+      "devices",
+      "notifications",
+      "home"
+    ],
+    "Bitcoin": [
+      "development",
+      "finance"
+    ],
+    "Bandage": [
+      "medical"
+    ],
+    "BadgeX": [
+      "social"
+    ],
+    "Badge": [
+      "account",
+      "social",
+      "shapes"
+    ],
+    "BatteryLow": [
+      "connectivity",
+      "devices"
+    ],
+    "BatteryPlus": [
+      "devices"
+    ],
+    "BetweenHorizontalStart": [
+      "layout",
+      "design",
+      "tools"
+    ],
+    "BeefOff": [
+      "food-beverage"
+    ],
+    "Binary": [
+      "text",
+      "development"
+    ],
+    "BellMinus": [
+      "notifications"
+    ],
+    "BetweenHorizontalEnd": [
+      "layout",
+      "design",
+      "tools"
+    ],
+    "Barrel": [
+      "food-beverage",
+      "navigation"
+    ],
+    "BanknoteArrowDown": [
+      "finance"
+    ],
+    "BatteryFull": [
+      "connectivity",
+      "devices"
+    ],
+    "Birdhouse": [
+      "nature",
+      "animals",
+      "navigation",
+      "home"
+    ],
+    "Balloon": [
+      "emoji"
+    ],
+    "Bed": [
+      "home"
+    ],
+    "BatteryMedium": [
+      "connectivity",
+      "devices"
+    ],
+    "BatteryCharging": [
+      "connectivity",
+      "devices"
+    ],
+    "BanknoteCheck": [
+      "finance"
+    ],
+    "BadgeRussianRuble": [
+      "shopping",
+      "finance"
+    ],
+    "BellOff": [
+      "notifications"
+    ],
+    "BanknoteX": [
+      "finance"
+    ],
+    "BedSingle": [
+      "home"
+    ],
+    "BadgeQuestionMark": [
+      "accessibility",
+      "social",
+      "shapes"
+    ],
+    "Ban": [
+      "account"
+    ],
+    "Banknote": [
+      "finance"
+    ],
+    "BetweenVerticalEnd": [
+      "layout",
+      "design",
+      "tools"
+    ],
+    "BellCheck": [
+      "account",
+      "notifications"
+    ],
+    "BanknoteArrowUp": [
+      "finance"
+    ],
+    "BaggageClaim": [
+      "transportation",
+      "travel"
+    ],
+    "Battery": [
+      "connectivity",
+      "devices"
+    ],
+    "BadgeTurkishLira": [
+      "shopping",
+      "finance"
+    ],
+    "Blend": [
+      "design",
+      "photography",
+      "tools",
+      "development"
+    ],
+    "Banana": [
+      "food-beverage"
+    ],
+    "Bath": [
+      "travel"
+    ],
+    "Beef": [
+      "food-beverage"
+    ],
+    "Beaker": [
+      "science",
+      "gaming"
+    ],
+    "BicepsFlexed": [
+      "emoji"
+    ],
+    "BatteryWarning": [
+      "connectivity",
+      "devices"
+    ],
+    "BeerOff": [
+      "food-beverage"
+    ],
+    "Blender": [
+      "food-beverage",
+      "home"
+    ],
+    "BetweenVerticalStart": [
+      "layout",
+      "design",
+      "tools"
+    ],
+    "BellRing": [
+      "notifications"
+    ],
+    "BadgePoundSterling": [
+      "shopping",
+      "finance"
+    ],
+    "Bean": [
+      "food-beverage"
+    ],
+    "Beer": [
+      "food-beverage"
+    ],
+    "BellPlus": [
+      "notifications"
+    ],
+    "BeanOff": [
+      "food-beverage"
+    ],
+    "BedDouble": [
+      "home"
+    ],
+    "BadgeSwissFranc": [
+      "shopping",
+      "finance"
+    ],
+    "Binoculars": [
+      "navigation",
+      "nature",
+      "photography",
+      "science",
+      "travel",
+      "development"
+    ],
+    "Bike": [
+      "transportation"
+    ],
+    "BellDot": [
+      "account",
+      "notifications"
+    ],
+    "Bird": [
+      "animals"
+    ],
+    "Biohazard": [
+      "science"
+    ],
+    "Bell": [
+      "account",
+      "notifications"
+    ],
+    "Baseline": [
+      "text"
+    ],
+    "Barcode": [
+      "shopping"
+    ],
+    "BookUp": [
+      "development"
+    ],
+    "BrainCog": [
+      "science",
+      "development"
+    ],
+    "BrickWallFire": [
+      "security",
+      "home",
+      "connectivity"
+    ],
+    "BluetoothOff": [
+      "connectivity",
+      "devices"
+    ],
+    "BookDashed": [
+      "development"
+    ],
+    "BookX": [
+      "text",
+      "gaming"
+    ],
+    "BookSearch": [
+      "text",
+      "development",
+      "gaming"
+    ],
+    "Box": [
+      "shapes",
+      "gaming",
+      "development",
+      "math"
+    ],
+    "BoneFracture": [
+      "medical",
+      "animals"
+    ],
+    "Brackets": [
+      "development",
+      "files"
+    ],
+    "BluetoothSearching": [
+      "connectivity",
+      "devices"
+    ],
+    "Book": [
+      "text",
+      "development",
+      "gaming"
+    ],
+    "BookmarkCheck": [
+      "account"
+    ],
+    "BookOpen": [
+      "text",
+      "development",
+      "gaming"
+    ],
+    "BookAudio": [
+      "multimedia",
+      "text"
+    ],
+    "Brain": [
+      "medical",
+      "science"
+    ],
+    "BookUser": [
+      "account",
+      "connectivity",
+      "communication",
+      "social"
+    ],
+    "BookKey": [
+      "development",
+      "security",
+      "gaming"
+    ],
+    "Boxes": [
+      "shapes",
+      "gaming",
+      "development"
+    ],
+    "BriefcaseBusiness": [
+      "transportation"
+    ],
+    "BookOpenText": [
+      "text",
+      "development"
+    ],
+    "BookHeadphones": [
+      "multimedia",
+      "text"
+    ],
+    "BookCopy": [
+      "development",
+      "text",
+      "gaming"
+    ],
+    "BookCheck": [
+      "text",
+      "development",
+      "gaming"
+    ],
+    "BottleWine": [
+      "food-beverage"
+    ],
+    "BrainCircuit": [
+      "science",
+      "development"
+    ],
+    "BookOpenCheck": [
+      "text",
+      "development",
+      "gaming"
+    ],
+    "BotMessageSquare": [
+      "development",
+      "social"
+    ],
+    "BookUp2": [
+      "development"
+    ],
+    "BrickWall": [
+      "buildings",
+      "home"
+    ],
+    "Bluetooth": [
+      "connectivity",
+      "devices"
+    ],
+    "BookPlus": [
+      "development",
+      "text",
+      "gaming"
+    ],
+    "BookmarkX": [
+      "account"
+    ],
+    "BookText": [
+      "text",
+      "gaming"
+    ],
+    "BookImage": [
+      "photography",
+      "text",
+      "multimedia",
+      "files",
+      "social",
+      "shopping",
+      "travel"
+    ],
+    "BotOff": [
+      "development",
+      "social"
+    ],
+    "BookmarkMinus": [
+      "account"
+    ],
+    "BookAlert": [
+      "text",
+      "development",
+      "gaming"
+    ],
+    "Bone": [
+      "animals",
+      "medical",
+      "gaming"
+    ],
+    "BookmarkPlus": [
+      "account"
+    ],
+    "BoomBox": [
+      "devices",
+      "multimedia",
+      "social"
+    ],
+    "BrickWallShield": [
+      "security",
+      "home",
+      "connectivity"
+    ],
+    "Bookmark": [
+      "account"
+    ],
+    "Bold": [
+      "text"
+    ],
+    "Blocks": [
+      "development",
+      "layout",
+      "shapes"
+    ],
+    "BookDown": [
+      "development"
+    ],
+    "BookLock": [
+      "development",
+      "security",
+      "gaming"
+    ],
+    "Blinds": [
+      "home"
+    ],
+    "BookA": [
+      "text",
+      "gaming"
+    ],
+    "Braces": [
+      "development",
+      "files"
+    ],
+    "BookMarked": [
+      "text",
+      "development",
+      "gaming"
+    ],
+    "BowArrow": [
+      "gaming",
+      "tools"
+    ],
+    "BookHeart": [
+      "social",
+      "text",
+      "gaming"
+    ],
+    "BookmarkOff": [
+      "account"
+    ],
+    "BookMinus": [
+      "development",
+      "text",
+      "gaming"
+    ],
+    "Bolt": [
+      "tools",
+      "home"
+    ],
+    "BluetoothConnected": [
+      "connectivity",
+      "devices"
+    ],
+    "Bomb": [
+      "security",
+      "tools"
+    ],
+    "Bot": [
+      "development",
+      "social"
+    ],
+    "BookType": [
+      "text",
+      "design",
+      "gaming"
+    ],
+    "Brush": [
+      "text",
+      "design",
+      "tools"
+    ],
+    "Briefcase": [
+      "transportation"
+    ],
+    "CalendarClock": [
+      "time"
+    ],
+    "CalendarPlus": [
+      "time"
+    ],
+    "Broom": [
+      "tools",
+      "home",
+      "gaming"
+    ],
+    "Caravan": [
+      "transportation",
+      "travel",
+      "nature"
+    ],
+    "CalendarX": [
+      "time"
+    ],
+    "BugPlay": [
+      "development",
+      "animals"
+    ],
+    "BroomSparkles": [
+      "tools",
+      "home",
+      "gaming"
+    ],
+    "Candy": [
+      "food-beverage"
+    ],
+    "CalendarX2": [
+      "time"
+    ],
+    "CandyOff": [
+      "food-beverage"
+    ],
+    "BringToFront": [
+      "design",
+      "layout"
+    ],
+    "BrushCleaning": [
+      "home",
+      "tools",
+      "design"
+    ],
+    "Camera": [
+      "photography",
+      "devices",
+      "communication"
+    ],
+    "Cake": [
+      "food-beverage",
+      "social",
+      "account"
+    ],
+    "CalendarPlus2": [
+      "time"
+    ],
+    "CableCar": [
+      "transportation",
+      "travel"
+    ],
+    "CannabisOff": [
+      "nature"
+    ],
+    "CaptionsOff": [
+      "multimedia"
+    ],
+    "Bug": [
+      "development",
+      "animals"
+    ],
+    "CalendarArrowUp": [
+      "time"
+    ],
+    "Building2": [
+      "account",
+      "buildings"
+    ],
+    "CarFront": [
+      "transportation"
+    ],
+    "Bus": [
+      "transportation"
+    ],
+    "CarBattery": [
+      "connectivity",
+      "transportation"
+    ],
+    "Cable": [
+      "connectivity",
+      "devices",
+      "multimedia"
+    ],
+    "CandyCane": [
+      "food-beverage"
+    ],
+    "Building": [
+      "account",
+      "buildings"
+    ],
+    "Bubbles": [
+      "weather"
+    ],
+    "CalendarOff": [
+      "time"
+    ],
+    "CakeSlice": [
+      "food-beverage",
+      "social"
+    ],
+    "CalendarMinus": [
+      "time"
+    ],
+    "Carrot": [
+      "food-beverage"
+    ],
+    "CalendarSearch": [
+      "time"
+    ],
+    "CalendarCheck": [
+      "time"
+    ],
+    "CalendarSync": [
+      "arrows",
+      "time"
+    ],
+    "Captions": [
+      "multimedia"
+    ],
+    "CalendarRange": [
+      "time"
+    ],
+    "Broccoli": [
+      "food-beverage"
+    ],
+    "CalendarArrowDown": [
+      "time"
+    ],
+    "CarTaxiFront": [
+      "transportation"
+    ],
+    "CalendarMinus2": [
+      "time"
+    ],
+    "Cannabis": [
+      "nature"
+    ],
+    "CalendarDays": [
+      "time"
+    ],
+    "CameraOff": [
+      "photography",
+      "devices",
+      "communication"
+    ],
+    "Calendar1": [
+      "time"
+    ],
+    "Calendar": [
+      "time"
+    ],
+    "CalendarFold": [
+      "time",
+      "files"
+    ],
+    "BugOff": [
+      "development",
+      "animals"
+    ],
+    "Calculator": [
+      "math",
+      "devices"
+    ],
+    "CalendarCog": [
+      "time"
+    ],
+    "BusFront": [
+      "transportation"
+    ],
+    "CardSim": [
+      "connectivity",
+      "communication",
+      "multimedia",
+      "devices"
+    ],
+    "Car": [
+      "transportation"
+    ],
+    "CalendarHeart": [
+      "time"
+    ],
+    "Calendars": [
+      "time"
+    ],
+    "CalendarCheck2": [
+      "time"
+    ],
+    "BriefcaseConveyorBelt": [
+      "travel",
+      "transportation"
+    ],
+    "BriefcaseMedical": [
+      "medical",
+      "transportation"
+    ],
+    "CaseLower": [
+      "text",
+      "development"
+    ],
+    "ChevronLast": [
+      "arrows",
+      "multimedia"
+    ],
+    "ChefHat": [
+      "food-beverage"
+    ],
+    "ChessBishop": [
+      "gaming",
+      "emoji"
+    ],
+    "ChartColumnStacked": [
+      "charts"
+    ],
+    "ChartColumnBig": [
+      "charts"
+    ],
+    "ChevronsDown": [
+      "arrows",
+      "gaming"
+    ],
+    "ChartCandlestick": [
+      "charts",
+      "finance"
+    ],
+    "CaseUpper": [
+      "text",
+      "development"
+    ],
+    "ChartGantt": [
+      "charts"
+    ],
+    "ChartBarDecreasing": [
+      "charts"
+    ],
+    "ChartLine": [
+      "charts"
+    ],
+    "ChevronDown": [
+      "arrows",
+      "gaming"
+    ],
+    "ChessPawn": [
+      "gaming",
+      "emoji"
+    ],
+    "ChartBarBig": [
+      "charts"
+    ],
+    "ChevronLeft": [
+      "arrows"
+    ],
+    "ChartNoAxesColumnDecreasing": [
+      "charts"
+    ],
+    "ChevronsUpDown": [
+      "arrows"
+    ],
+    "Cat": [
+      "animals"
+    ],
+    "Cherry": [
+      "food-beverage"
+    ],
+    "ChartSpline": [
+      "charts"
+    ],
+    "ChessRook": [
+      "gaming",
+      "emoji"
+    ],
+    "ChartNoAxesCombined": [
+      "charts"
+    ],
+    "ChartBarStacked": [
+      "charts"
+    ],
+    "CigaretteOff": [
+      "travel",
+      "transportation",
+      "medical"
+    ],
+    "ChartNoAxesColumnIncreasing": [
+      "charts"
+    ],
+    "CheckCheck": [
+      "notifications"
+    ],
+    "ChartPie": [
+      "charts",
+      "files"
+    ],
+    "ChevronsLeftRightEllipsis": [
+      "communication",
+      "devices",
+      "multimedia",
+      "gaming"
+    ],
+    "ChartNetwork": [
+      "charts"
+    ],
+    "ChevronUp": [
+      "arrows",
+      "math",
+      "gaming"
+    ],
+    "ChessKnight": [
+      "gaming",
+      "emoji"
+    ],
+    "ChartBar": [
+      "charts"
+    ],
+    "CaseSensitive": [
+      "text"
+    ],
+    "ChartNoAxesGantt": [
+      "charts",
+      "time",
+      "development",
+      "design"
+    ],
+    "CheckLine": [
+      "notifications"
+    ],
+    "Check": [
+      "notifications"
+    ],
+    "CassetteTape": [
+      "connectivity",
+      "devices",
+      "multimedia",
+      "communication",
+      "files"
+    ],
+    "ChevronsDownUp": [
+      "arrows"
+    ],
+    "ChevronsLeft": [
+      "arrows",
+      "gaming"
+    ],
+    "ChevronsLeftRight": [
+      "arrows"
+    ],
+    "CctvOff": [
+      "security",
+      "devices",
+      "communication",
+      "connectivity",
+      "photography"
+    ],
+    "ChartColumn": [
+      "charts"
+    ],
+    "Cctv": [
+      "security",
+      "devices",
+      "communication",
+      "connectivity",
+      "photography"
+    ],
+    "ChartScatter": [
+      "charts"
+    ],
+    "ChartColumnIncreasing": [
+      "charts"
+    ],
+    "ChevronsRightLeft": [
+      "arrows"
+    ],
+    "ChevronFirst": [
+      "arrows",
+      "multimedia"
+    ],
+    "ChessQueen": [
+      "gaming",
+      "emoji"
+    ],
+    "Church": [
+      "buildings",
+      "navigation"
+    ],
+    "ChartNoAxesColumn": [
+      "charts"
+    ],
+    "ChartColumnDecreasing": [
+      "charts"
+    ],
+    "ChartArea": [
+      "charts"
+    ],
+    "ChevronsUp": [
+      "arrows",
+      "gaming"
+    ],
+    "ChessKing": [
+      "gaming",
+      "emoji"
+    ],
+    "ChevronsRight": [
+      "arrows",
+      "gaming"
+    ],
+    "ChevronRight": [
+      "arrows",
+      "math",
+      "development"
+    ],
+    "ChartBarIncreasing": [
+      "charts"
+    ],
+    "Castle": [
+      "buildings",
+      "gaming",
+      "navigation"
+    ],
+    "Cast": [
+      "devices",
+      "connectivity"
+    ],
+    "CircleChevronRight": [
+      "arrows"
+    ],
+    "CircleEqual": [
+      "math"
+    ],
+    "CirclePercent": [
+      "social",
+      "finance",
+      "shopping",
+      "math"
+    ],
+    "CirclePoundSterling": [
+      "finance"
+    ],
+    "CircleEuro": [
+      "shopping",
+      "finance"
+    ],
+    "CircleFadingPlus": [
+      "communication",
+      "social"
+    ],
+    "CircleSmall": [
+      "shapes",
+      "medical"
+    ],
+    "CircleParkingOff": [
+      "transportation",
+      "navigation"
+    ],
+    "CircleChevronDown": [
+      "arrows"
+    ],
+    "CircleArrowUp": [
+      "arrows",
+      "gaming"
+    ],
+    "Clapperboard": [
+      "multimedia"
+    ],
+    "CircleDashed": [
+      "development",
+      "shapes"
+    ],
+    "ClipboardList": [
+      "text"
+    ],
+    "CircleDivide": [
+      "math"
+    ],
+    "CirclePower": [
+      "connectivity"
+    ],
+    "ClipboardPenLine": [
+      "text"
+    ],
+    "Cigarette": [
+      "travel",
+      "transportation",
+      "medical"
+    ],
+    "CircleEllipsis": [
+      "layout",
+      "development"
+    ],
+    "CircleArrowOutUpLeft": [
+      "arrows",
+      "development"
+    ],
+    "Citrus": [
+      "food-beverage"
+    ],
+    "CircuitBoard": [
+      "science",
+      "development"
+    ],
+    "CircleCheckBig": [
+      "notifications"
+    ],
+    "CircleX": [
+      "math",
+      "development"
+    ],
+    "CircleSlash": [
+      "development",
+      "math"
+    ],
+    "CircleMinus": [
+      "math"
+    ],
+    "CircleDot": [
+      "development",
+      "shapes"
+    ],
+    "CircleQuestionMark": [
+      "accessibility",
+      "text",
+      "notifications"
+    ],
+    "Circle": [
+      "shapes"
+    ],
+    "CircleChevronLeft": [
+      "arrows"
+    ],
+    "ClipboardCheck": [
+      "text"
+    ],
+    "CirclePile": [
+      "shapes"
+    ],
+    "CircleArrowOutUpRight": [
+      "arrows"
+    ],
+    "ClipboardPen": [
+      "text"
+    ],
+    "CirclePause": [
+      "multimedia"
+    ],
+    "CircleStop": [
+      "multimedia"
+    ],
+    "CircleArrowDown": [
+      "arrows",
+      "gaming"
+    ],
+    "CircleUserRound": [
+      "account"
+    ],
+    "ClipboardClock": [
+      "time",
+      "text"
+    ],
+    "ClipboardPlus": [
+      "text",
+      "medical"
+    ],
+    "CircleOff": [
+      "shapes"
+    ],
+    "CircleParking": [
+      "transportation",
+      "navigation"
+    ],
+    "ClipboardMinus": [
+      "text",
+      "medical"
+    ],
+    "CircleArrowRight": [
+      "arrows",
+      "gaming"
+    ],
+    "CircleGauge": [
+      "transportation",
+      "sports",
+      "science"
+    ],
+    "CircleDollarSign": [
+      "finance"
+    ],
+    "CircleChevronUp": [
+      "arrows"
+    ],
+    "ClipboardCopy": [
+      "text",
+      "arrows"
+    ],
+    "CircleDotDashed": [
+      "development",
+      "shapes"
+    ],
+    "CircleArrowLeft": [
+      "arrows",
+      "gaming"
+    ],
+    "CirclePlus": [
+      "math",
+      "development",
+      "cursors",
+      "gaming"
+    ],
+    "CircleAlert": [
+      "notifications"
+    ],
+    "CirclePlay": [
+      "multimedia"
+    ],
+    "CircleUser": [
+      "account"
+    ],
+    "CircleArrowOutDownLeft": [
+      "arrows"
+    ],
+    "CircleArrowOutDownRight": [
+      "arrows"
+    ],
+    "CircleCheck": [
+      "notifications"
+    ],
+    "ClipboardPaste": [
+      "text",
+      "arrows"
+    ],
+    "CircleFadingArrowUp": [
+      "arrows",
+      "development"
+    ],
+    "CircleStar": [
+      "sports",
+      "gaming"
+    ],
+    "CircleSlash2": [
+      "shapes",
+      "math",
+      "development"
+    ],
+    "CloudMoonRain": [
+      "weather"
+    ],
+    "Club": [
+      "shapes",
+      "gaming"
+    ],
+    "Clock": [
+      "time"
+    ],
+    "Clock11": [
+      "time"
+    ],
+    "ClipboardX": [
+      "text"
+    ],
+    "CloudAlert": [
+      "development"
+    ],
+    "CloudSun": [
+      "weather"
+    ],
+    "Clock2": [
+      "time"
+    ],
+    "Coins": [
+      "gaming"
+    ],
+    "Cloud": [
+      "weather"
+    ],
+    "CloudUpload": [
+      "arrows",
+      "files"
+    ],
+    "Clipboard": [
+      "text"
+    ],
+    "Clock10": [
+      "time"
+    ],
+    "ClockArrowUp": [
+      "time"
+    ],
+    "CloudDrizzle": [
+      "weather"
+    ],
+    "CloudBackup": [
+      "arrows",
+      "files"
+    ],
+    "Command": [
+      "development"
+    ],
+    "Columns4": [
+      "layout",
+      "design",
+      "text",
+      "security"
+    ],
+    "CloudFog": [
+      "weather"
+    ],
+    "CloudCog": [
+      "development"
+    ],
+    "CloudCheck": [
+      "development"
+    ],
+    "Clock5": [
+      "time"
+    ],
+    "CloudSunRain": [
+      "weather"
+    ],
+    "Clock6": [
+      "time"
+    ],
+    "Clover": [
+      "gaming"
+    ],
+    "Compass": [
+      "navigation",
+      "travel"
+    ],
+    "Clock3": [
+      "time"
+    ],
+    "Clock8": [
+      "time"
+    ],
+    "Clock9": [
+      "time"
+    ],
+    "ClockAlert": [
+      "time"
+    ],
+    "Cloudy": [
+      "weather"
+    ],
+    "Cog": [
+      "account"
+    ],
+    "ClosedCaption": [
+      "accessibility",
+      "multimedia"
+    ],
+    "CloudDownload": [
+      "arrows",
+      "files"
+    ],
+    "Clock12": [
+      "time"
+    ],
+    "ClipboardType": [
+      "text"
+    ],
+    "ClockCheck": [
+      "time"
+    ],
+    "ClockArrowDown": [
+      "time"
+    ],
+    "Columns3": [
+      "layout",
+      "design",
+      "text"
+    ],
+    "CloudSync": [
+      "arrows",
+      "files"
+    ],
+    "Clock4": [
+      "time"
+    ],
+    "Clock7": [
+      "time"
+    ],
+    "Coffee": [
+      "food-beverage"
+    ],
+    "CloudRainWind": [
+      "weather"
+    ],
+    "CloudMoon": [
+      "weather"
+    ],
+    "Columns2": [
+      "layout",
+      "design",
+      "text"
+    ],
+    "Combine": [
+      "development",
+      "files"
+    ],
+    "CloudRain": [
+      "weather"
+    ],
+    "CloudSnow": [
+      "weather"
+    ],
+    "ClockFading": [
+      "time"
+    ],
+    "CloudOff": [
+      "connectivity",
+      "weather"
+    ],
+    "Code": [
+      "text",
+      "development"
+    ],
+    "ClockPlus": [
+      "time"
+    ],
+    "ClockArrowRight": [
+      "time",
+      "people",
+      "arrows"
+    ],
+    "Clock1": [
+      "time"
+    ],
+    "Columns3Cog": [
+      "layout",
+      "design"
+    ],
+    "CodeXml": [
+      "text",
+      "development"
+    ],
+    "ClockArrowLeft": [
+      "time"
+    ],
+    "CloudHail": [
+      "weather"
+    ],
+    "CloudLightning": [
+      "weather"
+    ],
+    "Contrast": [
+      "photography",
+      "accessibility",
+      "design"
+    ],
+    "Currency": [
+      "finance"
+    ],
+    "CornerRightUp": [
+      "arrows"
+    ],
+    "Copyright": [
+      "text"
+    ],
+    "DatabaseCheck": [
+      "devices",
+      "development"
+    ],
+    "Dessert": [
+      "food-beverage"
+    ],
+    "Contact": [
+      "account",
+      "connectivity",
+      "communication",
+      "social"
+    ],
+    "Dice1": [
+      "gaming"
+    ],
+    "DatabaseArrowDown": [
+      "devices",
+      "development"
+    ],
+    "Computer": [
+      "devices",
+      "development",
+      "gaming"
+    ],
+    "CreditCard": [
+      "account",
+      "finance"
+    ],
+    "CopySlash": [
+      "text",
+      "development",
+      "math"
+    ],
+    "DiamondPercent": [
+      "social",
+      "finance",
+      "shopping",
+      "math"
+    ],
+    "DatabaseArrowUp": [
+      "devices",
+      "development"
+    ],
+    "DecimalsArrowRight": [
+      "design",
+      "text",
+      "arrows",
+      "math"
+    ],
+    "CopyMinus": [
+      "text",
+      "math"
+    ],
+    "ContactRound": [
+      "account",
+      "connectivity",
+      "communication",
+      "social"
+    ],
+    "Crosshair": [
+      "photography"
+    ],
+    "DatabaseMinus": [
+      "devices",
+      "development"
+    ],
+    "CornerLeftDown": [
+      "arrows"
+    ],
+    "CopyCheck": [
+      "text",
+      "notifications"
+    ],
+    "Copyleft": [
+      "text"
+    ],
+    "DatabaseSearch": [
+      "devices",
+      "development"
+    ],
+    "Crown": [
+      "gaming"
+    ],
+    "Container": [
+      "development",
+      "transportation",
+      "mail"
+    ],
+    "CreativeCommons": [
+      "text"
+    ],
+    "CopyX": [
+      "notifications",
+      "math"
+    ],
+    "DatabaseX": [
+      "devices",
+      "development"
+    ],
+    "Diameter": [
+      "shapes",
+      "math",
+      "design",
+      "tools"
+    ],
+    "DatabasePlus": [
+      "devices",
+      "development"
+    ],
+    "DatabaseBackup": [
+      "devices",
+      "arrows",
+      "design",
+      "development",
+      "photography"
+    ],
+    "Cylinder": [
+      "shapes",
+      "design",
+      "math"
+    ],
+    "Delete": [
+      "text",
+      "arrows"
+    ],
+    "Construction": [
+      "development"
+    ],
+    "DiamondMinus": [
+      "multimedia",
+      "photography",
+      "tools",
+      "devices"
+    ],
+    "Copy": [
+      "text"
+    ],
+    "CornerRightDown": [
+      "arrows"
+    ],
+    "Cross": [
+      "shapes"
+    ],
+    "CornerLeftUp": [
+      "arrows"
+    ],
+    "Cookie": [
+      "account",
+      "food-beverage"
+    ],
+    "CornerUpLeft": [
+      "arrows"
+    ],
+    "CornerUpRight": [
+      "arrows"
+    ],
+    "Database": [
+      "devices",
+      "development"
+    ],
+    "CookingPot": [
+      "food-beverage",
+      "home"
+    ],
+    "CornerDownRight": [
+      "arrows",
+      "text",
+      "development"
+    ],
+    "Croissant": [
+      "food-beverage"
+    ],
+    "DatabaseZap": [
+      "devices",
+      "development"
+    ],
+    "DiamondPlus": [
+      "multimedia",
+      "photography",
+      "tools",
+      "devices"
+    ],
+    "Cpu": [
+      "devices"
+    ],
+    "Component": [
+      "design",
+      "development"
+    ],
+    "CupSoda": [
+      "food-beverage"
+    ],
+    "Diamond": [
+      "shapes",
+      "gaming"
+    ],
+    "CornerDownLeft": [
+      "arrows"
+    ],
+    "CopyPlus": [
+      "text",
+      "math"
+    ],
+    "Crop": [
+      "photography",
+      "design"
+    ],
+    "Cuboid": [
+      "shapes",
+      "math",
+      "food-beverage"
+    ],
+    "DecimalsArrowLeft": [
+      "design",
+      "text",
+      "arrows",
+      "math"
+    ],
+    "Dam": [
+      "buildings",
+      "sustainability",
+      "navigation"
+    ],
+    "ConciergeBell": [
+      "travel"
+    ],
+    "Cone": [
+      "shapes",
+      "math"
+    ],
+    "Eye": [
+      "accessibility",
+      "photography",
+      "design",
+      "security"
+    ],
+    "Divide": [
+      "math",
+      "development"
+    ],
+    "Dices": [
+      "gaming"
+    ],
+    "EyeOff": [
+      "accessibility",
+      "photography",
+      "design",
+      "security"
+    ],
+    "DoorClosedLocked": [
+      "home",
+      "travel",
+      "security"
+    ],
+    "Equal": [
+      "math",
+      "development"
+    ],
+    "EthernetPort": [
+      "communication",
+      "devices",
+      "multimedia",
+      "gaming"
+    ],
+    "Disc2": [
+      "devices",
+      "multimedia"
+    ],
+    "Drill": [
+      "tools",
+      "home",
+      "devices"
+    ],
+    "Dumbbell": [
+      "navigation",
+      "sports"
+    ],
+    "Droplet": [
+      "weather",
+      "gaming"
+    ],
+    "Ear": [
+      "medical",
+      "accessibility"
+    ],
+    "Dice5": [
+      "gaming"
+    ],
+    "EllipsisVertical": [
+      "layout"
+    ],
+    "EyeClosed": [
+      "accessibility",
+      "photography",
+      "design",
+      "security"
+    ],
+    "Droplets": [
+      "weather"
+    ],
+    "DoorOpen": [
+      "home",
+      "travel",
+      "security"
+    ],
+    "Eject": [
+      "devices",
+      "files",
+      "multimedia"
+    ],
+    "Dice4": [
+      "gaming"
+    ],
+    "Dice3": [
+      "gaming"
+    ],
+    "EvCharger": [
+      "transportation",
+      "navigation"
+    ],
+    "Diff": [
+      "development",
+      "files"
+    ],
+    "DiscAlbum": [
+      "devices",
+      "multimedia"
+    ],
+    "EqualNot": [
+      "math",
+      "development"
+    ],
+    "Dice6": [
+      "gaming"
+    ],
+    "Euro": [
+      "finance"
+    ],
+    "Disc3": [
+      "devices",
+      "multimedia"
+    ],
+    "EarthLock": [
+      "security",
+      "development",
+      "devices"
+    ],
+    "FaceExpressionless": [
+      "emoji"
+    ],
+    "EqualApproximately": [
+      "math"
+    ],
+    "Drumstick": [
+      "food-beverage"
+    ],
+    "Dice2": [
+      "gaming"
+    ],
+    "Dog": [
+      "animals"
+    ],
+    "Ellipse": [
+      "shapes"
+    ],
+    "EyeDashed": [
+      "accessibility",
+      "photography",
+      "design",
+      "security"
+    ],
+    "Expand": [
+      "text",
+      "arrows"
+    ],
+    "Earth": [
+      "navigation"
+    ],
+    "DoorClosed": [
+      "home",
+      "travel",
+      "security"
+    ],
+    "Drum": [
+      "multimedia",
+      "devices"
+    ],
+    "Download": [
+      "arrows",
+      "files"
+    ],
+    "EarOff": [
+      "medical",
+      "accessibility"
+    ],
+    "EggFried": [
+      "food-beverage"
+    ],
+    "Donut": [
+      "food-beverage"
+    ],
+    "Dna": [
+      "medical"
+    ],
+    "Drama": [
+      "multimedia"
+    ],
+    "EggOff": [
+      "food-beverage"
+    ],
+    "DropletOff": [
+      "weather",
+      "gaming"
+    ],
+    "Eraser": [
+      "text"
+    ],
+    "FaceAngry": [
+      "emoji"
+    ],
+    "DraftingCompass": [
+      "math",
+      "design",
+      "tools"
+    ],
+    "DollarSign": [
+      "finance"
+    ],
+    "Egg": [
+      "food-beverage",
+      "animals"
+    ],
+    "Drone": [
+      "transportation",
+      "devices"
+    ],
+    "Disc": [
+      "devices",
+      "multimedia"
+    ],
+    "DnaOff": [
+      "medical",
+      "food-beverage"
+    ],
+    "Eclipse": [
+      "science",
+      "design",
+      "development",
+      "accessibility",
+      "photography"
+    ],
+    "Ellipsis": [
+      "layout",
+      "development"
+    ],
+    "Dot": [
+      "shapes",
+      "text"
+    ],
+    "ExternalLink": [
+      "arrows",
+      "text",
+      "social"
+    ],
+    "Dock": [
+      "layout",
+      "design",
+      "development",
+      "files"
+    ],
+    "FaceGrinning": [
+      "emoji"
+    ],
+    "Factory": [
+      "buildings",
+      "navigation"
+    ],
+    "FileHeart": [
+      "files"
+    ],
+    "FileImage": [
+      "files"
+    ],
+    "FileArchive": [
+      "files"
+    ],
+    "FileChartColumnIncreasing": [
+      "files"
+    ],
+    "FileSpreadsheet": [
+      "files"
+    ],
+    "Fence": [
+      "home",
+      "buildings"
+    ],
+    "FastForward": [
+      "multimedia",
+      "arrows"
+    ],
+    "FileChartColumn": [
+      "files"
+    ],
+    "FileCheck": [
+      "files"
+    ],
+    "FileSearch": [
+      "files"
+    ],
+    "FileCheckCorner": [
+      "files"
+    ],
+    "FileClock": [
+      "files",
+      "time"
+    ],
+    "FilePlus": [
+      "files"
+    ],
+    "FileDiff": [
+      "files",
+      "development"
+    ],
+    "FileChartPie": [
+      "files"
+    ],
+    "FileBraces": [
+      "files",
+      "development"
+    ],
+    "Fan": [
+      "home"
+    ],
+    "FileText": [
+      "files",
+      "text"
+    ],
+    "FilePlusCorner": [
+      "files"
+    ],
+    "FileExclamationPoint": [
+      "files",
+      "notifications"
+    ],
+    "FileLock": [
+      "files",
+      "security"
+    ],
+    "FilePen": [
+      "files"
+    ],
+    "FileDown": [
+      "files",
+      "arrows"
+    ],
+    "FileSymlink": [
+      "files"
+    ],
+    "FileAxis3d": [
+      "design",
+      "files"
+    ],
+    "FaceSlightlyFrowning": [
+      "emoji",
+      "account"
+    ],
+    "FileBracesCorner": [
+      "files",
+      "development"
+    ],
+    "FileMinusCorner": [
+      "files"
+    ],
+    "FileTypeCorner": [
+      "files",
+      "text"
+    ],
+    "FileOutput": [
+      "files",
+      "arrows"
+    ],
+    "FileSliders": [
+      "files",
+      "development"
+    ],
+    "FileDigit": [
+      "files",
+      "development"
+    ],
+    "FileCog": [
+      "files"
+    ],
+    "FileCodeCorner": [
+      "files",
+      "development"
+    ],
+    "FileKey": [
+      "files",
+      "security"
+    ],
+    "FileType": [
+      "files",
+      "text"
+    ],
+    "Feather": [
+      "nature",
+      "animals",
+      "gaming",
+      "text"
+    ],
+    "FileInput": [
+      "files",
+      "arrows"
+    ],
+    "FileMusic": [
+      "files",
+      "multimedia"
+    ],
+    "FileHeadphone": [
+      "files"
+    ],
+    "FaceSlightlySmilingPlus": [
+      "emoji",
+      "social",
+      "notifications",
+      "communication"
+    ],
+    "FileChartLine": [
+      "files"
+    ],
+    "FileUp": [
+      "files",
+      "arrows"
+    ],
+    "FileBox": [
+      "files",
+      "design",
+      "development"
+    ],
+    "FaceSlightlySmiling": [
+      "emoji",
+      "account"
+    ],
+    "FileBadge": [
+      "files"
+    ],
+    "FileCode": [
+      "files",
+      "development"
+    ],
+    "FileScan": [
+      "files"
+    ],
+    "FileSignal": [
+      "files"
+    ],
+    "FilePenLine": [
+      "files"
+    ],
+    "FileQuestionMark": [
+      "files"
+    ],
+    "FileMinus": [
+      "files"
+    ],
+    "FileSearchCorner": [
+      "files"
+    ],
+    "FilePlay": [
+      "files"
+    ],
+    "FerrisWheel": [
+      "navigation"
+    ],
+    "FileTerminal": [
+      "files",
+      "development"
+    ],
+    "FileStack": [
+      "files",
+      "development"
+    ],
+    "FaceNeutral": [
+      "emoji"
+    ],
+    "Focus": [
+      "photography"
+    ],
+    "FolderSearch2": [
+      "files"
+    ],
+    "FolderOpenDot": [
+      "files",
+      "development"
+    ],
+    "FolderRoot": [
+      "files",
+      "development"
+    ],
+    "FlipVertical2": [
+      "design",
+      "photography"
+    ],
+    "FolderDot": [
+      "files",
+      "development"
+    ],
+    "FolderOpen": [
+      "files"
+    ],
+    "FingerprintPattern": [
+      "account",
+      "security",
+      "medical",
+      "devices"
+    ],
+    "FireExtinguisher": [
+      "home",
+      "tools",
+      "travel"
+    ],
+    "FlashlightOff": [
+      "photography",
+      "devices"
+    ],
+    "FlaskConicalOff": [
+      "science",
+      "gaming"
+    ],
+    "Files": [
+      "files"
+    ],
+    "FolderSymlink": [
+      "files"
+    ],
+    "FlagOff": [
+      "account",
+      "social"
+    ],
+    "Flower2": [
+      "nature",
+      "sustainability",
+      "seasons"
+    ],
+    "FishingRod": [
+      "sports",
+      "travel"
+    ],
+    "FileUser": [
+      "account",
+      "files"
+    ],
+    "FolderGit2": [
+      "files"
+    ],
+    "FileVideoCamera": [
+      "files"
+    ],
+    "FlaskConical": [
+      "science",
+      "gaming"
+    ],
+    "Flashlight": [
+      "photography",
+      "devices"
+    ],
+    "FolderLock": [
+      "files",
+      "security"
+    ],
+    "Flame": [
+      "weather",
+      "social",
+      "gaming"
+    ],
+    "FolderPen": [
+      "files"
+    ],
+    "FolderClock": [
+      "files",
+      "time"
+    ],
+    "FolderCog": [
+      "files"
+    ],
+    "FlipHorizontal2": [
+      "design",
+      "photography"
+    ],
+    "FlaskRound": [
+      "science",
+      "gaming"
+    ],
+    "FolderDown": [
+      "files",
+      "arrows"
+    ],
+    "FolderKey": [
+      "files",
+      "security"
+    ],
+    "FolderCode": [
+      "files",
+      "development"
+    ],
+    "FolderPlus": [
+      "files"
+    ],
+    "FishOff": [
+      "food-beverage",
+      "animals"
+    ],
+    "FishingHook": [
+      "sports",
+      "travel"
+    ],
+    "FoldVertical": [
+      "arrows",
+      "layout"
+    ],
+    "Film": [
+      "photography",
+      "multimedia"
+    ],
+    "FolderKanban": [
+      "charts",
+      "development",
+      "design",
+      "files"
+    ],
+    "File": [
+      "files"
+    ],
+    "FlagTriangleRight": [
+      "development",
+      "navigation"
+    ],
+    "FileVolume": [
+      "files"
+    ],
+    "FolderSearch": [
+      "files"
+    ],
+    "FileXCorner": [
+      "files"
+    ],
+    "FolderGit": [
+      "files"
+    ],
+    "FolderOutput": [
+      "files",
+      "arrows"
+    ],
+    "FolderArchive": [
+      "files"
+    ],
+    "Fish": [
+      "food-beverage",
+      "animals"
+    ],
+    "FolderClosed": [
+      "files"
+    ],
+    "Flag": [
+      "account",
+      "social"
+    ],
+    "FolderMinus": [
+      "files"
+    ],
+    "FolderInput": [
+      "files",
+      "arrows"
+    ],
+    "FolderCheck": [
+      "files"
+    ],
+    "FishSymbol": [
+      "food-beverage",
+      "animals"
+    ],
+    "FoldHorizontal": [
+      "arrows",
+      "layout"
+    ],
+    "Flower": [
+      "nature",
+      "gaming",
+      "sustainability"
+    ],
+    "FolderSync": [
+      "files",
+      "arrows"
+    ],
+    "FlameKindling": [
+      "nature",
+      "social",
+      "gaming"
+    ],
+    "FileX": [
+      "files"
+    ],
+    "FolderBookmark": [
+      "files"
+    ],
+    "FolderHeart": [
+      "files"
+    ],
+    "FlagTriangleLeft": [
+      "development",
+      "navigation"
+    ],
+    "GitMerge": [
+      "development"
+    ],
+    "FolderTree": [
+      "files"
+    ],
+    "Gem": [
+      "gaming",
+      "development",
+      "finance"
+    ],
+    "FunnelPlus": [
+      "layout"
+    ],
+    "Footprints": [
+      "navigation"
+    ],
+    "Form": [
+      "development"
+    ],
+    "GalleryVerticalEnd": [
+      "layout",
+      "design",
+      "development",
+      "photography",
+      "multimedia",
+      "files"
+    ],
+    "GlassWater": [
+      "food-beverage"
+    ],
+    "GlobeOff": [
+      "navigation",
+      "connectivity",
+      "devices"
+    ],
+    "GlobeX": [
+      "connectivity",
+      "devices",
+      "navigation"
+    ],
+    "Gauge": [
+      "transportation",
+      "sports",
+      "science"
+    ],
+    "Gamepad": [
+      "gaming",
+      "devices"
+    ],
+    "GitPullRequestArrow": [
+      "development",
+      "arrows"
+    ],
+    "GalleryHorizontal": [
+      "layout",
+      "design",
+      "development",
+      "photography",
+      "multimedia"
+    ],
+    "GitCompare": [
+      "development"
+    ],
+    "Forklift": [
+      "transportation"
+    ],
+    "Grid2x2X": [
+      "text",
+      "layout",
+      "math"
+    ],
+    "GitPullRequestClosed": [
+      "development"
+    ],
+    "FolderX": [
+      "files"
+    ],
+    "FolderUp": [
+      "files",
+      "arrows"
+    ],
+    "GeorgianLari": [
+      "finance"
+    ],
+    "Folders": [
+      "files"
+    ],
+    "GitPullRequestCreateArrow": [
+      "development",
+      "arrows"
+    ],
+    "Grape": [
+      "food-beverage"
+    ],
+    "Grid2x2Plus": [
+      "text",
+      "layout",
+      "math"
+    ],
+    "FunnelX": [
+      "layout"
+    ],
+    "Gift": [
+      "gaming",
+      "account"
+    ],
+    "GalleryVertical": [
+      "layout",
+      "design",
+      "development",
+      "photography",
+      "multimedia"
+    ],
+    "Gamepad2": [
+      "gaming",
+      "devices"
+    ],
+    "Frame": [
+      "design",
+      "photography"
+    ],
+    "GitPullRequestCreate": [
+      "development"
+    ],
+    "GitBranch": [
+      "development"
+    ],
+    "Goal": [
+      "gaming"
+    ],
+    "Funnel": [
+      "layout"
+    ],
+    "GraduationCap": [
+      "buildings"
+    ],
+    "Gavel": [
+      "navigation",
+      "tools"
+    ],
+    "GitCommitHorizontal": [
+      "development",
+      "navigation"
+    ],
+    "Globe": [
+      "navigation"
+    ],
+    "Gpu": [
+      "devices",
+      "gaming"
+    ],
+    "Fuel": [
+      "transportation",
+      "navigation"
+    ],
+    "Forward": [
+      "mail"
+    ],
+    "GalleryThumbnails": [
+      "layout",
+      "design",
+      "development",
+      "photography",
+      "multimedia"
+    ],
+    "Fullscreen": [
+      "layout",
+      "multimedia",
+      "design",
+      "photography"
+    ],
+    "GitMergeConflict": [
+      "development"
+    ],
+    "GitCommitVertical": [
+      "development",
+      "navigation"
+    ],
+    "GlobeCheck": [
+      "navigation"
+    ],
+    "GitPullRequest": [
+      "development"
+    ],
+    "GitCompareArrows": [
+      "development",
+      "arrows"
+    ],
+    "GlobeLock": [
+      "security",
+      "development",
+      "devices"
+    ],
+    "GitFork": [
+      "development"
+    ],
+    "GitPullRequestDraft": [
+      "development"
+    ],
+    "GalleryHorizontalEnd": [
+      "layout",
+      "design",
+      "development",
+      "photography",
+      "multimedia",
+      "files"
+    ],
+    "Ghost": [
+      "gaming"
+    ],
+    "GitGraph": [
+      "development"
+    ],
+    "Grid2x2Check": [
+      "text",
+      "layout",
+      "math"
+    ],
+    "Glasses": [
+      "accessibility"
+    ],
+    "GamepadDirectional": [
+      "gaming",
+      "devices"
+    ],
+    "GitBranchMinus": [
+      "development"
+    ],
+    "GitBranchPlus": [
+      "development"
+    ],
+    "Folder": [
+      "files"
+    ],
+    "GripVertical": [
+      "layout"
+    ],
+    "HardDrive": [
+      "development",
+      "devices"
+    ],
+    "HeartPulse": [
+      "medical"
+    ],
+    "Heading": [
+      "text"
+    ],
+    "HandCoins": [
+      "finance",
+      "account"
+    ],
+    "Grid3x2": [
+      "text",
+      "math",
+      "layout",
+      "design"
+    ],
+    "Grid2x2": [
+      "text",
+      "layout",
+      "design",
+      "math"
+    ],
+    "Hash": [
+      "text",
+      "social"
+    ],
+    "GripHorizontal": [
+      "layout"
+    ],
+    "HeartPlus": [
+      "medical",
+      "account",
+      "multimedia",
+      "gaming",
+      "social"
+    ],
+    "HandGrab": [
+      "cursors",
+      "design",
+      "layout"
+    ],
+    "HardDriveUpload": [
+      "development",
+      "devices",
+      "arrows",
+      "files"
+    ],
+    "HdmiPort": [
+      "devices",
+      "multimedia",
+      "gaming"
+    ],
+    "Ham": [
+      "food-beverage"
+    ],
+    "HopOff": [
+      "food-beverage"
+    ],
+    "HandPlatter": [
+      "food-beverage",
+      "people"
+    ],
+    "Hotel": [
+      "buildings",
+      "navigation",
+      "travel"
+    ],
+    "Heater": [
+      "home",
+      "devices",
+      "travel"
+    ],
+    "Hd": [
+      "devices",
+      "multimedia"
+    ],
+    "Hospital": [
+      "medical",
+      "buildings",
+      "navigation",
+      "travel"
+    ],
+    "Heading6": [
+      "text"
+    ],
+    "Hammer": [
+      "tools",
+      "home"
+    ],
+    "HeartOff": [
+      "social",
+      "multimedia"
+    ],
+    "Hamburger": [
+      "food-beverage"
+    ],
+    "Helicopter": [
+      "transportation",
+      "travel"
+    ],
+    "HeartHandshake": [
+      "emoji",
+      "account",
+      "security"
+    ],
+    "Grip": [
+      "layout"
+    ],
+    "Hexagon": [
+      "shapes",
+      "development"
+    ],
+    "Heading1": [
+      "text"
+    ],
+    "HandHeart": [
+      "social"
+    ],
+    "Heading4": [
+      "text"
+    ],
+    "HandFist": [
+      "social",
+      "emoji",
+      "communication",
+      "sports"
+    ],
+    "HeartCrack": [
+      "emoji"
+    ],
+    "HeadphoneOff": [
+      "multimedia",
+      "connectivity",
+      "communication",
+      "devices",
+      "gaming"
+    ],
+    "HandHelping": [
+      "emoji"
+    ],
+    "HardHat": [
+      "tools"
+    ],
+    "Hourglass": [
+      "time",
+      "gaming"
+    ],
+    "HouseHeart": [
+      "home",
+      "buildings",
+      "medical"
+    ],
+    "Guitar": [
+      "multimedia"
+    ],
+    "Grid3x3": [
+      "text",
+      "layout",
+      "design"
+    ],
+    "HatGlasses": [
+      "social",
+      "account",
+      "security"
+    ],
+    "Headset": [
+      "multimedia",
+      "connectivity",
+      "devices",
+      "files",
+      "gaming"
+    ],
+    "Handshake": [
+      "account",
+      "social",
+      "communication",
+      "finance",
+      "security"
+    ],
+    "HeartMinus": [
+      "medical",
+      "account",
+      "multimedia",
+      "gaming",
+      "social"
+    ],
+    "Heart": [
+      "medical",
+      "social",
+      "multimedia",
+      "emoji",
+      "gaming",
+      "shapes"
+    ],
+    "HandMetal": [
+      "emoji",
+      "multimedia"
+    ],
+    "Heading2": [
+      "text"
+    ],
+    "Headphones": [
+      "multimedia",
+      "connectivity",
+      "devices",
+      "files",
+      "gaming"
+    ],
+    "Handbag": [
+      "shopping",
+      "transportation"
+    ],
+    "HardDriveDownload": [
+      "development",
+      "devices",
+      "arrows",
+      "files"
+    ],
+    "Heading3": [
+      "text"
+    ],
+    "HousePlug": [
+      "buildings",
+      "home",
+      "sustainability"
+    ],
+    "Group": [
+      "files"
+    ],
+    "Hand": [
+      "cursors",
+      "accessibility"
+    ],
+    "HousePlus": [
+      "buildings",
+      "medical"
+    ],
+    "Highlighter": [
+      "text",
+      "design"
+    ],
+    "Hop": [
+      "food-beverage"
+    ],
+    "HeartX": [
+      "social",
+      "multimedia",
+      "design",
+      "shapes"
+    ],
+    "Haze": [
+      "weather"
+    ],
+    "Heading5": [
+      "text"
+    ],
+    "LassoSelect": [
+      "arrows",
+      "design",
+      "cursors"
+    ],
+    "LayerArrowUp": [
+      "design",
+      "layout"
+    ],
+    "Kayak": [
+      "transportation"
+    ],
+    "Info": [
+      "accessibility",
+      "notifications"
+    ],
+    "KeyRound": [
+      "security",
+      "account"
+    ],
+    "IceCreamCone": [
+      "food-beverage"
+    ],
+    "IdCard": [
+      "security",
+      "account"
+    ],
+    "KeySquare": [
+      "security",
+      "account"
+    ],
+    "LayersArrowUp": [
+      "design",
+      "layout",
+      "arrows"
+    ],
+    "HouseWifi": [
+      "home",
+      "buildings",
+      "connectivity"
+    ],
+    "ImageOff": [
+      "photography",
+      "multimedia",
+      "files"
+    ],
+    "ImageMinus": [
+      "photography",
+      "multimedia",
+      "files"
+    ],
+    "LampFloor": [
+      "home"
+    ],
+    "LayoutDashboard": [
+      "design",
+      "layout"
+    ],
+    "LaptopMinimalCheck": [
+      "devices",
+      "notifications"
+    ],
+    "Kanban": [
+      "charts",
+      "development",
+      "design"
+    ],
+    "ImageUpscale": [
+      "photography",
+      "multimedia"
+    ],
+    "LaptopMinimal": [
+      "devices"
+    ],
+    "Keyboard": [
+      "text",
+      "devices",
+      "development"
+    ],
+    "LayerArrowDown": [
+      "design",
+      "layout"
+    ],
+    "Laptop": [
+      "devices"
+    ],
+    "LayoutFreeform": [
+      "design",
+      "layout"
+    ],
+    "IterationCcw": [
+      "arrows",
+      "design"
+    ],
+    "ImagePlay": [
+      "photography",
+      "text",
+      "multimedia",
+      "files"
+    ],
+    "LandPlot": [
+      "design",
+      "tools",
+      "math",
+      "sports",
+      "gaming"
+    ],
+    "LayersPlus": [
+      "design",
+      "layout"
+    ],
+    "LampWallUp": [
+      "home"
+    ],
+    "LampWallDown": [
+      "home"
+    ],
+    "Images": [
+      "photography",
+      "text",
+      "multimedia",
+      "files"
+    ],
+    "Inbox": [
+      "account",
+      "mail"
+    ],
+    "Lasso": [
+      "design",
+      "cursors"
+    ],
+    "ImagePlus": [
+      "photography",
+      "multimedia",
+      "files"
+    ],
+    "Key": [
+      "security",
+      "account"
+    ],
+    "Import": [
+      "arrows",
+      "files"
+    ],
+    "Languages": [
+      "text"
+    ],
+    "LayersArrowDown": [
+      "design",
+      "layout"
+    ],
+    "IdCardLanyard": [
+      "security",
+      "account"
+    ],
+    "LayersMinus": [
+      "design",
+      "layout"
+    ],
+    "InspectionPanel": [
+      "tools"
+    ],
+    "Infinity": [
+      "multimedia"
+    ],
+    "Layers2": [
+      "design",
+      "layout"
+    ],
+    "KeyboardOff": [
+      "devices",
+      "text",
+      "development"
+    ],
+    "LampCeiling": [
+      "home"
+    ],
+    "LayoutGrid": [
+      "design",
+      "layout"
+    ],
+    "IceCreamBowl": [
+      "food-beverage"
+    ],
+    "KeyboardMusic": [
+      "multimedia",
+      "devices"
+    ],
+    "ImageDown": [
+      "photography",
+      "text",
+      "multimedia",
+      "files"
+    ],
+    "Joystick": [
+      "gaming",
+      "devices"
+    ],
+    "IterationCw": [
+      "arrows",
+      "design"
+    ],
+    "Italic": [
+      "text"
+    ],
+    "IndianRupee": [
+      "finance"
+    ],
+    "Image": [
+      "photography",
+      "text",
+      "multimedia",
+      "files"
+    ],
+    "LayoutList": [
+      "design",
+      "layout",
+      "photography",
+      "text"
+    ],
+    "ImageUp": [
+      "photography",
+      "text",
+      "multimedia",
+      "files"
+    ],
+    "LampDesk": [
+      "home"
+    ],
+    "Lamp": [
+      "home"
+    ],
+    "Landmark": [
+      "finance",
+      "navigation",
+      "buildings"
+    ],
+    "Layers": [
+      "design",
+      "layout"
+    ],
+    "JapaneseYen": [
+      "finance"
+    ],
+    "House": [
+      "buildings",
+      "home",
+      "navigation"
+    ],
+    "ListMusic": [
+      "multimedia"
+    ],
+    "LeafyGreen": [
+      "food-beverage",
+      "emoji",
+      "sustainability"
+    ],
+    "LifeBuoy": [
+      "accessibility",
+      "medical"
+    ],
+    "LayoutPanelTop": [
+      "layout"
+    ],
+    "Link2": [
+      "text",
+      "account"
+    ],
+    "LensConvex": [
+      "science",
+      "tools",
+      "shapes"
+    ],
+    "ListChevronsUpDown": [
+      "text",
+      "arrows"
+    ],
+    "LockKeyholeOpen": [
+      "security"
+    ],
+    "LockOpen": [
+      "security"
+    ],
+    "ListChevronsDownUp": [
+      "text",
+      "arrows"
+    ],
+    "ListOrdered": [
+      "text"
+    ],
+    "Ligature": [
+      "text"
+    ],
+    "Lock": [
+      "security"
+    ],
+    "LoaderPinwheel": [
+      "cursors",
+      "design"
+    ],
+    "ListStart": [
+      "multimedia",
+      "text"
+    ],
+    "ListFilter": [
+      "text"
+    ],
+    "LensConcave": [
+      "science",
+      "tools",
+      "shapes"
+    ],
+    "Lollipop": [
+      "food-beverage"
+    ],
+    "ListIndentIncrease": [
+      "text",
+      "development"
+    ],
+    "ListMinus": [
+      "multimedia",
+      "text"
+    ],
+    "LayoutPanelLeft": [
+      "design",
+      "layout"
+    ],
+    "LineSquiggle": [
+      "shapes",
+      "math",
+      "design"
+    ],
+    "Logs": [
+      "text"
+    ],
+    "ListRestart": [
+      "multimedia",
+      "text"
+    ],
+    "ListX": [
+      "multimedia",
+      "text"
+    ],
+    "Luggage": [
+      "travel",
+      "transportation"
+    ],
+    "ListChecks": [
+      "text"
+    ],
+    "Link2Off": [
+      "text"
+    ],
+    "LocateFixed": [
+      "navigation"
+    ],
+    "ListTree": [
+      "files",
+      "text",
+      "layout"
+    ],
+    "LoaderCircle": [
+      "cursors",
+      "multimedia",
+      "layout"
+    ],
+    "LogIn": [
+      "arrows",
+      "account"
+    ],
+    "Library": [
+      "text",
+      "photography",
+      "multimedia",
+      "navigation",
+      "development"
+    ],
+    "ListIndentDecrease": [
+      "text",
+      "development"
+    ],
+    "ListEnd": [
+      "multimedia",
+      "text"
+    ],
+    "Magnet": [
+      "design"
+    ],
+    "ListPlus": [
+      "multimedia",
+      "text"
+    ],
+    "Lectern": [
+      "communication",
+      "multimedia"
+    ],
+    "LockKeyhole": [
+      "security"
+    ],
+    "Loader": [
+      "cursors",
+      "multimedia",
+      "layout",
+      "design"
+    ],
+    "ListCheck": [
+      "text"
+    ],
+    "LogOut": [
+      "arrows",
+      "account"
+    ],
+    "LineDotRightHorizontal": [
+      "development",
+      "navigation"
+    ],
+    "ListClock": [
+      "text",
+      "time",
+      "notifications"
+    ],
+    "ListTodo": [
+      "text"
+    ],
+    "LibraryBig": [
+      "text",
+      "photography",
+      "multimedia",
+      "navigation",
+      "development"
+    ],
+    "ListVideo": [
+      "multimedia"
+    ],
+    "Lightbulb": [
+      "photography"
+    ],
+    "ListCollapse": [
+      "text"
+    ],
+    "LayoutTemplate": [
+      "layout"
+    ],
+    "LocateOff": [
+      "navigation"
+    ],
+    "LightbulbOff": [
+      "photography"
+    ],
+    "Locate": [
+      "navigation"
+    ],
+    "LineStyle": [
+      "design",
+      "tools"
+    ],
+    "ListSortAscending": [
+      "text",
+      "layout"
+    ],
+    "ListFilterPlus": [
+      "text",
+      "layout"
+    ],
+    "ListSortDescending": [
+      "text",
+      "layout"
+    ],
+    "Leaf": [
+      "nature",
+      "sustainability",
+      "seasons"
+    ],
+    "List": [
+      "text"
+    ],
+    "Link": [
+      "text",
+      "account"
+    ],
+    "MapPinOff": [
+      "navigation",
+      "travel"
+    ],
+    "MapPinMinusInside": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "Menu": [
+      "layout",
+      "account"
+    ],
+    "MapPinPlusInside": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "Mailbox": [
+      "mail"
+    ],
+    "MapPinMinus": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MessageCircleWarning": [
+      "social",
+      "notifications"
+    ],
+    "MapPinHouse": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MapPinX": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MessageCircleCheck": [
+      "social",
+      "account"
+    ],
+    "Maximize2": [
+      "arrows",
+      "layout",
+      "design"
+    ],
+    "Merge": [
+      "development",
+      "arrows"
+    ],
+    "MailSearch": [
+      "mail"
+    ],
+    "MessageSquareMore": [
+      "social"
+    ],
+    "Mails": [
+      "mail"
+    ],
+    "MailCheck": [
+      "mail"
+    ],
+    "MapPinPen": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MessageSquareCode": [
+      "development",
+      "social"
+    ],
+    "MapPlus": [
+      "navigation"
+    ],
+    "MailX": [
+      "mail"
+    ],
+    "MessageCircleCode": [
+      "development",
+      "social"
+    ],
+    "Mail": [
+      "text",
+      "account",
+      "mail"
+    ],
+    "MailQuestionMark": [
+      "mail"
+    ],
+    "MapPinCheck": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "Mars": [
+      "medical"
+    ],
+    "MapMinus": [
+      "navigation",
+      "travel"
+    ],
+    "Map": [
+      "text",
+      "navigation"
+    ],
+    "MessageCircleX": [
+      "account",
+      "social"
+    ],
+    "MarsStroke": [
+      "medical"
+    ],
+    "MessageCircleReply": [
+      "social"
+    ],
+    "MailWarning": [
+      "mail"
+    ],
+    "Maximize": [
+      "layout",
+      "design"
+    ],
+    "MessageSquareCheck": [
+      "social",
+      "account"
+    ],
+    "MessageSquareDot": [
+      "social",
+      "notifications"
+    ],
+    "MessageCirclePlus": [
+      "social"
+    ],
+    "Martini": [
+      "food-beverage"
+    ],
+    "MapPinXInside": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MessageCircleMore": [
+      "social"
+    ],
+    "MessageCircleHeart": [
+      "social"
+    ],
+    "Megaphone": [
+      "multimedia",
+      "notifications"
+    ],
+    "MapPin": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MessageSquareHeart": [
+      "social"
+    ],
+    "MessageCircleQuestionMark": [
+      "social"
+    ],
+    "MemoryStick": [
+      "devices",
+      "gaming"
+    ],
+    "MessageCircleOff": [
+      "social"
+    ],
+    "MapPinned": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MapPinCheckInside": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MegaphoneOff": [
+      "multimedia",
+      "notifications"
+    ],
+    "MessageSquareDashed": [
+      "social"
+    ],
+    "MessageSquareDiff": [
+      "development",
+      "files",
+      "social"
+    ],
+    "MailMinus": [
+      "mail"
+    ],
+    "MailBadge": [
+      "mail",
+      "communication",
+      "security"
+    ],
+    "MailPlus": [
+      "mail"
+    ],
+    "Medal": [
+      "sports",
+      "gaming"
+    ],
+    "MessageCircle": [
+      "social"
+    ],
+    "MailOpen": [
+      "mail"
+    ],
+    "MessageCircleDashed": [
+      "social"
+    ],
+    "MapPinSearch": [
+      "text",
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MapPinPlus": [
+      "navigation",
+      "travel",
+      "account"
+    ],
+    "MessageSquareLock": [
+      "social"
+    ],
+    "MonitorSpeaker": [
+      "connectivity",
+      "devices"
+    ],
+    "Monitor": [
+      "connectivity",
+      "devices"
+    ],
+    "MessageSquare": [
+      "social"
+    ],
+    "Minimize": [
+      "layout",
+      "design"
+    ],
+    "MessagesSquare": [
+      "social"
+    ],
+    "MessageSquareQuote": [
+      "social",
+      "text"
+    ],
+    "MidiPort": [
+      "multimedia",
+      "connectivity",
+      "devices"
+    ],
+    "Milk": [
+      "food-beverage"
+    ],
+    "MountainSnow": [
+      "nature"
+    ],
+    "Mosque": [
+      "buildings",
+      "navigation",
+      "travel"
+    ],
+    "Minus": [
+      "math",
+      "development",
+      "text",
+      "tools"
+    ],
+    "MouseRight": [
+      "devices"
+    ],
+    "MessageSquareX": [
+      "social"
+    ],
+    "Mop": [
+      "home",
+      "tools"
+    ],
+    "MicAudioLines": [
+      "devices",
+      "communication",
+      "multimedia"
+    ],
+    "MonitorX": [
+      "connectivity",
+      "devices"
+    ],
+    "MousePointer": [
+      "arrows",
+      "cursors"
+    ],
+    "MousePointerBan": [
+      "arrows",
+      "cursors"
+    ],
+    "Minimize2": [
+      "arrows",
+      "layout",
+      "design"
+    ],
+    "Metronome": [
+      "multimedia",
+      "time"
+    ],
+    "MonitorStop": [
+      "connectivity",
+      "devices",
+      "multimedia"
+    ],
+    "Moon": [
+      "accessibility"
+    ],
+    "MessageSquareShare": [
+      "social"
+    ],
+    "MouseOff": [
+      "devices"
+    ],
+    "MopSparkles": [
+      "home",
+      "tools",
+      "design"
+    ],
+    "MonitorDot": [
+      "connectivity",
+      "devices"
+    ],
+    "MonitorOff": [
+      "connectivity",
+      "devices"
+    ],
+    "MonitorUp": [
+      "connectivity",
+      "devices"
+    ],
+    "Microchip": [
+      "devices"
+    ],
+    "Motorbike": [
+      "transportation"
+    ],
+    "MousePointerClick": [
+      "arrows",
+      "cursors"
+    ],
+    "MonitorPlay": [
+      "connectivity",
+      "devices",
+      "multimedia"
+    ],
+    "MessageSquareOff": [
+      "social"
+    ],
+    "MilkOff": [
+      "food-beverage"
+    ],
+    "Mic": [
+      "devices",
+      "communication",
+      "connectivity",
+      "multimedia"
+    ],
+    "Mouse": [
+      "devices"
+    ],
+    "MoonStar": [
+      "accessibility",
+      "weather"
+    ],
+    "MicOff": [
+      "devices",
+      "communication",
+      "connectivity",
+      "multimedia"
+    ],
+    "MirrorRound": [
+      "science",
+      "home",
+      "tools"
+    ],
+    "MousePointer2": [
+      "arrows",
+      "cursors"
+    ],
+    "MirrorRectangular": [
+      "science",
+      "home",
+      "tools"
+    ],
+    "MonitorCheck": [
+      "connectivity",
+      "devices"
+    ],
+    "MicVocal": [
+      "devices",
+      "multimedia"
+    ],
+    "MessageSquareReply": [
+      "social"
+    ],
+    "Mountain": [
+      "nature",
+      "gaming"
+    ],
+    "MicSignal": [
+      "devices",
+      "communication",
+      "connectivity",
+      "multimedia"
+    ],
+    "Microwave": [
+      "food-beverage",
+      "home"
+    ],
+    "Move3d": [
+      "design"
+    ],
+    "MousePointer2Off": [
+      "arrows",
+      "cursors"
+    ],
+    "MonitorDown": [
+      "connectivity",
+      "devices"
+    ],
+    "MouseLeft": [
+      "devices"
+    ],
+    "MonitorPause": [
+      "connectivity",
+      "devices",
+      "multimedia"
+    ],
+    "MonitorCog": [
+      "connectivity",
+      "devices"
+    ],
+    "MessageSquarePlus": [
+      "social"
+    ],
+    "MonitorCloud": [
+      "connectivity",
+      "devices",
+      "development"
+    ],
+    "MessageSquareWarning": [
+      "social",
+      "notifications"
+    ],
+    "Milestone": [
+      "arrows",
+      "navigation",
+      "development",
+      "gaming"
+    ],
+    "MessageSquareText": [
+      "social"
+    ],
+    "Microscope": [
+      "science",
+      "medical"
+    ],
+    "MonitorSmartphone": [
+      "connectivity",
+      "devices"
+    ],
+    "PanelBottomDashed": [
+      "layout"
+    ],
+    "Music4": [
+      "multimedia",
+      "files"
+    ],
+    "NotepadTextDashed": [
+      "text",
+      "social"
+    ],
+    "Move": [
+      "arrows",
+      "cursors"
+    ],
+    "Nfc": [
+      "communication",
+      "finance",
+      "devices"
+    ],
+    "Package": [
+      "files",
+      "development"
+    ],
+    "Octagon": [
+      "shapes"
+    ],
+    "PackageOpen": [
+      "files",
+      "development"
+    ],
+    "Paintbrush": [
+      "text",
+      "design",
+      "photography",
+      "home",
+      "tools"
+    ],
+    "MoveDownLeft": [
+      "arrows"
+    ],
+    "NavigationOff": [
+      "navigation"
+    ],
+    "PaintbrushVertical": [
+      "text",
+      "design",
+      "photography",
+      "home",
+      "tools"
+    ],
+    "MoveVertical": [
+      "arrows",
+      "cursors"
+    ],
+    "Music3": [
+      "multimedia",
+      "files"
+    ],
+    "Notebook": [
+      "text",
+      "communication",
+      "social",
+      "design"
+    ],
+    "MoveHorizontal": [
+      "arrows",
+      "cursors"
+    ],
+    "Music2": [
+      "multimedia",
+      "files"
+    ],
+    "PaintBucket": [
+      "design",
+      "tools"
+    ],
+    "PanelBottomClose": [
+      "layout",
+      "arrows"
+    ],
+    "Package2": [
+      "files",
+      "development"
+    ],
+    "PaintRoller": [
+      "text",
+      "design",
+      "home",
+      "tools"
+    ],
+    "OctagonPause": [
+      "multimedia",
+      "shapes"
+    ],
+    "PackageSearch": [
+      "files",
+      "development"
+    ],
+    "NotepadText": [
+      "text",
+      "social"
+    ],
+    "PackageCheck": [
+      "development"
+    ],
+    "Palette": [
+      "text",
+      "design",
+      "photography"
+    ],
+    "MoveUpRight": [
+      "arrows"
+    ],
+    "MoveDown": [
+      "arrows"
+    ],
+    "MoveUpLeft": [
+      "arrows"
+    ],
+    "PanelBottomOpen": [
+      "layout",
+      "arrows"
+    ],
+    "MoveUp": [
+      "arrows"
+    ],
+    "NutOff": [
+      "food-beverage"
+    ],
+    "OctagonAlert": [
+      "notifications",
+      "shapes"
+    ],
+    "Navigation2": [
+      "navigation"
+    ],
+    "NotebookText": [
+      "text",
+      "social"
+    ],
+    "MoveDiagonal2": [
+      "arrows",
+      "cursors"
+    ],
+    "PanelBottom": [
+      "layout"
+    ],
+    "Origami": [
+      "animals",
+      "design"
+    ],
+    "MoveDownRight": [
+      "arrows"
+    ],
+    "NonBinary": [
+      "medical"
+    ],
+    "NotebookTabs": [
+      "account",
+      "communication",
+      "social"
+    ],
+    "MoveLeft": [
+      "arrows"
+    ],
+    "MoveRight": [
+      "arrows"
+    ],
+    "OctagonMinus": [
+      "transportation"
+    ],
+    "PackageX": [
+      "development"
+    ],
+    "Nut": [
+      "food-beverage"
+    ],
+    "MoveDiagonal": [
+      "arrows",
+      "cursors"
+    ],
+    "Network": [
+      "development"
+    ],
+    "Omega": [
+      "math",
+      "development",
+      "text",
+      "science"
+    ],
+    "Option": [
+      "development"
+    ],
+    "PackagePlus": [
+      "development"
+    ],
+    "PackageMinus": [
+      "development"
+    ],
+    "OctagonX": [
+      "math",
+      "notifications"
+    ],
+    "Panda": [
+      "animals"
+    ],
+    "Navigation2Off": [
+      "navigation"
+    ],
+    "Newspaper": [
+      "multimedia",
+      "communication"
+    ],
+    "Music": [
+      "multimedia",
+      "files"
+    ],
+    "NotebookPen": [
+      "text",
+      "social"
+    ],
+    "Navigation": [
+      "navigation"
+    ],
+    "Orbit": [
+      "science"
+    ],
+    "PawPrint": [
+      "animals"
+    ],
+    "Percent": [
+      "math",
+      "development",
+      "finance",
+      "shopping"
+    ],
+    "PanelLeftOpen": [
+      "layout",
+      "arrows"
+    ],
+    "Pi": [
+      "development",
+      "math"
+    ],
+    "PencilSparkles": [
+      "design",
+      "cursors",
+      "tools",
+      "text",
+      "photography"
+    ],
+    "Pin": [
+      "navigation",
+      "account"
+    ],
+    "PiggyBank": [
+      "finance"
+    ],
+    "Pencil": [
+      "design",
+      "cursors",
+      "tools",
+      "text"
+    ],
+    "PanelLeftRightDashed": [
+      "layout"
+    ],
+    "PanelRight": [
+      "layout"
+    ],
+    "PanelLeftDashed": [
+      "layout"
+    ],
+    "ParkingMeter": [
+      "transportation",
+      "navigation"
+    ],
+    "PanelRightClose": [
+      "layout",
+      "arrows"
+    ],
+    "PictureInPicture2": [
+      "multimedia"
+    ],
+    "PanelTopBottomDashed": [
+      "layout"
+    ],
+    "PartyPopper": [
+      "emoji"
+    ],
+    "PhilippinePeso": [
+      "finance"
+    ],
+    "PilcrowLeft": [
+      "text"
+    ],
+    "PhoneMissed": [
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "Phi": [
+      "math",
+      "science"
+    ],
+    "PhoneIncoming": [
+      "arrows",
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "Piano": [
+      "multimedia",
+      "devices"
+    ],
+    "PanelTop": [
+      "layout",
+      "design",
+      "development"
+    ],
+    "Pentagon": [
+      "shapes"
+    ],
+    "PanelsRightBottom": [
+      "layout"
+    ],
+    "PenOff": [
+      "text",
+      "design",
+      "tools"
+    ],
+    "PhoneOutgoing": [
+      "arrows",
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "PencilLine": [
+      "text",
+      "design",
+      "tools"
+    ],
+    "PilcrowRight": [
+      "text"
+    ],
+    "PenLine": [
+      "text",
+      "design",
+      "tools"
+    ],
+    "Pilcrow": [
+      "text"
+    ],
+    "PaperBag": [
+      "food-beverage",
+      "shopping"
+    ],
+    "PanelTopOpen": [
+      "layout",
+      "arrows"
+    ],
+    "PhoneCall": [
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "PictureInPicture": [
+      "multimedia"
+    ],
+    "PanelLeft": [
+      "layout"
+    ],
+    "PersonStanding": [
+      "accessibility",
+      "people"
+    ],
+    "PhoneForwarded": [
+      "arrows",
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "PanelRightOpen": [
+      "layout",
+      "arrows"
+    ],
+    "PcCase": [
+      "devices",
+      "gaming"
+    ],
+    "PencilRuler": [
+      "tools",
+      "design",
+      "layout",
+      "text"
+    ],
+    "Phone": [
+      "text",
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "Pause": [
+      "multimedia"
+    ],
+    "PanelsTopLeft": [
+      "layout",
+      "design",
+      "development"
+    ],
+    "Pen": [
+      "text",
+      "design",
+      "tools"
+    ],
+    "PanelTopDashed": [
+      "layout"
+    ],
+    "Pickaxe": [
+      "tools",
+      "gaming"
+    ],
+    "PillBottle": [
+      "medical"
+    ],
+    "PanelLeftClose": [
+      "layout",
+      "arrows"
+    ],
+    "PhoneOff": [
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "PanelsLeftBottom": [
+      "layout"
+    ],
+    "Paperclip": [
+      "text",
+      "design",
+      "files",
+      "mail"
+    ],
+    "PenTool": [
+      "text",
+      "design",
+      "cursors"
+    ],
+    "Parasol": [
+      "travel",
+      "weather"
+    ],
+    "PanelRightDashed": [
+      "layout"
+    ],
+    "Parentheses": [
+      "development",
+      "files",
+      "math"
+    ],
+    "PencilOff": [
+      "design",
+      "cursors",
+      "tools",
+      "text"
+    ],
+    "Pill": [
+      "medical"
+    ],
+    "PinOff": [
+      "navigation"
+    ],
+    "PanelTopClose": [
+      "layout",
+      "arrows"
+    ],
+    "RectangleEllipsis": [
+      "text",
+      "development"
+    ],
+    "ReceiptCent": [
+      "finance",
+      "travel"
+    ],
+    "Radio": [
+      "devices",
+      "multimedia",
+      "social"
+    ],
+    "Redo2": [
+      "text",
+      "arrows"
+    ],
+    "Receipt": [
+      "finance",
+      "travel"
+    ],
+    "Plane": [
+      "transportation",
+      "travel",
+      "navigation"
+    ],
+    "Plus": [
+      "math",
+      "tools",
+      "development",
+      "text",
+      "cursors",
+      "gaming"
+    ],
+    "PointerOff": [
+      "cursors"
+    ],
+    "Ratio": [
+      "layout",
+      "design",
+      "photography"
+    ],
+    "PlugZap": [
+      "devices"
+    ],
+    "RectangleVertical": [
+      "shapes",
+      "design"
+    ],
+    "Pipette": [
+      "text",
+      "design",
+      "science"
+    ],
+    "Power": [
+      "connectivity"
+    ],
+    "Podium": [
+      "sports",
+      "gaming"
+    ],
+    "ReceiptTurkishLira": [
+      "finance",
+      "travel"
+    ],
+    "Rainbow": [
+      "weather"
+    ],
+    "Rabbit": [
+      "animals"
+    ],
+    "PrinterCheck": [
+      "devices"
+    ],
+    "Recycle": [
+      "sustainability"
+    ],
+    "Popcorn": [
+      "food-beverage",
+      "multimedia"
+    ],
+    "Plug": [
+      "devices",
+      "development"
+    ],
+    "Projector": [
+      "multimedia",
+      "photography",
+      "devices",
+      "communication"
+    ],
+    "Quote": [
+      "text"
+    ],
+    "ReceiptEuro": [
+      "finance",
+      "travel"
+    ],
+    "ReceiptJapaneseYen": [
+      "finance",
+      "travel"
+    ],
+    "Radar": [
+      "navigation",
+      "security",
+      "communication"
+    ],
+    "PlayOff": [
+      "multimedia"
+    ],
+    "Popsicle": [
+      "food-beverage"
+    ],
+    "PrinterX": [
+      "devices"
+    ],
+    "RadioOff": [
+      "devices",
+      "multimedia",
+      "social"
+    ],
+    "ReceiptText": [
+      "finance",
+      "travel"
+    ],
+    "PocketKnife": [
+      "tools"
+    ],
+    "Rat": [
+      "animals"
+    ],
+    "Puzzle": [
+      "development",
+      "gaming"
+    ],
+    "Presentation": [
+      "multimedia",
+      "photography",
+      "devices",
+      "communication",
+      "design"
+    ],
+    "QrCode": [
+      "development",
+      "social"
+    ],
+    "ReceiptPoundSterling": [
+      "finance",
+      "travel"
+    ],
+    "PlaneTakeoff": [
+      "transportation",
+      "travel"
+    ],
+    "RedoDot": [
+      "text",
+      "arrows"
+    ],
+    "ReceiptIndianRupee": [
+      "finance",
+      "travel"
+    ],
+    "Radiation": [
+      "science"
+    ],
+    "ReceiptRussianRuble": [
+      "finance",
+      "travel"
+    ],
+    "RectangleHorizontal": [
+      "shapes",
+      "design"
+    ],
+    "ReceiptSwissFranc": [
+      "finance",
+      "travel"
+    ],
+    "Radius": [
+      "shapes",
+      "math",
+      "design",
+      "tools"
+    ],
+    "Pyramid": [
+      "shapes",
+      "math",
+      "travel"
+    ],
+    "RectangleCircle": [
+      "development",
+      "text"
+    ],
+    "RadioTower": [
+      "devices",
+      "multimedia",
+      "social"
+    ],
+    "RectangleGoggles": [
+      "devices",
+      "gaming",
+      "multimedia",
+      "connectivity"
+    ],
+    "RadioReceiver": [
+      "devices"
+    ],
+    "PlaneLanding": [
+      "transportation",
+      "travel"
+    ],
+    "PowerOff": [
+      "connectivity"
+    ],
+    "Proportions": [
+      "layout",
+      "design",
+      "photography",
+      "devices"
+    ],
+    "Play": [
+      "arrows",
+      "multimedia"
+    ],
+    "Pointer": [
+      "cursors"
+    ],
+    "Pizza": [
+      "food-beverage"
+    ],
+    "Plug2": [
+      "devices",
+      "development"
+    ],
+    "PoundSterling": [
+      "finance"
+    ],
+    "Radical": [
+      "development",
+      "math"
+    ],
+    "Printer": [
+      "devices"
+    ],
+    "Satellite": [
+      "connectivity",
+      "science"
+    ],
+    "Repeat": [
+      "arrows",
+      "multimedia"
+    ],
+    "ReplaceAll": [
+      "text"
+    ],
+    "RulerDimensionLine": [
+      "tools",
+      "design",
+      "layout"
+    ],
+    "RockingChair": [
+      "home"
+    ],
+    "SaveCheck": [
+      "text",
+      "files",
+      "development"
+    ],
+    "RollerCoaster": [
+      "navigation"
+    ],
+    "Scale": [
+      "navigation",
+      "science",
+      "finance"
+    ],
+    "RotateCwSquare": [
+      "layout",
+      "design",
+      "photography",
+      "tools",
+      "arrows"
+    ],
+    "Ribbon": [
+      "social",
+      "medical",
+      "emoji"
+    ],
+    "Route": [
+      "navigation"
+    ],
+    "RefreshCw": [
+      "arrows"
+    ],
+    "Sandwich": [
+      "food-beverage"
+    ],
+    "RotateCcwClock": [
+      "arrows",
+      "time"
+    ],
+    "Refrigerator": [
+      "food-beverage",
+      "home"
+    ],
+    "RemoveFormatting": [
+      "text"
+    ],
+    "RotateCw": [
+      "arrows",
+      "design",
+      "photography"
+    ],
+    "RotateCcwSquare": [
+      "layout",
+      "design",
+      "photography",
+      "tools",
+      "arrows"
+    ],
+    "Rotate3d": [
+      "design"
+    ],
+    "ScanFace": [
+      "account",
+      "security",
+      "devices",
+      "social"
+    ],
+    "RotateCcw": [
+      "arrows",
+      "design",
+      "photography"
+    ],
+    "Regex": [
+      "text",
+      "development"
+    ],
+    "RefreshCwOff": [
+      "arrows"
+    ],
+    "SaveAll": [
+      "text",
+      "files"
+    ],
+    "Repeat2": [
+      "arrows",
+      "social",
+      "multimedia"
+    ],
+    "RouteOff": [
+      "navigation"
+    ],
+    "Reply": [
+      "mail"
+    ],
+    "SatelliteDish": [
+      "connectivity",
+      "devices",
+      "multimedia"
+    ],
+    "ScanBox": [
+      "design",
+      "devices",
+      "shopping",
+      "gaming"
+    ],
+    "ScanEye": [
+      "photography",
+      "multimedia",
+      "accessibility",
+      "security",
+      "devices",
+      "account"
+    ],
+    "Rewind": [
+      "arrows",
+      "multimedia"
+    ],
+    "Replace": [
+      "text"
+    ],
+    "RefreshCcw": [
+      "arrows"
+    ],
+    "Rows3": [
+      "layout",
+      "design",
+      "text"
+    ],
+    "Ruler": [
+      "tools",
+      "design",
+      "layout"
+    ],
+    "Scale3d": [
+      "design"
+    ],
+    "RotateCwFadingClock": [
+      "time"
+    ],
+    "Redo": [
+      "text",
+      "arrows"
+    ],
+    "Rows2": [
+      "layout",
+      "design",
+      "text"
+    ],
+    "ScanBarcode": [
+      "shopping",
+      "devices"
+    ],
+    "Repeat1": [
+      "multimedia"
+    ],
+    "Road": [
+      "transportation"
+    ],
+    "RepeatOff": [
+      "arrows",
+      "multimedia"
+    ],
+    "Sailboat": [
+      "transportation",
+      "travel"
+    ],
+    "Save": [
+      "text",
+      "files"
+    ],
+    "Rocket": [
+      "gaming",
+      "development"
+    ],
+    "SavePlus": [
+      "text",
+      "files"
+    ],
+    "SaudiRiyal": [
+      "finance"
+    ],
+    "Scaling": [
+      "design"
+    ],
+    "Rows4": [
+      "layout",
+      "design",
+      "text"
+    ],
+    "SaveOff": [
+      "text",
+      "files"
+    ],
+    "ReplyAll": [
+      "mail"
+    ],
+    "Rss": [
+      "development",
+      "social"
+    ],
+    "RussianRuble": [
+      "finance"
+    ],
+    "Router": [
+      "development",
+      "devices",
+      "connectivity",
+      "home"
+    ],
+    "SavePen": [
+      "text",
+      "files"
+    ],
+    "RotateCcwKey": [
+      "security",
+      "account"
+    ],
+    "Salad": [
+      "food-beverage",
+      "emoji"
+    ],
+    "RefreshCcwDot": [
+      "arrows",
+      "development"
+    ],
+    "Rose": [
+      "nature",
+      "seasons",
+      "sustainability",
+      "home",
+      "social"
+    ],
+    "Server": [
+      "development",
+      "devices"
+    ],
+    "Shapes": [
+      "shapes",
+      "gaming"
+    ],
+    "Scooter": [
+      "transportation"
+    ],
+    "Settings": [
+      "account"
+    ],
+    "SendToBack": [
+      "design",
+      "layout"
+    ],
+    "ShieldKeyhole": [
+      "account",
+      "security",
+      "development",
+      "files"
+    ],
+    "Shield": [
+      "account",
+      "security",
+      "development",
+      "gaming",
+      "shapes"
+    ],
+    "ServerPlus": [
+      "development",
+      "devices"
+    ],
+    "Settings2": [
+      "account"
+    ],
+    "Share2": [
+      "account",
+      "social"
+    ],
+    "ScreenShare": [
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "SearchX": [
+      "text",
+      "social"
+    ],
+    "ScreenShareOff": [
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "ShieldOff": [
+      "account",
+      "security",
+      "development",
+      "gaming"
+    ],
+    "ScanLine": [
+      "devices",
+      "shopping"
+    ],
+    "Section": [
+      "text"
+    ],
+    "ShieldPlus": [
+      "account",
+      "security",
+      "development",
+      "gaming",
+      "medical"
+    ],
+    "ScanSquare": [
+      "photography",
+      "design",
+      "development"
+    ],
+    "ShieldLock": [
+      "security"
+    ],
+    "SeparatorHorizontal": [
+      "text",
+      "arrows",
+      "layout"
+    ],
+    "Shirt": [
+      "shopping"
+    ],
+    "Search": [
+      "text",
+      "social"
+    ],
+    "Share": [
+      "account",
+      "social"
+    ],
+    "SearchCheck": [
+      "text",
+      "social"
+    ],
+    "ShipWheel": [
+      "transportation",
+      "navigation",
+      "travel"
+    ],
+    "ScrollText": [
+      "gaming",
+      "development",
+      "text"
+    ],
+    "Send": [
+      "mail",
+      "communication",
+      "connectivity"
+    ],
+    "ShoppingBag": [
+      "shopping"
+    ],
+    "ShieldHalf": [
+      "account",
+      "security",
+      "development",
+      "gaming"
+    ],
+    "ScanQrCode": [
+      "account",
+      "shopping",
+      "devices",
+      "security"
+    ],
+    "SearchAlert": [
+      "text",
+      "social"
+    ],
+    "ScanSearch": [
+      "photography",
+      "multimedia",
+      "accessibility"
+    ],
+    "Sheet": [
+      "text",
+      "files"
+    ],
+    "Scissors": [
+      "text",
+      "design",
+      "tools"
+    ],
+    "SearchCode": [
+      "text",
+      "social",
+      "development"
+    ],
+    "SeparatorVertical": [
+      "text",
+      "arrows",
+      "layout"
+    ],
+    "SendHorizontal": [
+      "mail",
+      "communication",
+      "connectivity"
+    ],
+    "ShieldCogCorner": [
+      "account",
+      "security",
+      "development",
+      "gaming",
+      "shapes"
+    ],
+    "ShieldAlert": [
+      "account",
+      "security",
+      "development",
+      "notifications",
+      "gaming"
+    ],
+    "ServerCrash": [
+      "development",
+      "devices"
+    ],
+    "ShieldBan": [
+      "account",
+      "security",
+      "development",
+      "gaming"
+    ],
+    "ShieldMinus": [
+      "account",
+      "security",
+      "development",
+      "gaming"
+    ],
+    "ScanHeart": [
+      "medical"
+    ],
+    "ShieldCog": [
+      "account",
+      "security",
+      "development",
+      "gaming",
+      "shapes"
+    ],
+    "ScanText": [
+      "text",
+      "devices"
+    ],
+    "ShieldX": [
+      "account",
+      "security",
+      "development",
+      "gaming"
+    ],
+    "Scan": [
+      "devices",
+      "shopping",
+      "security",
+      "social",
+      "gaming"
+    ],
+    "ServerCog": [
+      "development",
+      "devices"
+    ],
+    "Shell": [
+      "animals",
+      "development",
+      "nature",
+      "science",
+      "travel",
+      "food-beverage",
+      "home"
+    ],
+    "SearchSlash": [
+      "text",
+      "social"
+    ],
+    "School": [
+      "buildings",
+      "navigation"
+    ],
+    "ShelvingUnit": [
+      "home"
+    ],
+    "Scroll": [
+      "gaming",
+      "development",
+      "text"
+    ],
+    "ShieldQuestionMark": [
+      "account",
+      "security",
+      "development",
+      "gaming"
+    ],
+    "Ship": [
+      "transportation",
+      "navigation",
+      "travel"
+    ],
+    "ScissorsLineDashed": [
+      "design",
+      "tools"
+    ],
+    "ShieldCheck": [
+      "account",
+      "security",
+      "development",
+      "gaming"
+    ],
+    "ServerOff": [
+      "development",
+      "devices"
+    ],
+    "ShieldUser": [
+      "account",
+      "security",
+      "development"
+    ],
+    "ShieldEllipsis": [
+      "account",
+      "security",
+      "development",
+      "gaming"
+    ],
+    "Sparkles": [
+      "cursors",
+      "multimedia",
+      "gaming",
+      "weather"
+    ],
+    "Sigma": [
+      "text",
+      "math",
+      "science"
+    ],
+    "ShoppingBasket": [
+      "shopping"
+    ],
+    "Shovel": [
+      "nature",
+      "tools",
+      "gaming"
+    ],
+    "SmartphoneCharging": [
+      "connectivity",
+      "devices"
+    ],
+    "Shuffle": [
+      "multimedia",
+      "arrows"
+    ],
+    "Spline": [
+      "design"
+    ],
+    "SignalMedium": [
+      "connectivity"
+    ],
+    "SlidersHorizontal": [
+      "account"
+    ],
+    "SmartphoneNfc": [
+      "communication",
+      "finance",
+      "devices"
+    ],
+    "SquareArrowOutUpLeft": [
+      "arrows"
+    ],
+    "Shrimp": [
+      "animals"
+    ],
+    "SquareArrowDownRight": [
+      "arrows",
+      "gaming"
+    ],
+    "Shredder": [
+      "mail",
+      "files"
+    ],
+    "SquareArrowOutUpRight": [
+      "arrows",
+      "social"
+    ],
+    "Siren": [
+      "medical"
+    ],
+    "SoapDispenserDroplet": [
+      "home",
+      "travel"
+    ],
+    "SpellCheck2": [
+      "text",
+      "development"
+    ],
+    "Speech": [
+      "accessibility",
+      "communication"
+    ],
+    "Slash": [
+      "development",
+      "math"
+    ],
+    "Shrub": [
+      "nature"
+    ],
+    "SquareArrowDownLeft": [
+      "arrows",
+      "gaming"
+    ],
+    "SignpostBig": [
+      "arrows",
+      "navigation",
+      "development",
+      "gaming"
+    ],
+    "SquareArrowOutDownLeft": [
+      "arrows"
+    ],
+    "Split": [
+      "development",
+      "arrows"
+    ],
+    "SportShoe": [
+      "sports"
+    ],
+    "Skull": [
+      "gaming"
+    ],
+    "ShoppingCart": [
+      "shopping"
+    ],
+    "Speaker": [
+      "multimedia",
+      "devices"
+    ],
+    "Sofa": [
+      "home"
+    ],
+    "Signature": [
+      "text"
+    ],
+    "ShowerHead": [
+      "home",
+      "travel"
+    ],
+    "Spotlight": [
+      "devices",
+      "photography",
+      "multimedia",
+      "communication"
+    ],
+    "Snail": [
+      "animals",
+      "food-beverage"
+    ],
+    "SkipForward": [
+      "multimedia",
+      "arrows"
+    ],
+    "SpellCheck": [
+      "text",
+      "development"
+    ],
+    "SolarPanel": [
+      "home",
+      "science",
+      "sustainability",
+      "weather"
+    ],
+    "SquareActivity": [
+      "medical",
+      "social",
+      "science",
+      "multimedia"
+    ],
+    "Spade": [
+      "shapes",
+      "gaming"
+    ],
+    "SquareArrowOutDownRight": [
+      "arrows"
+    ],
+    "SignalZero": [
+      "connectivity"
+    ],
+    "Space": [
+      "text"
+    ],
+    "SprayCan": [
+      "design",
+      "tools"
+    ],
+    "Signal": [
+      "connectivity"
+    ],
+    "Spool": [
+      "communication",
+      "tools",
+      "social"
+    ],
+    "SlidersVertical": [
+      "account"
+    ],
+    "SignalLow": [
+      "connectivity"
+    ],
+    "Shrink": [
+      "layout",
+      "arrows"
+    ],
+    "Sprout": [
+      "nature",
+      "gaming",
+      "sustainability"
+    ],
+    "SignalHigh": [
+      "connectivity"
+    ],
+    "SquareArrowDown": [
+      "arrows",
+      "gaming"
+    ],
+    "Soup": [
+      "food-beverage"
+    ],
+    "SquareArrowLeft": [
+      "arrows"
+    ],
+    "SkipBack": [
+      "multimedia",
+      "arrows"
+    ],
+    "Slice": [
+      "design"
+    ],
+    "Sparkle": [
+      "shapes"
+    ],
+    "Snowflake": [
+      "weather",
+      "seasons"
+    ],
+    "SplinePointer": [
+      "arrows",
+      "cursors",
+      "design",
+      "tools"
+    ],
+    "Signpost": [
+      "arrows",
+      "navigation",
+      "development",
+      "gaming"
+    ],
+    "Smartphone": [
+      "connectivity",
+      "devices"
+    ],
+    "SquareTerminal": [
+      "development"
+    ],
+    "SquareSigma": [
+      "text",
+      "math"
+    ],
+    "SquareDivide": [
+      "math"
+    ],
+    "SquareStack": [
+      "text",
+      "files",
+      "development"
+    ],
+    "SquareEqual": [
+      "math"
+    ],
+    "SquareStop": [
+      "multimedia"
+    ],
+    "SquareKanban": [
+      "charts",
+      "development",
+      "design"
+    ],
+    "SquareCenterlineDashedVertical": [
+      "design",
+      "photography"
+    ],
+    "SquareSquare": [
+      "layout"
+    ],
+    "SquareDot": [
+      "development"
+    ],
+    "SquareScissors": [
+      "text",
+      "design",
+      "tools",
+      "files",
+      "development"
+    ],
+    "SquareCheckBig": [
+      "notifications"
+    ],
+    "SquareDashedMousePointer": [
+      "arrows",
+      "cursors",
+      "development",
+      "tools"
+    ],
+    "SquarePi": [
+      "development",
+      "math"
+    ],
+    "SquareChevronLeft": [
+      "arrows",
+      "navigation"
+    ],
+    "SquareArrowUpRight": [
+      "arrows",
+      "social"
+    ],
+    "SquareDashedTopSolid": [
+      "design",
+      "development",
+      "layout"
+    ],
+    "SquareCheck": [
+      "notifications"
+    ],
+    "SquareDimensions": [
+      "design",
+      "layout"
+    ],
+    "SquarePercent": [
+      "social",
+      "finance",
+      "shopping",
+      "math"
+    ],
+    "SquareRoundCorner": [
+      "design",
+      "development",
+      "layout"
+    ],
+    "SquareChartGantt": [
+      "charts",
+      "time",
+      "development",
+      "design"
+    ],
+    "SquareArrowRightExit": [
+      "arrows",
+      "shapes",
+      "layout",
+      "multimedia"
+    ],
+    "SquareArrowUp": [
+      "arrows"
+    ],
+    "SquareStar": [
+      "sports",
+      "gaming"
+    ],
+    "SquareArrowUpLeft": [
+      "arrows"
+    ],
+    "SquareDashedText": [
+      "text",
+      "cursors"
+    ],
+    "SquarePilcrow": [
+      "text"
+    ],
+    "SquareChevronUp": [
+      "arrows",
+      "navigation",
+      "math"
+    ],
+    "SquareM": [
+      "transportation",
+      "navigation"
+    ],
+    "SquareRadical": [
+      "development",
+      "math"
+    ],
+    "SquarePause": [
+      "multimedia"
+    ],
+    "SquareAsterisk": [
+      "text",
+      "security",
+      "math",
+      "development"
+    ],
+    "SquareMinus": [
+      "math",
+      "development",
+      "text",
+      "tools",
+      "devices"
+    ],
+    "SquareChevronDown": [
+      "arrows",
+      "navigation"
+    ],
+    "SquareSlash": [
+      "development",
+      "math"
+    ],
+    "SquareSplitHorizontal": [
+      "layout"
+    ],
+    "SquareArrowRightEnter": [
+      "arrows",
+      "shapes",
+      "layout",
+      "multimedia"
+    ],
+    "SquareText": [
+      "text",
+      "shapes",
+      "development"
+    ],
+    "SquareDashedBottom": [
+      "development",
+      "files"
+    ],
+    "SquareSplitVertical": [
+      "layout"
+    ],
+    "SquareParking": [
+      "transportation",
+      "navigation"
+    ],
+    "SquareParkingOff": [
+      "transportation",
+      "navigation"
+    ],
+    "SquareDashedKanban": [
+      "charts",
+      "development",
+      "design"
+    ],
+    "SquarePower": [
+      "connectivity"
+    ],
+    "SquareLibrary": [
+      "text",
+      "photography",
+      "multimedia",
+      "navigation",
+      "development"
+    ],
+    "SquareMousePointer": [
+      "arrows",
+      "cursors",
+      "development",
+      "tools"
+    ],
+    "SquareCode": [
+      "text",
+      "development"
+    ],
+    "SquareArrowRight": [
+      "arrows"
+    ],
+    "SquareMenu": [
+      "layout"
+    ],
+    "SquarePen": [
+      "text"
+    ],
+    "SquareOff": [
+      "shapes",
+      "design"
+    ],
+    "SquarePlus": [
+      "math",
+      "tools",
+      "development",
+      "text"
+    ],
+    "SquareCenterlineDashedHorizontal": [
+      "design",
+      "photography"
+    ],
+    "SquareDashedBottomCode": [
+      "development",
+      "files"
+    ],
+    "SquareFunction": [
+      "development",
+      "math"
+    ],
+    "SquareChevronRight": [
+      "arrows",
+      "navigation",
+      "development"
+    ],
+    "SquarePlay": [
+      "arrows",
+      "multimedia"
+    ],
+    "SquareBottomDashedScissors": [
+      "text",
+      "design",
+      "tools",
+      "files",
+      "development"
+    ],
+    "SquareDashed": [
+      "text",
+      "design"
+    ],
+    "Squircle": [
+      "shapes"
+    ],
+    "StretchVertical": [
+      "layout"
+    ],
+    "SquaresExclude": [
+      "design"
+    ],
+    "Superscript": [
+      "text"
+    ],
+    "SquaresUnite": [
+      "design"
+    ],
+    "TableProperties": [
+      "text",
+      "development",
+      "files"
+    ],
+    "Stone": [
+      "nature"
+    ],
+    "SquareUserRound": [
+      "account"
+    ],
+    "Stamp": [
+      "design",
+      "cursors",
+      "tools"
+    ],
+    "StickyNoteOff": [
+      "text",
+      "social"
+    ],
+    "StarPlus": [
+      "account",
+      "social",
+      "shapes",
+      "multimedia",
+      "weather",
+      "emoji",
+      "gaming"
+    ],
+    "Star": [
+      "account",
+      "social",
+      "shapes",
+      "multimedia",
+      "weather",
+      "emoji",
+      "gaming"
+    ],
+    "Sun": [
+      "accessibility",
+      "weather",
+      "seasons",
+      "sustainability"
+    ],
+    "Stethoscope": [
+      "science",
+      "medical"
+    ],
+    "StickyNotePlus": [
+      "text",
+      "social"
+    ],
+    "Table": [
+      "text",
+      "files"
+    ],
+    "TableOfContents": [
+      "text"
+    ],
+    "SunSnow": [
+      "weather"
+    ],
+    "Sunset": [
+      "arrows",
+      "weather"
+    ],
+    "SunMoon": [
+      "accessibility"
+    ],
+    "StepForward": [
+      "multimedia",
+      "arrows"
+    ],
+    "Sticker": [
+      "social"
+    ],
+    "Strikethrough": [
+      "text"
+    ],
+    "Swords": [
+      "gaming",
+      "tools"
+    ],
+    "Table2": [
+      "text",
+      "files"
+    ],
+    "Store": [
+      "buildings",
+      "navigation",
+      "shopping"
+    ],
+    "Sunrise": [
+      "arrows",
+      "weather",
+      "time"
+    ],
+    "Sword": [
+      "gaming",
+      "tools"
+    ],
+    "Subscript": [
+      "text"
+    ],
+    "StickyNotes": [
+      "text",
+      "social"
+    ],
+    "SquareUser": [
+      "account"
+    ],
+    "StarX": [
+      "account",
+      "social",
+      "shapes",
+      "multimedia",
+      "weather",
+      "emoji",
+      "gaming"
+    ],
+    "StickyNoteMinus": [
+      "text",
+      "social"
+    ],
+    "StarOff": [
+      "multimedia",
+      "social"
+    ],
+    "SquircleDashed": [
+      "development",
+      "shapes",
+      "design"
+    ],
+    "TableCellsSplit": [
+      "text",
+      "files"
+    ],
+    "StickyNoteCheck": [
+      "text",
+      "social"
+    ],
+    "Syringe": [
+      "science",
+      "medical"
+    ],
+    "Summary": [
+      "text"
+    ],
+    "StretchHorizontal": [
+      "layout"
+    ],
+    "StarCheck": [
+      "account",
+      "social",
+      "shapes",
+      "multimedia",
+      "weather",
+      "emoji",
+      "gaming"
+    ],
+    "SwissFranc": [
+      "finance"
+    ],
+    "SquaresSubtract": [
+      "design"
+    ],
+    "TableColumnsSplit": [
+      "text",
+      "files"
+    ],
+    "TabletSmartphone": [
+      "devices",
+      "design",
+      "development",
+      "tools"
+    ],
+    "StarHalf": [
+      "social",
+      "multimedia"
+    ],
+    "SquaresIntersect": [
+      "design"
+    ],
+    "Squirrel": [
+      "animals"
+    ],
+    "SunDim": [
+      "accessibility",
+      "weather"
+    ],
+    "SwatchBook": [
+      "design",
+      "home",
+      "photography"
+    ],
+    "TableCellsMerge": [
+      "text",
+      "files"
+    ],
+    "SquareX": [
+      "math",
+      "notifications"
+    ],
+    "SunMedium": [
+      "accessibility",
+      "weather"
+    ],
+    "TableRowsSplit": [
+      "text",
+      "files"
+    ],
+    "StepBack": [
+      "multimedia",
+      "arrows"
+    ],
+    "Square": [
+      "shapes",
+      "multimedia"
+    ],
+    "StickyNoteX": [
+      "text",
+      "social"
+    ],
+    "StarMinus": [
+      "account",
+      "social",
+      "shapes",
+      "multimedia",
+      "weather",
+      "emoji",
+      "gaming"
+    ],
+    "StickyNote": [
+      "text",
+      "social"
+    ],
+    "SwitchCamera": [
+      "communication",
+      "devices"
+    ],
+    "Toolbox": [
+      "tools",
+      "home"
+    ],
+    "ToggleLeft": [
+      "layout",
+      "account",
+      "development"
+    ],
+    "TextCursorInput": [
+      "text",
+      "layout"
+    ],
+    "TextAlignStart": [
+      "text"
+    ],
+    "TagPlus": [
+      "account"
+    ],
+    "Tally4": [
+      "math",
+      "gaming"
+    ],
+    "Tablets": [
+      "medical"
+    ],
+    "Tickets": [
+      "travel",
+      "account",
+      "transportation"
+    ],
+    "TicketSlash": [
+      "transportation"
+    ],
+    "Tornado": [
+      "weather"
+    ],
+    "Torus": [
+      "shapes",
+      "design",
+      "tools",
+      "food-beverage"
+    ],
+    "TicketMinus": [
+      "transportation"
+    ],
+    "TextInitial": [
+      "text"
+    ],
+    "TestTubes": [
+      "science"
+    ],
+    "Telescope": [
+      "science",
+      "development",
+      "tools"
+    ],
+    "Tag": [
+      "account"
+    ],
+    "TagX": [
+      "account"
+    ],
+    "TicketPercent": [
+      "transportation",
+      "shopping"
+    ],
+    "TextWrap": [
+      "text",
+      "arrows"
+    ],
+    "Tags": [
+      "account"
+    ],
+    "Toilet": [
+      "devices",
+      "home"
+    ],
+    "TicketsPlane": [
+      "transportation",
+      "travel"
+    ],
+    "Tally1": [
+      "math",
+      "gaming"
+    ],
+    "TimerOff": [
+      "time"
+    ],
+    "Tally5": [
+      "math",
+      "gaming"
+    ],
+    "TimerReset": [
+      "time"
+    ],
+    "TentTree": [
+      "travel",
+      "nature"
+    ],
+    "Tally3": [
+      "math",
+      "gaming"
+    ],
+    "TicketX": [
+      "transportation"
+    ],
+    "ToggleRight": [
+      "layout",
+      "account",
+      "development"
+    ],
+    "ToolCase": [
+      "tools",
+      "development",
+      "home"
+    ],
+    "Tablet": [
+      "devices"
+    ],
+    "ThermometerSnowflake": [
+      "weather"
+    ],
+    "TestTube": [
+      "science"
+    ],
+    "TextSearch": [
+      "text"
+    ],
+    "ThumbsUp": [
+      "account",
+      "social",
+      "emoji"
+    ],
+    "Tent": [
+      "travel",
+      "nature",
+      "sustainability"
+    ],
+    "Theater": [
+      "buildings",
+      "social"
+    ],
+    "Timeline": [
+      "time"
+    ],
+    "TextAlignJustify": [
+      "text"
+    ],
+    "TestTubeDiagonal": [
+      "science"
+    ],
+    "Tally2": [
+      "math",
+      "gaming"
+    ],
+    "Timer": [
+      "time"
+    ],
+    "TowelRack": [
+      "home",
+      "travel"
+    ],
+    "TicketCheck": [
+      "transportation"
+    ],
+    "TextAlignCenter": [
+      "text"
+    ],
+    "TextAlignEnd": [
+      "text"
+    ],
+    "Tangent": [
+      "shapes",
+      "math",
+      "design",
+      "tools"
+    ],
+    "Ticket": [
+      "account",
+      "transportation"
+    ],
+    "TicketPlus": [
+      "transportation"
+    ],
+    "TouchpadOff": [
+      "devices"
+    ],
+    "TowerControl": [
+      "travel",
+      "transportation"
+    ],
+    "TextQuote": [
+      "text"
+    ],
+    "ThermometerSun": [
+      "weather"
+    ],
+    "Target": [
+      "gaming"
+    ],
+    "Terminal": [
+      "development"
+    ],
+    "Touchpad": [
+      "devices"
+    ],
+    "ThumbsDown": [
+      "account",
+      "social",
+      "emoji"
+    ],
+    "TextCursor": [
+      "text",
+      "cursors"
+    ],
+    "Thermometer": [
+      "weather"
+    ],
+    "Trash2": [
+      "files",
+      "mail"
+    ],
+    "TreePine": [
+      "nature",
+      "sustainability"
+    ],
+    "Unplug": [
+      "devices",
+      "development"
+    ],
+    "UserRoundMinus": [
+      "account"
+    ],
+    "UserRoundCog": [
+      "account"
+    ],
+    "Transgender": [
+      "medical",
+      "accessibility"
+    ],
+    "TrendingUpDown": [
+      "charts",
+      "arrows"
+    ],
+    "TriangleAlert": [
+      "notifications",
+      "shapes",
+      "development"
+    ],
+    "TramFront": [
+      "transportation"
+    ],
+    "TrainFront": [
+      "transportation"
+    ],
+    "TypeOutline": [
+      "text"
+    ],
+    "Umbrella": [
+      "weather"
+    ],
+    "Ungroup": [
+      "shapes",
+      "files"
+    ],
+    "Unlink": [
+      "text"
+    ],
+    "ToyBrick": [
+      "gaming",
+      "development"
+    ],
+    "UserRoundKey": [
+      "account"
+    ],
+    "UnfoldVertical": [
+      "arrows",
+      "layout"
+    ],
+    "UserCheck": [
+      "account"
+    ],
+    "TruckElectric": [
+      "transportation"
+    ],
+    "TreePalm": [
+      "nature",
+      "sustainability"
+    ],
+    "TrainFrontTunnel": [
+      "transportation",
+      "navigation"
+    ],
+    "Undo2": [
+      "text",
+      "arrows"
+    ],
+    "Turntable": [
+      "multimedia",
+      "home"
+    ],
+    "Turtle": [
+      "animals"
+    ],
+    "Undo": [
+      "text",
+      "arrows"
+    ],
+    "Trophy": [
+      "sports",
+      "gaming"
+    ],
+    "Tractor": [
+      "transportation",
+      "sustainability",
+      "food-beverage"
+    ],
+    "Type": [
+      "text"
+    ],
+    "UserPlus": [
+      "account"
+    ],
+    "Usb": [
+      "devices",
+      "multimedia",
+      "home"
+    ],
+    "Underline": [
+      "text"
+    ],
+    "Trees": [
+      "nature",
+      "sustainability"
+    ],
+    "TvMinimal": [
+      "devices",
+      "multimedia"
+    ],
+    "Triangle": [
+      "shapes"
+    ],
+    "UserRoundCheck": [
+      "account"
+    ],
+    "University": [
+      "buildings",
+      "navigation"
+    ],
+    "UserMinus": [
+      "account"
+    ],
+    "UnfoldHorizontal": [
+      "arrows",
+      "layout"
+    ],
+    "UserCog": [
+      "account"
+    ],
+    "Truck": [
+      "transportation"
+    ],
+    "UserRoundArrowLeft": [
+      "account",
+      "people",
+      "arrows"
+    ],
+    "TurkishLira": [
+      "finance"
+    ],
+    "TriangleDashed": [
+      "shapes"
+    ],
+    "TrendingUp": [
+      "charts",
+      "arrows"
+    ],
+    "UserPen": [
+      "account"
+    ],
+    "UmbrellaOff": [
+      "weather"
+    ],
+    "UndoDot": [
+      "text",
+      "arrows"
+    ],
+    "TvMinimalPlay": [
+      "devices",
+      "multimedia"
+    ],
+    "UserKey": [
+      "account"
+    ],
+    "TrafficCone": [
+      "transportation"
+    ],
+    "Tv": [
+      "devices",
+      "multimedia",
+      "communication"
+    ],
+    "Upload": [
+      "arrows",
+      "files"
+    ],
+    "TreeDeciduous": [
+      "nature",
+      "sustainability"
+    ],
+    "UserLock": [
+      "account",
+      "security"
+    ],
+    "TriangleRight": [
+      "shapes",
+      "math"
+    ],
+    "TrainTrack": [
+      "transportation",
+      "navigation"
+    ],
+    "UsbCPort": [
+      "devices",
+      "multimedia",
+      "home",
+      "gaming"
+    ],
+    "TrendingDown": [
+      "charts",
+      "arrows"
+    ],
+    "Unlink2": [
+      "text"
+    ],
+    "Trash": [
+      "files",
+      "mail"
+    ],
+    "User": [
+      "account"
+    ],
+    "WalletMinimal": [
+      "account",
+      "finance"
+    ],
+    "Weight": [
+      "math"
+    ],
+    "Van": [
+      "transportation"
+    ],
+    "Volleyball": [
+      "sports",
+      "gaming",
+      "travel"
+    ],
+    "Videotape": [
+      "devices",
+      "communication",
+      "connectivity",
+      "photography",
+      "files"
+    ],
+    "VideoOff": [
+      "devices",
+      "communication",
+      "connectivity",
+      "photography"
+    ],
+    "UsersRound": [
+      "account"
+    ],
+    "VibrateOff": [
+      "devices",
+      "connectivity",
+      "account"
+    ],
+    "UserRound": [
+      "account"
+    ],
+    "UserSearch": [
+      "account",
+      "social"
+    ],
+    "WavesArrowUp": [
+      "weather",
+      "sustainability"
+    ],
+    "Venus": [
+      "medical"
+    ],
+    "WavesVertical": [
+      "weather",
+      "sustainability"
+    ],
+    "UserRoundX": [
+      "account"
+    ],
+    "UtilityPole": [
+      "buildings",
+      "home",
+      "sustainability"
+    ],
+    "Wallpaper": [
+      "account",
+      "devices"
+    ],
+    "WebhookOff": [
+      "development",
+      "social",
+      "account"
+    ],
+    "UserStar": [
+      "account"
+    ],
+    "UserRoundPlus": [
+      "account"
+    ],
+    "Wand": [
+      "design",
+      "gaming",
+      "cursors",
+      "photography"
+    ],
+    "UtensilsCrossed": [
+      "food-beverage",
+      "travel",
+      "navigation"
+    ],
+    "WashingMachine": [
+      "home",
+      "devices",
+      "travel"
+    ],
+    "Vote": [
+      "social"
+    ],
+    "VenetianMask": [
+      "account",
+      "gaming"
+    ],
+    "Variable": [
+      "development",
+      "math"
+    ],
+    "WavesHorizontal": [
+      "weather",
+      "navigation",
+      "multimedia",
+      "sustainability"
+    ],
+    "UserShield": [
+      "account",
+      "security",
+      "development",
+      "people"
+    ],
+    "View": [
+      "design",
+      "photography"
+    ],
+    "VectorSquare": [
+      "shapes",
+      "math",
+      "design",
+      "tools"
+    ],
+    "Watch": [
+      "time"
+    ],
+    "WeightTilde": [
+      "math"
+    ],
+    "Vegan": [
+      "food-beverage",
+      "sustainability"
+    ],
+    "UserRoundPen": [
+      "account"
+    ],
+    "Wallet": [
+      "account",
+      "finance"
+    ],
+    "Volume": [
+      "connectivity",
+      "communication",
+      "multimedia"
+    ],
+    "Webcam": [
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "WheatOff": [
+      "food-beverage"
+    ],
+    "VolumeX": [
+      "connectivity",
+      "communication",
+      "multimedia"
+    ],
+    "UserRoundSearch": [
+      "account",
+      "social"
+    ],
+    "Waypoints": [
+      "security",
+      "account",
+      "navigation",
+      "development",
+      "social"
+    ],
+    "WandSparkles": [
+      "design",
+      "gaming",
+      "cursors",
+      "photography"
+    ],
+    "Webhook": [
+      "development",
+      "social",
+      "account"
+    ],
+    "UserX": [
+      "account"
+    ],
+    "VolumeOff": [
+      "connectivity",
+      "communication",
+      "multimedia"
+    ],
+    "Vibrate": [
+      "devices",
+      "connectivity",
+      "account",
+      "notifications"
+    ],
+    "Vault": [
+      "security",
+      "travel",
+      "home"
+    ],
+    "Volume1": [
+      "connectivity",
+      "communication",
+      "multimedia"
+    ],
+    "Voicemail": [
+      "connectivity",
+      "devices",
+      "social"
+    ],
+    "Users": [
+      "account"
+    ],
+    "WebcamOff": [
+      "connectivity",
+      "devices",
+      "communication"
+    ],
+    "WavesArrowDown": [
+      "weather",
+      "sustainability"
+    ],
+    "VenusAndMars": [
+      "medical"
+    ],
+    "Utensils": [
+      "food-beverage",
+      "travel",
+      "navigation"
+    ],
+    "Warehouse": [
+      "buildings",
+      "navigation"
+    ],
+    "WalletCards": [
+      "account",
+      "finance"
+    ],
+    "Volume2": [
+      "connectivity",
+      "communication",
+      "multimedia"
+    ],
+    "WavesLadder": [
+      "sports",
+      "home"
+    ],
+    "Video": [
+      "devices",
+      "communication",
+      "connectivity",
+      "photography"
+    ],
+    "Wheat": [
+      "food-beverage"
+    ],
+    "WifiCog": [
+      "connectivity",
+      "devices",
+      "files"
+    ],
+    "WrenchOff": [
+      "account",
+      "development",
+      "tools"
+    ],
+    "WifiLow": [
+      "connectivity",
+      "devices"
+    ],
+    "Worm": [
+      "animals",
+      "security"
+    ],
+    "WifiPen": [
+      "connectivity",
+      "devices"
+    ],
+    "ZodiacAries": [
+      "social",
+      "emoji"
+    ],
+    "ZodiacCapricorn": [
+      "social",
+      "emoji"
+    ],
+    "X": [
+      "notifications",
+      "math"
+    ],
+    "ZodiacScorpio": [
+      "social",
+      "emoji"
+    ],
+    "WifiZero": [
+      "connectivity",
+      "devices"
+    ],
+    "ZodiacGemini": [
+      "social",
+      "emoji"
+    ],
+    "WineOff": [
+      "food-beverage"
+    ],
+    "ZodiacVirgo": [
+      "social",
+      "emoji"
+    ],
+    "WifiOff": [
+      "connectivity",
+      "devices"
+    ],
+    "ZodiacAquarius": [
+      "social",
+      "emoji"
+    ],
+    "Wind": [
+      "weather",
+      "sustainability"
+    ],
+    "WifiHigh": [
+      "connectivity",
+      "devices"
+    ],
+    "ZodiacCancer": [
+      "social",
+      "emoji"
+    ],
+    "Wifi": [
+      "connectivity",
+      "devices"
+    ],
+    "WifiSync": [
+      "connectivity",
+      "devices"
+    ],
+    "WindArrowDown": [
+      "weather",
+      "sustainability"
+    ],
+    "ZoomOut": [
+      "accessibility",
+      "layout",
+      "design",
+      "text",
+      "photography"
+    ],
+    "ZodiacTaurus": [
+      "social",
+      "emoji"
+    ],
+    "Wine": [
+      "food-beverage"
+    ],
+    "ZodiacPisces": [
+      "social",
+      "emoji"
+    ],
+    "ZoomIn": [
+      "accessibility",
+      "layout",
+      "design",
+      "text",
+      "photography"
+    ],
+    "Wrench": [
+      "account",
+      "development",
+      "tools"
+    ],
+    "ZodiacLibra": [
+      "social",
+      "emoji"
+    ],
+    "Workflow": [
+      "development"
+    ],
+    "WholeWord": [
+      "text"
+    ],
+    "ZodiacOphiuchus": [
+      "social",
+      "emoji"
+    ],
+    "ZodiacLeo": [
+      "social",
+      "emoji"
+    ],
+    "Zap": [
+      "connectivity",
+      "devices",
+      "photography",
+      "weather"
+    ],
+    "XLineTop": [
+      "notifications",
+      "math"
+    ],
+    "ZodiacSagittarius": [
+      "social",
+      "emoji"
+    ],
+    "ZapOff": [
+      "connectivity",
+      "devices",
+      "photography",
+      "weather"
+    ]
+  }
+}

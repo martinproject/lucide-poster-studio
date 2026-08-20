@@ -1,0 +1,6 @@
+{
+  "name": "Lucide Poster Studio",
+  "description": "Artistic Lucide icon poster generator and design studio with random or category selection, custom backgrounds, adjustable scale, opacity, color palettes, and high-resolution export to PNG, SVG, and PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
