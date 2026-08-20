@@ -110,12 +110,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | :--- | :--- |
 | <kbd>Cmd</kbd> / <kbd>Ctrl</kbd> + <kbd>Z</kbd> | Undo last poster modification |
 | <kbd>Cmd</kbd> / <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd> | Redo modification |
-| <kbd>Cmd</kbd> / <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> | Toggle **The Matrix Code** Easter Egg |
-| Type `matrix` | Trigger **The Matrix Code** Easter Egg |
-| <kbd>Space</kbd> *(in Matrix)* | Cycle Matrix color themes |
-| <kbd>R</kbd> *(in Matrix)* | Shuffle digital rain streams |
-| <kbd>M</kbd> *(in Matrix)* | Mute / Unmute Synthesizer Soundtrack |
-| <kbd>Esc</kbd> | Close any open modal or return from Matrix |
 
 ---
 
