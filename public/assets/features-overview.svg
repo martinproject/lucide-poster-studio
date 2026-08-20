@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181B26" />
+      <stop offset="100%" stop-color="#0F1219" />
+    </linearGradient>
+    <linearGradient id="coralAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+    <linearGradient id="emeraldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="amberAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Card 1: 1,779 Vector Glyphs & Inspector -->
+  <g transform="translate(20, 20)" filter="url(#cardShadow)">
+    <rect width="245" height="280" rx="16" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+    <rect x="24" y="24" width="44" height="44" rx="10" fill="url(#coralAccent)" fill-opacity="0.15" stroke="#F87171" stroke-width="1.2" />
+    <!-- Grid icon -->
+    <path d="M38 38 h6 v6 h-6 z M48 38 h6 v6 h-6 z M38 48 h6 v6 h-6 z M48 48 h6 v6 h-6 z" fill="#F87171" />
+    
+    <text x="24" y="102" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700">1,779 Icon Grid</text>
+    <text x="24" y="126" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400">
+      <tspan x="24" dy="0">Complete Lucide official</tspan>
+      <tspan x="24" dy="18">catalog with instant single-cell</tspan>
+      <tspan x="24" dy="18">inspector &amp; lock mechanism.</tspan>
+    </text>
+    
+    <!-- Code pill -->
+    <rect x="24" y="220" width="197" height="28" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <text x="36" y="238" fill="#38BDF8" font-family="monospace" font-size="11">lucide.woff2 • 0ms Lag</text>
+  </g>
+
+  <!-- Card 2: Editorial Presets & Layouts -->
+  <g transform="translate(290, 20)" filter="url(#cardShadow)">
+    <rect width="245" height="280" rx="16" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+    <rect x="24" y="24" width="44" height="44" rx="10" fill="url(#emeraldAccent)" fill-opacity="0.15" stroke="#34D399" stroke-width="1.2" />
+    <!-- Preset layout icon -->
+    <rect x="36" y="36" width="20" height="20" rx="3" fill="none" stroke="#34D399" stroke-width="2" />
+    <line x1="36" y1="42" x2="56" y2="42" stroke="#34D399" stroke-width="2" />
+    
+    <text x="24" y="102" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700">Editorial Presets</text>
+    <text x="24" y="126" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400">
+      <tspan x="24" dy="0">Curated Swiss, Bauhaus,</tspan>
+      <tspan x="24" dy="18">Cyberpunk, Dark &amp; Minimal</tspan>
+      <tspan x="24" dy="18">presets with custom ratios.</tspan>
+    </text>
+
+    <!-- Code pill -->
+    <rect x="24" y="220" width="197" height="28" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <text x="36" y="238" fill="#34D399" font-family="monospace" font-size="11">A2, A3, A4, 16:9, 1:1</text>
+  </g>
+
+  <!-- Card 3: 3D Gallery Mockups -->
+  <g transform="translate(560, 20)" filter="url(#cardShadow)">
+    <rect width="245" height="280" rx="16" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+    <rect x="24" y="24" width="44" height="44" rx="10" fill="url(#amberAccent)" fill-opacity="0.15" stroke="#FBBF24" stroke-width="1.2" />
+    <!-- 3D frame icon -->
+    <path d="M46 36 L56 42 L46 48 L36 42 Z M36 44 L36 54 L46 60 L46 50 Z M56 44 L56 54 L46 60 L46 50 Z" fill="none" stroke="#FBBF24" stroke-width="1.6" />
+
+    <text x="24" y="102" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700">3D Spatial Mockup</text>
+    <text x="24" y="126" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400">
+      <tspan x="24" dy="0">Real-world gallery preview</tspan>
+      <tspan x="24" dy="18">with wood, aluminum &amp;</tspan>
+      <tspan x="24" dy="18">minimalist glass frames.</tspan>
+    </text>
+
+    <!-- Code pill -->
+    <rect x="24" y="220" width="197" height="28" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <text x="36" y="238" fill="#FBBF24" font-family="monospace" font-size="11">Interior Lighting &amp; Mats</text>
+  </g>
+
+  <!-- Card 4: Vector Export & Named Layers -->
+  <g transform="translate(830, 20)" filter="url(#cardShadow)">
+    <rect width="245" height="280" rx="16" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+    <rect x="24" y="24" width="44" height="44" rx="10" fill="url(#cyanAccent)" fill-opacity="0.15" stroke="#38BDF8" stroke-width="1.2" />
+    <!-- Vector export download icon -->
+    <path d="M46 34 L46 48 M40 43 L46 49 L52 43 M36 53 L56 53" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+    <text x="24" y="102" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700">Named Vector SVG</text>
+    <text x="24" y="126" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400">
+      <tspan x="24" dy="0">Layer names preserved for</tspan>
+      <tspan x="24" dy="18">Figma &amp; Illustrator,</tspan>
+      <tspan x="24" dy="18">plus 300 DPI PDF &amp; 4K PNG.</tspan>
+    </text>
+
+    <!-- Code pill -->
+    <rect x="24" y="220" width="197" height="28" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <text x="36" y="238" fill="#38BDF8" font-family="monospace" font-size="11">Inkscape • Figma Ready</text>
+  </g>
+</svg>

@@ -9,6 +9,7 @@ import {
   ExternalLink,
 } from 'lucide-react';
 import { LucideSwirlLogo } from './PosterCanvas';
+import bannerSvg from '../../assets/banner.svg';
 import type { PosterPreset } from '../types';
 
 interface LandingPageProps {
@@ -134,7 +135,7 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
         >
           <div className="relative rounded-xl overflow-hidden bg-[#FAF8F5] border border-black/10 aspect-[16/9] flex items-center justify-center shadow-xs">
             <img
-              src="/assets/banner.svg"
+              src={bannerSvg}
               alt="Lucide Poster Studio Preview"
               className="w-full h-full object-cover sm:object-contain transform group-hover:scale-[1.01] transition-transform duration-500"
             />
