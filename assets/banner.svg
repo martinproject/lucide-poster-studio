@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1117" />
+      <stop offset="50%" stop-color="#141721" />
+      <stop offset="100%" stop-color="#0A0C10" />
+    </linearGradient>
+    
+    <radialGradient id="glowCoral" cx="20%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#F56565" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#F56565" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowEmerald" cx="85%" cy="65%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glass & Border styling -->
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+
+    <filter id="shadowHeavy" x="-15%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.75" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+
+    <filter id="badgeGlow">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#F56565" flood-opacity="0.45" />
+    </filter>
+
+    <clipPath id="posterClip">
+      <rect x="0" y="0" width="375" height="500" rx="8" />
+    </clipPath>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="560" fill="url(#bgGrad)" />
+  <rect width="1200" height="560" fill="url(#glowCoral)" />
+  <rect width="1200" height="560" fill="url(#glowEmerald)" />
+
+  <!-- Subtle Blueprint / Grid lines in background -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="490" x2="1200" y2="490" />
+    <line x1="150" y1="0" x2="150" y2="560" />
+    <line x1="300" y1="0" x2="300" y2="560" />
+    <line x1="450" y1="0" x2="450" y2="560" />
+    <line x1="600" y1="0" x2="600" y2="560" />
+    <line x1="750" y1="0" x2="750" y2="560" />
+    <line x1="900" y1="0" x2="900" y2="560" />
+    <line x1="1050" y1="0" x2="1050" y2="560" />
+  </g>
+
+  <!-- LEFT COLUMN: Typography & Studio Identity -->
+  <g transform="translate(80, 75)">
+    <!-- Pill Badge -->
+    <g filter="url(#badgeGlow)">
+      <rect x="0" y="0" width="220" height="32" rx="16" fill="#1E2230" stroke="#F56565" stroke-width="1.2" stroke-opacity="0.7" />
+      <circle cx="16" cy="16" r="4" fill="#F56565" />
+      <text x="30" y="21" fill="#FEE2E2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5">LUCIDE ICON STUDIO</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="96" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Outfit', sans-serif" font-size="54" font-weight="900" letter-spacing="-1.5">
+      Lucide Poster Studio
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="142" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="400" letter-spacing="-0.2">
+      Artisanal Grid Composition &amp; High-Resolution Vector Engine
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 190)">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="135" height="34" rx="8" fill="#1E293B" stroke="url(#cardBorder)" stroke-width="1" />
+      <text x="14" y="21" fill="#E2E8F0" font-family="monospace" font-size="12" font-weight="600">✦ 1,779 GLYPHS</text>
+
+      <!-- Tag 2 -->
+      <rect x="148" y="0" width="150" height="34" rx="8" fill="#1E293B" stroke="url(#cardBorder)" stroke-width="1" />
+      <text x="162" y="21" fill="#E2E8F0" font-family="monospace" font-size="12" font-weight="600">✦ NAMED LAYERS</text>
+
+      <!-- Tag 3 -->
+      <rect x="312" y="0" width="140" height="34" rx="8" fill="#1E293B" stroke="url(#cardBorder)" stroke-width="1" />
+      <text x="326" y="21" fill="#E2E8F0" font-family="monospace" font-size="12" font-weight="600">✦ SVG • PDF • 4K</text>
+    </g>
+
+    <!-- Tech spec bullets -->
+    <g transform="translate(0, 270)" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14">
+      <text x="0" y="0">✓ Interactive Grid Customizer &amp; Quick Single-Cell Inspector</text>
+      <text x="0" y="28">✓ 3D Spatial Gallery Mockup Previewer with Lighting</text>
+      <text x="0" y="56">✓ The Matrix 1999 Digital Rain Easter Egg (Tone.js Synth)</text>
+      <text x="0" y="84">✓ Zero-Lag Native Vector Font Engine (<tspan fill="#38BDF8" font-family="monospace">lucide.woff2</tspan>)</text>
+    </g>
+  </g>
+
+  <!-- RIGHT COLUMN: Exact Lucide Poster SVG Display with Museum Frame -->
+  <g transform="translate(735, 30)" filter="url(#shadowHeavy)">
+    <!-- Frame / Border Backing -->
+    <rect x="-3" y="-3" width="381" height="506" rx="10" fill="#E2DDD5" stroke="#C4BCB1" stroke-width="1.5" />
+    
+    <!-- Rendered SVG Poster Artwork from lucide-poster.svg -->
+    <g clip-path="url(#posterClip)">
+      <image href="lucide-poster.svg" x="0" y="0" width="375" height="500" preserveAspectRatio="xMidYMid slice" />
+    </g>
+
+    <!-- Subtle Glass Specular Reflection Overlay -->
+    <path d="M0 0 L375 0 L0 260 Z" fill="#FFFFFF" fill-opacity="0.04" pointer-events="none" />
+  </g>
+</svg>
