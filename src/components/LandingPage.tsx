@@ -176,30 +176,49 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
       </main>
 
       {/* 4. Editorial Clean Footer */}
-      <footer className="border-t border-black/10 py-6 px-6 z-20 bg-[#FDFCFB]">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#78716C] font-sans">
-          <div className="flex items-center gap-2">
-            <LucideSwirlLogo size={16} color="#1A1815" accentColor="#DE5D53" />
-            <span className="font-bold text-[#1A1A1A]">Lucide Poster Studio</span>
-            <span>•</span>
-            <span>Icons by <a href="https://lucide.dev" target="_blank" rel="noreferrer" className="text-[#1A1A1A] hover:underline font-medium">Lucide Contributors</a></span>
+      <footer className="border-t border-black/10 py-8 px-6 z-20 bg-[#FDFCFB]">
+        <div className="max-w-5xl mx-auto flex flex-col gap-4 text-xs text-[#78716C] font-sans">
+          {/* Main Footer Links */}
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-2">
+              <LucideSwirlLogo size={16} color="#1A1815" accentColor="#DE5D53" />
+              <span className="font-bold text-[#1A1A1A]">Lucide Poster Studio</span>
+            </div>
+
+            <div className="flex items-center gap-5 font-medium">
+              <button
+                onClick={() => onEnterStudio()}
+                className="text-[#1A1815] hover:text-[#DE5D53] transition-colors"
+              >
+                Studio
+              </button>
+              <a
+                href="https://lucide.dev/license"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#78716C] hover:text-[#1A1A1A] transition-colors"
+              >
+                Lucide License
+              </a>
+              <a
+                href="https://github.com/martinproject/lucide-poster-studio"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#78716C] hover:text-[#1A1A1A] transition-colors"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
 
-          <div className="flex items-center gap-4 font-medium">
-            <button
-              onClick={() => onEnterStudio()}
-              className="text-[#1A1815] hover:text-[#DE5D53] transition-colors"
-            >
-              Studio
-            </button>
-            <a
-              href="https://github.com/martinproject/lucide-poster-studio"
-              target="_blank"
-              rel="noreferrer"
-              className="text-[#78716C] hover:text-[#1A1815] transition-colors"
-            >
-              GitHub
-            </a>
+          {/* Copyright & Attribution Details */}
+          <div className="pt-3 border-t border-black/5 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] text-[#A8A29E] font-mono text-center sm:text-left">
+            <div>
+              <span>ISC License • Copyright &copy; 2026 Lucide Icons and Contributors</span>
+            </div>
+            <div>
+              <span>MIT License • Copyright &copy; 2013-present Cole Bemis</span>
+            </div>
           </div>
         </div>
       </footer>

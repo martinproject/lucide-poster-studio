@@ -113,7 +113,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📄 License
+## 📄 License & Attribution
 
-MIT © [Lucide Poster Studio](https://github.com/martinproject/lucide-poster-studio).  
-Icons by [Lucide Contributors](https://lucide.dev) under the ISC License.
+- **Lucide Poster Studio**: [MIT License](LICENSE) &copy; 2026 [Lucide Poster Studio](https://github.com/martinproject/lucide-poster-studio).
+- **Lucide Icons**: [ISC License](https://lucide.dev/license) &copy; 2026 Lucide Icons and Contributors.
+- **Feather Icons**: [The MIT License (MIT)](https://github.com/feathericons/feather) &copy; 2013-present Cole Bemis.
