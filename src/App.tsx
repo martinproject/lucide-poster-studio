@@ -908,7 +908,7 @@ export default function App() {
                 ref={svgRef}
                 config={config}
                 icons={icons}
-                selectedIndex={selectedCellIndex}
+                selectedIndex={isPickerOpen ? selectedCellIndex : null}
                 onSelectIcon={handleSelectIcon}
                 interactive={true}
               />
@@ -920,7 +920,10 @@ export default function App() {
       {/* Single Cell Quick Inspector / Icon Picker Modal */}
       <IconPickerModal
         isOpen={isPickerOpen}
-        onClose={() => setIsPickerOpen(false)}
+        onClose={() => {
+          setIsPickerOpen(false);
+          setSelectedCellIndex(null);
+        }}
         selectedItem={selectedCellIndex !== null ? icons[selectedCellIndex] || null : null}
         cellIndex={selectedCellIndex}
         onUpdateItem={handleUpdateItem}

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   X,
   Search,
@@ -35,6 +35,21 @@ export function IconPickerModal({
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [customHex, setCustomHex] = useState(selectedItem?.customColor || '');
 
+  useEffect(() => {
+    setCustomHex(selectedItem?.customColor || '');
+  }, [selectedItem?.customColor]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
+
   // Filter icons based on category and search query
   const filteredIcons = useMemo(() => {
     let pool = ALL_ICON_NAMES;
@@ -58,7 +73,10 @@ export function IconPickerModal({
   const CurrentIcon = getLucideIcon(selectedItem.name);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm animate-in fade-in duration-150 font-sans">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm animate-in fade-in duration-150 font-sans"
+      onClick={onClose}
+    >
       <div
         className="bg-[#FDFCFB] border border-black/20 w-full max-w-2xl max-h-[85vh] flex flex-col shadow-[0_30px_70px_rgba(0,0,0,0.18)] overflow-hidden text-[#1A1A1A]"
         onClick={(e) => e.stopPropagation()}
