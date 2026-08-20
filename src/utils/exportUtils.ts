@@ -22,14 +22,28 @@ export function triggerCelebration() {
   }
 }
 
-// Convert SVG Element to standalone SVG string with styles
+// Convert SVG Element to standalone SVG string with styles & named layers
 export function getSvgString(svgElement: SVGSVGElement): string {
   const clonedSvg = svgElement.cloneNode(true) as SVGSVGElement;
   
-  // Ensure standard SVG namespaces
+  // Ensure standard SVG namespaces for Figma, Illustrator, Inkscape, Affinity
   clonedSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
   clonedSvg.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
-  
+  clonedSvg.setAttribute('xmlns:inkscape', 'http://www.inkscape.org/namespaces/inkscape');
+  clonedSvg.setAttribute('xmlns:sodipodi', 'http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd');
+
+  // Strip UI-only interactive selection boxes and hover feedback
+  const selectionRects = clonedSvg.querySelectorAll('rect[stroke="transparent"][fill="transparent"]');
+  selectionRects.forEach((el) => el.remove());
+
+  // Set inkscape:label on all elements with data-name for Inkscape compatibility
+  clonedSvg.querySelectorAll('[data-name]').forEach((el) => {
+    const name = el.getAttribute('data-name');
+    if (name) {
+      el.setAttribute('inkscape:label', name);
+    }
+  });
+
   // Embed external fonts reference inside SVG defs
   const defs = clonedSvg.querySelector('defs') || document.createElementNS('http://www.w3.org/2000/svg', 'defs');
   const styleEl = document.createElementNS('http://www.w3.org/2000/svg', 'style');

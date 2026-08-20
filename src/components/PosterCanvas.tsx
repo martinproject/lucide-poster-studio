@@ -286,65 +286,73 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
         </defs>
 
         {/* 1. Base Background Fill */}
-        <rect
-          x="0"
-          y="0"
-          width={width}
-          height={height}
-          fill={
-            config.backgroundType === 'gradient'
-              ? 'url(#bg-linear-grad)'
-              : config.backgroundType === 'radial'
-              ? 'url(#bg-radial-grad)'
-              : config.backgroundColor
-          }
-        />
+        <g id="layer-background" data-name="Background">
+          <rect
+            id="background-rect"
+            data-name="Background Rect"
+            x="0"
+            y="0"
+            width={width}
+            height={height}
+            fill={
+              config.backgroundType === 'gradient'
+                ? 'url(#bg-linear-grad)'
+                : config.backgroundType === 'radial'
+                ? 'url(#bg-radial-grad)'
+                : config.backgroundColor
+            }
+          />
+        </g>
 
         {/* 2. Texture Overlay Layer */}
-        {config.texture === 'dots' && (
-          <rect x="0" y="0" width={width} height={height} fill="url(#dot-pattern)" />
-        )}
-        {config.texture === 'grid' && (
-          <rect x="0" y="0" width={width} height={height} fill="url(#grid-pattern)" />
-        )}
-        {config.texture === 'iso_grid' && (
-          <rect x="0" y="0" width={width} height={height} fill="url(#iso-grid-pattern)" />
-        )}
-        {config.texture === 'crosshatch' && (
-          <rect x="0" y="0" width={width} height={height} fill="url(#crosshatch-pattern)" />
-        )}
-        {config.texture === 'halftone' && (
-          <rect x="0" y="0" width={width} height={height} fill="url(#halftone-pattern)" />
-        )}
-        {config.texture === 'linen' && (
-          <rect x="0" y="0" width={width} height={height} fill="url(#linen-pattern)" />
-        )}
-        {config.texture === 'lines' && (
-          <rect x="0" y="0" width={width} height={height} fill="url(#lines-pattern)" />
-        )}
-        {config.texture === 'paper' && (
-          <rect
-            x="0"
-            y="0"
-            width={width}
-            height={height}
-            filter="url(#archival-paper-filter)"
-            opacity={config.textureOpacity * 1.5}
-            fill={config.backgroundColor}
-            style={{ mixBlendMode: 'multiply' }}
-          />
-        )}
-        {(config.texture === 'grain' || config.texture === 'noise') && (
-          <rect
-            x="0"
-            y="0"
-            width={width}
-            height={height}
-            filter="url(#fine-grain-filter)"
-            opacity={config.texture === 'noise' ? config.textureOpacity * 1.6 : config.textureOpacity * 0.9}
-            fill={config.primaryIconColor}
-            style={{ mixBlendMode: 'overlay' }}
-          />
+        {config.texture !== 'none' && (
+          <g id="layer-texture" data-name="Texture Overlay">
+            {config.texture === 'dots' && (
+              <rect x="0" y="0" width={width} height={height} fill="url(#dot-pattern)" />
+            )}
+            {config.texture === 'grid' && (
+              <rect x="0" y="0" width={width} height={height} fill="url(#grid-pattern)" />
+            )}
+            {config.texture === 'iso_grid' && (
+              <rect x="0" y="0" width={width} height={height} fill="url(#iso-grid-pattern)" />
+            )}
+            {config.texture === 'crosshatch' && (
+              <rect x="0" y="0" width={width} height={height} fill="url(#crosshatch-pattern)" />
+            )}
+            {config.texture === 'halftone' && (
+              <rect x="0" y="0" width={width} height={height} fill="url(#halftone-pattern)" />
+            )}
+            {config.texture === 'linen' && (
+              <rect x="0" y="0" width={width} height={height} fill="url(#linen-pattern)" />
+            )}
+            {config.texture === 'lines' && (
+              <rect x="0" y="0" width={width} height={height} fill="url(#lines-pattern)" />
+            )}
+            {config.texture === 'paper' && (
+              <rect
+                x="0"
+                y="0"
+                width={width}
+                height={height}
+                filter="url(#archival-paper-filter)"
+                opacity={config.textureOpacity * 1.5}
+                fill={config.backgroundColor}
+                style={{ mixBlendMode: 'multiply' }}
+              />
+            )}
+            {(config.texture === 'grain' || config.texture === 'noise') && (
+              <rect
+                x="0"
+                y="0"
+                width={width}
+                height={height}
+                filter="url(#fine-grain-filter)"
+                opacity={config.texture === 'noise' ? config.textureOpacity * 1.6 : config.textureOpacity * 0.9}
+                fill={config.primaryIconColor}
+                style={{ mixBlendMode: 'overlay' }}
+              />
+            )}
+          </g>
         )}
 
         {/* 3. Horizontal Top Header (if selected) */}
@@ -359,9 +367,11 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
           return (
             <g
               id="poster-horizontal-header"
+              data-name="Header Typography"
               transform={`translate(${margin}, ${margin})`}
             >
-              <g className="flex items-center">
+              <title>Header Typography</title>
+              <g className="flex items-center" data-name="Header Brand">
                 {config.headerLogo === 'swirl' ? (
                   <LucideSwirlLogo
                     size={42}
@@ -402,7 +412,8 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
         })()}
 
         {/* 4. Icon Grid with Integrated Branding */}
-        <g id="poster-icon-grid">
+        <g id="poster-icon-grid" data-name="Icons Grid">
+          <title>Icons Grid</title>
           {Array.from({ length: rows }).map((_, row) =>
             Array.from({ length: cols }).map((_, col) => {
               const cellX = startX + col * (cellWidth + config.gridGapX);
@@ -424,10 +435,13 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                   <g
                     key="branding-logo-cell"
                     id="branding-logo-cell"
+                    data-name="Logo - Lucide Swirl"
                     transform={`translate(${cellX}, ${cellY})`}
                     className="cursor-default"
                   >
+                    <title>Lucide Logo</title>
                     <g
+                      data-name="Swirl Logo Symbol"
                       transform={`
                         translate(${iconOffsetX + actualScale / 2}, ${iconOffsetY + actualScale / 2})
                         scale(${config.badgeScale})
@@ -464,9 +478,11 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                   <g
                     key="branding-text-cell"
                     id="branding-text-cell"
+                    data-name={`Header - ${config.headerTitle || 'Lucide'}`}
                     transform={`translate(${cellX + cellWidth / 2}, ${cellY + (cellHeight * 0.14)})`}
                     className="cursor-default"
                   >
+                    <title>{config.headerTitle || 'Lucide'}</title>
                     <text
                       x="0"
                       y="0"
@@ -510,19 +526,25 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                 rotation: 0,
               };
 
-              const iconComponent = getLucideIcon(item.name);
+              const iconName = item.name || 'Icon';
+              const iconComponent = getLucideIcon(iconName);
               const IconComp = iconComponent;
               const iconColor = getIconColor(col, row, item);
               const isSelected = selectedIndex === iconIndex;
+              const cleanIconSlug = iconName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+              const cellLayerId = `cell-${iconIndex + 1}-${cleanIconSlug}`;
 
               return (
                 <g
                   key={item.id || iconIndex}
-                  id={`cell-group-${iconIndex}`}
+                  id={cellLayerId}
+                  data-name={`${iconName} (Cell ${iconIndex + 1})`}
                   transform={`translate(${cellX}, ${cellY})`}
                   className={interactive ? 'cursor-pointer group' : ''}
                   onClick={() => interactive && onSelectIcon && onSelectIcon(iconIndex)}
                 >
+                  <title>{iconName}</title>
+
                   {/* Selection / Hover Indicator */}
                   {interactive && (
                     <rect
@@ -553,6 +575,8 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
 
                   {/* Render Nested SVG for Icon with Rotation & Sizing */}
                   <g
+                    id={`icon-${cleanIconSlug}-${iconIndex + 1}`}
+                    data-name={iconName}
                     transform={`
                       translate(${iconOffsetX + actualScale / 2}, ${iconOffsetY + actualScale / 2})
                       rotate(${item.rotation || 0})
@@ -560,6 +584,7 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                     `}
                     opacity={config.iconOpacity}
                   >
+                    <title>{iconName}</title>
                     {IconComp ? (
                       <IconComp
                         size={actualScale}
@@ -589,8 +614,10 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
         {showFooter && (
           <g
             id="poster-footer"
+            data-name="Footer Typography"
             transform={`translate(${margin}, ${height - margin - 22})`}
           >
+            <title>Footer</title>
             {/* Left Footer: Multi-line text (e.g. "OPEN SOURCE \n MADE WORLDWIDE") */}
             {config.footerLeft && (
               <text
