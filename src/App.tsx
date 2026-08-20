@@ -10,6 +10,7 @@ import { MockupStage } from './components/MockupStage';
 import { PrintDialog } from './components/PrintDialog';
 import { MatrixEasterEgg } from './components/MatrixEasterEgg';
 import { LandingPage } from './components/LandingPage';
+import { OnboardingModal } from './components/OnboardingModal';
 import { POSTER_PRESETS } from './data/presets';
 import { generateIconGrid } from './utils/gridGenerator';
 import {
@@ -21,6 +22,7 @@ import {
   decodeShareableURL,
   encodeShareableURL,
 } from './utils/exportUtils';
+import { printConsoleEasterEggClues } from './utils/consoleClues';
 import type {
   IconGridItem,
   PosterConfig,
@@ -223,18 +225,54 @@ export default function App() {
 
   const [currentView, setCurrentView] = useState<'landing' | 'studio'>(() => {
     if (typeof window !== 'undefined') {
+      const path = window.location.pathname.toLowerCase();
       const search = window.location.search;
-      const hash = window.location.hash;
-      if (search.includes('c=') || search.includes('studio=true') || hash === '#studio') {
+      const hash = window.location.hash.toLowerCase();
+      if (
+        path.includes('/studio') ||
+        path.endsWith('studio') ||
+        search.includes('c=') ||
+        search.includes('studio=true') ||
+        hash === '#studio'
+      ) {
         return 'studio';
       }
     }
     return 'landing';
   });
 
+  // Browser navigation (Back / Forward) history synchronization
+  useEffect(() => {
+    const handlePopState = () => {
+      const path = window.location.pathname.toLowerCase();
+      const search = window.location.search;
+      const hash = window.location.hash.toLowerCase();
+      if (
+        path.includes('/studio') ||
+        path.endsWith('studio') ||
+        search.includes('c=') ||
+        search.includes('studio=true') ||
+        hash === '#studio'
+      ) {
+        setCurrentView('studio');
+      } else {
+        setCurrentView('landing');
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Print enigmatic ASCII Easter Egg clues in DevTools console
+  useEffect(() => {
+    printConsoleEasterEggClues();
+  }, []);
+
   const [isMockupOpen, setIsMockupOpen] = useState<boolean>(false);
   const [isPrintDialogOpen, setIsPrintDialogOpen] = useState<boolean>(false);
   const [isMatrixOpen, setIsMatrixOpen] = useState<boolean>(false);
+  const [isOnboardingOpen, setIsOnboardingOpen] = useState<boolean>(false);
   const keySequenceRef = useRef<string>('');
 
   // Undo / Redo History States
@@ -812,16 +850,33 @@ export default function App() {
     config.columns * config.rows -
     (config.headerPosition === 'vertical-left' && config.showSideHeader ? 3 : 0);
 
+  const navigateToStudio = useCallback((preset?: PosterPreset) => {
+    if (preset) {
+      handleApplyPreset(preset);
+    }
+    setCurrentView('studio');
+    try {
+      window.history.pushState(null, '', '/studio');
+    } catch {
+      // Fallback
+    }
+    window.scrollTo(0, 0);
+  }, [handleApplyPreset]);
+
+  const navigateToHome = useCallback(() => {
+    setCurrentView('landing');
+    try {
+      window.history.pushState(null, '', '/');
+    } catch {
+      // Fallback
+    }
+    window.scrollTo(0, 0);
+  }, []);
+
   if (currentView === 'landing') {
     return (
       <LandingPage
-        onEnterStudio={(preset) => {
-          if (preset) {
-            handleApplyPreset(preset);
-          }
-          setCurrentView('studio');
-          window.scrollTo(0, 0);
-        }}
+        onEnterStudio={navigateToStudio}
       />
     );
   }
@@ -840,7 +895,8 @@ export default function App() {
       <HeaderNav
         onShuffle={handleShuffle}
         onResetToPreset={handleResetToPreset}
-        onReturnToHome={() => setCurrentView('landing')}
+        onReturnToHome={navigateToHome}
+        onOpenOnboarding={() => setIsOnboardingOpen(true)}
         canUndo={past.length > 0}
         canRedo={future.length > 0}
         onUndo={undo}
@@ -1002,6 +1058,12 @@ export default function App() {
       <MatrixEasterEgg
         isOpen={isMatrixOpen}
         onClose={() => setIsMatrixOpen(false)}
+      />
+
+      {/* Interactive App Onboarding & Tour Modal */}
+      <OnboardingModal
+        isOpen={isOnboardingOpen}
+        onClose={() => setIsOnboardingOpen(false)}
       />
     </div>
   );

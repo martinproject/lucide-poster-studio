@@ -10,7 +10,15 @@ import {
   Shuffle,
 } from 'lucide-react';
 import { LUCIDE_FONT_GLYPHS } from '../data/lucideFontGlyphs';
-import { matrixAudio } from '../utils/matrixThemeAudio';
+
+// Lazy dynamic audio engine loader to prevent AudioContext initialization warnings on page load
+let audioModulePromise: Promise<typeof import('../utils/matrixThemeAudio')> | null = null;
+function getMatrixAudio() {
+  if (!audioModulePromise) {
+    audioModulePromise = import('../utils/matrixThemeAudio');
+  }
+  return audioModulePromise;
+}
 
 export type MatrixTheme = 'classic' | 'trinity' | 'zion' | 'agent' | 'monochrome';
 
@@ -109,19 +117,19 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
   // Shuffle stream seed
   const handleShuffle = useCallback(() => {
     setShuffleSeed((prev) => prev + 1);
-    matrixAudio.playShuffleGlitch();
+    getMatrixAudio().then((m) => m.matrixAudio.playShuffleGlitch());
   }, []);
 
   // Tone.js Matrix Main Title Theme Soundtrack Engine
   useEffect(() => {
     if (isOpen) {
-      matrixAudio.start();
+      getMatrixAudio().then((m) => m.matrixAudio.start());
     } else {
-      matrixAudio.stop();
+      getMatrixAudio().then((m) => m.matrixAudio.stop());
     }
 
     return () => {
-      matrixAudio.stop();
+      getMatrixAudio().then((m) => m.matrixAudio.stop());
     };
   }, [isOpen]);
 
@@ -311,7 +319,7 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
       } else if (e.key.toLowerCase() === 'm') {
         setIsSoundMuted((prev) => {
           const next = !prev;
-          matrixAudio.setMuted(next);
+          getMatrixAudio().then((m) => m.matrixAudio.setMuted(next));
           return next;
         });
       } else if (e.key.toLowerCase() === 'r') {
@@ -324,7 +332,7 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
         const themes: MatrixTheme[] = ['classic', 'trinity', 'zion', 'agent', 'monochrome'];
         setTheme((prev) => {
           const idx = (themes.indexOf(prev) + 1) % themes.length;
-          matrixAudio.playShuffleGlitch();
+          getMatrixAudio().then((m) => m.matrixAudio.playShuffleGlitch());
           return themes[idx];
         });
       }
@@ -414,8 +422,10 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
           onClick={() => {
             const next = !isSoundMuted;
             setIsSoundMuted(next);
-            matrixAudio.setMuted(next);
-            if (!next) matrixAudio.playShuffleGlitch();
+            getMatrixAudio().then((m) => {
+              m.matrixAudio.setMuted(next);
+              if (!next) m.matrixAudio.playShuffleGlitch();
+            });
           }}
           className="p-2.5 rounded-md border border-white/20 bg-black/60 hover:bg-black/90 backdrop-blur-md transition-all text-white/80 hover:text-white"
           title={isSoundMuted ? 'Unmute Matrix Soundtrack (M)' : 'Mute Matrix Soundtrack (M)'}
@@ -478,7 +488,7 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
                   key={thmKey}
                   onClick={() => {
                     setTheme(thmKey);
-                    matrixAudio.playShuffleGlitch();
+                    getMatrixAudio().then((m) => m.matrixAudio.playShuffleGlitch());
                   }}
                   className={`px-3 py-1 rounded border text-[10px] uppercase font-bold tracking-wider transition-all flex items-center gap-1.5 ${
                     isCurrent
@@ -514,7 +524,7 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
                   key={d}
                   onClick={() => {
                     setDensity(d);
-                    matrixAudio.playShuffleGlitch();
+                    getMatrixAudio().then((m) => m.matrixAudio.playShuffleGlitch());
                   }}
                   className={`px-2 py-0.5 rounded uppercase font-bold transition-all ${
                     density === d ? 'bg-white text-black' : 'text-white/60 hover:text-white'
