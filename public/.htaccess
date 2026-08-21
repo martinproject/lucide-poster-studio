@@ -21,7 +21,7 @@
 
 <IfModule mod_headers.c>
   # 1 Year Cache for Static Hashed Assets
-  <FilesMatch "\.(js|css|svg|woff2|png|jpg|jpeg|webp)$">
+  <FilesMatch "\.(js|css|svg|woff2|png|jpg|jpeg|webp|ico)$">
     Header set Cache-Control "max-age=31536000, public, immutable"
   </FilesMatch>
 
@@ -32,3 +32,18 @@
     Header set Expires 0
   </FilesMatch>
 </IfModule>
+
+# SPA Routing Fallback (Apache / Plesk)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # If the requested file or directory exists, serve it directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Otherwise redirect all requests to index.html
+  RewriteRule ^ index.html [L]
+</IfModule>
+
