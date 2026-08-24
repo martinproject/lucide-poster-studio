@@ -65,16 +65,55 @@ export function generateIconGrid(
 
   const result: IconGridItem[] = [];
 
+  // 1. Analyze existing grid icon frequencies
+  const iconFrequencyMap: Record<string, number> = {};
+  existingItems.forEach((item) => {
+    if (item.name) {
+      iconFrequencyMap[item.name] = (iconFrequencyMap[item.name] || 0) + 1;
+    }
+  });
+
+  const uniqueIconsCount = Object.keys(iconFrequencyMap).length;
+  // Check if grid is 100% uniform (e.g. user set a single icon across 100% of the poster)
+  const isUniformGrid = uniqueIconsCount === 1 && existingItems.length > 0;
+  const uniformIconName = isUniformGrid ? existingItems[0].name : null;
+
   for (let index = 0; index < totalCells; index++) {
     const existing = existingItems[index];
 
-    // If existing item is locked, preserve it
+    // If existing item is locked, preserve it completely
     if (existing && existing.isLocked) {
       result.push(existing);
       continue;
     }
 
-    // Pick icon from pool with wrapping
+    // If previous grid was 100% uniform (same icon everywhere), keep that icon for newly created cells
+    if (uniformIconName) {
+      result.push({
+        id: existing?.id || `cell-${index}-${Math.floor(rng() * 100000)}`,
+        name: uniformIconName,
+        category: existing?.category,
+        rotation: existing ? existing.rotation || 0 : 0,
+        customColor: existing ? existing.customColor : undefined,
+        isLocked: existing ? Boolean(existing.isLocked) : false,
+      });
+      continue;
+    }
+
+    // If cell already existed in the previous grid layout, keep its customized icon
+    if (existing) {
+      result.push({
+        id: existing.id || `cell-${index}-${Math.floor(rng() * 100000)}`,
+        name: existing.name,
+        category: existing.category,
+        rotation: existing.rotation || 0,
+        customColor: existing.customColor,
+        isLocked: Boolean(existing.isLocked),
+      });
+      continue;
+    }
+
+    // Pick icon from pool with wrapping for new expanded cells
     const iconIndex = index % pool.length;
     const name = pool[iconIndex] || 'Sparkles';
 
@@ -85,8 +124,8 @@ export function generateIconGrid(
       id: `cell-${index}-${Math.floor(rng() * 100000)}`,
       name: name,
       category: itemCategory,
-      rotation: existing ? existing.rotation || 0 : 0,
-      customColor: existing ? existing.customColor : undefined,
+      rotation: 0,
+      customColor: undefined,
       isLocked: false,
     });
   }

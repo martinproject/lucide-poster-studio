@@ -20,6 +20,9 @@ interface IconPickerModalProps {
   onUpdateItem: (index: number, updated: Partial<IconGridItem>) => void;
   onRerollCell: (index: number) => void;
   primaryColor: string;
+  totalCells?: number;
+  currentFrequencyPercent?: number;
+  onApplyDistribution?: (iconName: string, percentage: number) => void;
 }
 
 export function IconPickerModal({
@@ -30,14 +33,22 @@ export function IconPickerModal({
   onUpdateItem,
   onRerollCell,
   primaryColor,
+  totalCells = 48,
+  currentFrequencyPercent = 0,
+  onApplyDistribution,
 }: IconPickerModalProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [customHex, setCustomHex] = useState(selectedItem?.customColor || '');
+  const [distributionPercent, setDistributionPercent] = useState<number>(currentFrequencyPercent);
 
   useEffect(() => {
     setCustomHex(selectedItem?.customColor || '');
   }, [selectedItem?.customColor]);
+
+  useEffect(() => {
+    setDistributionPercent(currentFrequencyPercent);
+  }, [currentFrequencyPercent, selectedItem?.name]);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -71,6 +82,7 @@ export function IconPickerModal({
   if (!isOpen || selectedItem === null || cellIndex === null) return null;
 
   const CurrentIcon = getLucideIcon(selectedItem.name);
+  const targetCellsCount = Math.max(1, Math.round((distributionPercent / 100) * totalCells));
 
   return (
     <div
@@ -168,6 +180,72 @@ export function IconPickerModal({
                 Reset
               </button>
             )}
+          </div>
+        </div>
+
+        {/* Poster Frequency / Appearance Percentage Controller (Up to 100% of entire design) */}
+        <div className="px-6 sm:px-8 py-3.5 bg-[#FAF8F5] border-b border-black/10 space-y-2.5 text-xs">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <span className="text-[11px] uppercase font-bold tracking-wider text-[#1A1A1A]">
+                Frecuencia en el diseño:
+              </span>
+              <span className="font-mono text-xs font-bold text-white bg-[#1A1A1A] px-2 py-0.5 rounded shadow-2xs">
+                {distributionPercent}%
+              </span>
+              <span className="text-[11px] font-mono text-black/50">
+                ({targetCellsCount} de {totalCells} celdas)
+              </span>
+            </div>
+
+            {/* Quick preset buttons */}
+            <div className="flex items-center gap-1">
+              {[
+                { label: 'Solo 1', pct: Math.max(1, Math.round((1 / totalCells) * 100)) },
+                { label: '25%', pct: 25 },
+                { label: '50%', pct: 50 },
+                { label: '75%', pct: 75 },
+                { label: '100% Todo', pct: 100 },
+              ].map((p) => {
+                const isCurrent = Math.abs(distributionPercent - p.pct) <= 1 || (p.pct === 100 && distributionPercent === 100);
+                return (
+                  <button
+                    key={p.label}
+                    onClick={() => {
+                      setDistributionPercent(p.pct);
+                      if (onApplyDistribution) {
+                        onApplyDistribution(selectedItem.name, p.pct);
+                      }
+                    }}
+                    className={`px-2 py-0.5 text-[10px] font-mono font-semibold rounded border transition-colors ${
+                      isCurrent
+                        ? 'border-black bg-black text-white'
+                        : 'border-black/15 bg-white text-black/70 hover:border-black/40 hover:text-black'
+                    }`}
+                  >
+                    {p.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <input
+              type="range"
+              min={Math.max(1, Math.round((1 / totalCells) * 100))}
+              max="100"
+              step="1"
+              value={distributionPercent}
+              onChange={(e) => {
+                const val = Number(e.target.value);
+                setDistributionPercent(val);
+                if (onApplyDistribution) {
+                  onApplyDistribution(selectedItem.name, val);
+                }
+              }}
+              className="slider-editorial flex-1 cursor-pointer"
+            />
           </div>
         </div>
 

@@ -419,8 +419,8 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
               const cellX = startX + col * (cellWidth + config.gridGapX);
               const cellY = startY + row * (cellHeight + config.gridGapY);
               const actualScale = (config.iconScale / 100) * cellSize;
-              const iconOffsetX = (cellWidth - actualScale) / 2;
-              const iconOffsetY = (cellHeight - actualScale) / 2;
+              const defaultIconOffsetX = (cellWidth - actualScale) / 2;
+              const defaultIconOffsetY = (cellHeight - actualScale) / 2;
 
               // CASE A: Top-left cell (row 0, col 0) contains the Lucide Swirl Logo
               if (hasVerticalHeader && col === 0 && row === 0) {
@@ -443,7 +443,7 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                     <g
                       data-name="Swirl Logo Symbol"
                       transform={`
-                        translate(${iconOffsetX + actualScale / 2}, ${iconOffsetY + actualScale / 2})
+                        translate(${defaultIconOffsetX + actualScale / 2}, ${defaultIconOffsetY + actualScale / 2})
                         scale(${config.badgeScale})
                         translate(${-actualScale / 2}, ${-actualScale / 2})
                       `}
@@ -578,7 +578,7 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                     id={`icon-${cleanIconSlug}-${iconIndex + 1}`}
                     data-name={iconName}
                     transform={`
-                      translate(${iconOffsetX + actualScale / 2}, ${iconOffsetY + actualScale / 2})
+                      translate(${defaultIconOffsetX + actualScale / 2}, ${defaultIconOffsetY + actualScale / 2})
                       rotate(${item.rotation || 0})
                       translate(${-actualScale / 2}, ${-actualScale / 2})
                     `}

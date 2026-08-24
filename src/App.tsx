@@ -748,6 +748,79 @@ export default function App() {
 
   const allLocked = icons.length > 0 && icons.every((item) => item.isLocked);
 
+  // Apply distribution percentage of a specific icon across the poster (1% up to 100% full design)
+  const handleApplyDistribution = (iconName: string, percentage: number) => {
+    pushToHistory(config, icons);
+    const total = icons.length;
+    if (total === 0) return;
+
+    // Calculate how many cells should have this icon
+    const targetCount = Math.max(1, Math.min(total, Math.round((percentage / 100) * total)));
+
+    setIcons((prev) => {
+      const copy = [...prev];
+      // Keep track of indices that already have this icon
+      const matchingIndices: number[] = [];
+      const nonMatchingIndices: number[] = [];
+
+      copy.forEach((item, idx) => {
+        if (item.name === iconName) {
+          matchingIndices.push(idx);
+        } else {
+          nonMatchingIndices.push(idx);
+        }
+      });
+
+      const currentCount = matchingIndices.length;
+
+      if (currentCount === targetCount) {
+        return copy;
+      }
+
+      if (currentCount < targetCount) {
+        // Need to add more: shuffle nonMatchingIndices and replace them
+        const needed = targetCount - currentCount;
+        // Prioritize unlocked cells first, but allow converting locked if needed to reach 100%
+        const unlockedNonMatching = nonMatchingIndices.filter((idx) => !copy[idx].isLocked);
+        const lockedNonMatching = nonMatchingIndices.filter((idx) => copy[idx].isLocked);
+        const candidates = [...unlockedNonMatching, ...lockedNonMatching];
+
+        for (let i = 0; i < needed && i < candidates.length; i++) {
+          const idxToReplace = candidates[i];
+          copy[idxToReplace] = {
+            ...copy[idxToReplace],
+            name: iconName,
+          };
+        }
+      } else {
+        // Need to reduce: replace extra matching cells with random catalog icons
+        const toReduce = currentCount - targetCount;
+        const unlockedMatching = matchingIndices.filter((idx) => !copy[idx].isLocked && idx !== selectedCellIndex);
+        const lockedMatching = matchingIndices.filter((idx) => copy[idx].isLocked && idx !== selectedCellIndex);
+        const candidates = [...unlockedMatching, ...lockedMatching, selectedCellIndex].filter((x): x is number => x !== null);
+
+        const replacementGrid = generateIconGrid(config.columns, config.rows, config.selectedCategories || ['all'], Math.floor(Math.random() * 800000));
+        
+        for (let i = 0; i < toReduce && i < candidates.length; i++) {
+          const idxToReplace = candidates[i];
+          const freshName = replacementGrid[idxToReplace]?.name || 'Sparkles';
+          copy[idxToReplace] = {
+            ...copy[idxToReplace],
+            name: freshName === iconName ? 'Sparkles' : freshName,
+          };
+        }
+      }
+
+      return copy;
+    });
+
+    if (percentage === 100) {
+      showToast(`Icon "${iconName}" aplicado al 100% del diseño`);
+    } else {
+      showToast(`Frecuencia de "${iconName}" ajustada a ${percentage}% (${targetCount}/${total} celdas)`);
+    }
+  };
+
   // Click on a cell in the poster canvas
   const handleSelectIcon = (index: number) => {
     setSelectedCellIndex(index);
@@ -1047,6 +1120,17 @@ export default function App() {
         onUpdateItem={handleUpdateItem}
         onRerollCell={handleRerollCell}
         primaryColor={config.primaryIconColor}
+        totalCells={icons.length}
+        currentFrequencyPercent={
+          selectedCellIndex !== null && icons[selectedCellIndex]
+            ? Math.round(
+                (icons.filter((i) => i.name === icons[selectedCellIndex]?.name).length /
+                  Math.max(1, icons.length)) *
+                  100
+              )
+            : 0
+        }
+        onApplyDistribution={handleApplyDistribution}
       />
 
       {/* Lazy-loaded Heavy Studio Modals & Dialogs (Suspense) */}
