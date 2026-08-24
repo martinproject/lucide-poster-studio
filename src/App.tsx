@@ -437,6 +437,13 @@ export default function App() {
     }
   }, [icons]);
 
+  // Track previous category and seed to know when to regenerate unlocked icons
+  const prevCategoriesRef = useRef<string>(
+    JSON.stringify(config.selectedCategories || (config.selectedCategory ? [config.selectedCategory] : ['all']))
+  );
+  const prevSortModeRef = useRef<string>(config.sortMode || 'shuffle');
+  const prevSeedRef = useRef<number>(config.seed);
+
   // Generate or regenerate icons whenever columns, rows, categories, seed, or sortMode change
   useEffect(() => {
     // Avoid re-scrambling loaded customized grid on initial render
@@ -454,16 +461,45 @@ export default function App() {
       ? config.selectedCategories
       : config.selectedCategory ? [config.selectedCategory] : ['all'];
 
-    setIcons((prev) =>
-      generateIconGrid(
+    const currentCatsStr = JSON.stringify(cats);
+    const categoryOrSortOrSeedChanged =
+      prevCategoriesRef.current !== currentCatsStr ||
+      prevSortModeRef.current !== (config.sortMode || 'shuffle') ||
+      prevSeedRef.current !== config.seed;
+
+    prevCategoriesRef.current = currentCatsStr;
+    prevSortModeRef.current = config.sortMode || 'shuffle';
+    prevSeedRef.current = config.seed;
+
+    setIcons((prev) => {
+      if (categoryOrSortOrSeedChanged) {
+        // Generate a new grid for the new seed/category/sort mode, preserving locked items at their exact indexes
+        const freshGrid = generateIconGrid(
+          config.columns,
+          config.rows,
+          cats,
+          config.seed,
+          [],
+          config.sortMode || 'shuffle'
+        );
+
+        return freshGrid.map((item, idx) => {
+          if (prev[idx] && prev[idx].isLocked) {
+            return prev[idx];
+          }
+          return item;
+        });
+      }
+
+      return generateIconGrid(
         config.columns,
         config.rows,
         cats,
         config.seed,
         prev,
         config.sortMode || 'shuffle'
-      )
-    );
+      );
+    });
   }, [config.columns, config.rows, config.selectedCategories, config.selectedCategory, config.seed, config.sortMode]);
 
   // Partial config updater

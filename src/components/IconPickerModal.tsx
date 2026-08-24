@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import {
   X,
   Search,
@@ -42,6 +42,9 @@ export function IconPickerModal({
   const [customHex, setCustomHex] = useState(selectedItem?.customColor || '');
   const [distributionPercent, setDistributionPercent] = useState<number>(currentFrequencyPercent);
 
+  const selectedButtonRef = useRef<HTMLButtonElement | null>(null);
+  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
+
   useEffect(() => {
     setCustomHex(selectedItem?.customColor || '');
   }, [selectedItem?.customColor]);
@@ -49,6 +52,27 @@ export function IconPickerModal({
   useEffect(() => {
     setDistributionPercent(currentFrequencyPercent);
   }, [currentFrequencyPercent, selectedItem?.name]);
+
+  // Reset search and scroll to selected icon when opening the inspector
+  useEffect(() => {
+    if (isOpen) {
+      setSearchQuery('');
+      setActiveCategory('all');
+
+      // Allow DOM to render then scroll selected icon into view smoothly
+      const timer = setTimeout(() => {
+        if (selectedButtonRef.current) {
+          selectedButtonRef.current.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center',
+            inline: 'center',
+          });
+        }
+      }, 60);
+
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen, cellIndex, selectedItem?.name]);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -293,7 +317,10 @@ export function IconPickerModal({
         </div>
 
         {/* Icon Grid Viewer */}
-        <div className="flex-1 p-4 sm:p-6 overflow-y-auto min-h-[240px] max-h-[340px] bg-[#FAF9F7] scrollbar-thin scrollbar-thumb-black/10">
+        <div
+          ref={scrollContainerRef}
+          className="flex-1 p-4 sm:p-6 overflow-y-auto min-h-[240px] max-h-[340px] bg-[#FAF9F7] scrollbar-thin scrollbar-thumb-black/10"
+        >
           {filteredIcons.length === 0 ? (
             <div className="h-full flex flex-col items-center justify-center text-center p-8 text-black/50">
               <Search size={28} className="mb-2 opacity-30" />
@@ -307,13 +334,14 @@ export function IconPickerModal({
                 return (
                   <button
                     key={iconName}
+                    ref={isSelected ? (el) => { selectedButtonRef.current = el; } : undefined}
                     onClick={() => {
                       onUpdateItem(cellIndex, { name: iconName });
                     }}
                     title={iconName}
                     className={`group relative flex flex-col items-center justify-center p-2.5 border transition-all ${
                       isSelected
-                        ? 'border-black bg-black text-white shadow-md'
+                        ? 'border-black bg-black text-white shadow-md ring-2 ring-black/20'
                         : 'border-black/10 bg-white hover:border-black/40 text-[#1A1A1A]'
                     }`}
                   >
