@@ -41,11 +41,11 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
       <header className="w-full max-w-6xl mx-auto px-6 py-6 flex items-center justify-between z-20 border-b border-black/10 bg-[#FDFCFB]/80 backdrop-blur-md">
         <div
 
-          className="flex items-center gap-3 cursor-pointer group"
+          className="flex items-center cursor-pointer group"
         >
-          <LucideSwirlLogo size={28} color="#1A1815" accentColor="#DE5D53" strokeWidth={2.2} />
+          <LucideSwirlLogo size={36} color="#1A1815" accentColor="#DE5D53" strokeWidth={2.2} className="mr-2" />
           <div className="flex items-center gap-2">
-            <span className="text-xl font-bold font-sans tracking-tight text-[#1A1A1A] group-hover:text-[#DE5D53] transition-colors">
+            <span className="text-xl font-bold font-sans tracking-tight text-[#3c3c43] group-hover:text-[#DE5D53] transition-colors">
               Lucide
             </span>
             <span className="text-sm">|</span>

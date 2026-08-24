@@ -364,6 +364,11 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
               ? { baseColor: '#FFFFFF', accentColor: '#F56565' }
               : { baseColor: config.textColor, accentColor: config.badgeColor || '#DE5D53' };
 
+          const headerLogoSize = 36;
+          const headerMarginRight = headerLogoSize * (8 / 24); // 8px proportional margin
+          const headerFontSize = headerLogoSize * (20 / 24); // 30px proportional font size
+          const headerStrokeWidth = 2.2;
+
           return (
             <g
               id="poster-horizontal-header"
@@ -374,17 +379,17 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
               <g className="flex items-center" data-name="Header Brand">
                 {config.headerLogo === 'swirl' ? (
                   <LucideSwirlLogo
-                    size={42}
+                    size={headerLogoSize}
                     color={logoColors.baseColor}
                     accentColor={logoColors.accentColor}
-                    strokeWidth={2}
+                    strokeWidth={headerStrokeWidth}
                   />
                 ) : (
                   (() => {
                     const BadgeIcon = getLucideIcon(config.headerLogo);
                     return BadgeIcon ? (
                       <BadgeIcon
-                        size={42}
+                        size={headerLogoSize}
                         color={config.badgeColor}
                         strokeWidth={config.strokeWidth}
                       />
@@ -392,11 +397,11 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                   })()
                 )}
                 <text
-                  x="56"
-                  y="30"
+                  x={headerLogoSize + headerMarginRight}
+                  y={headerLogoSize * 0.72}
                   fill={config.textColor}
                   fillOpacity={config.textOpacity}
-                  fontSize="32"
+                  fontSize={headerFontSize}
                   fontWeight="600"
                   letterSpacing={config.letterSpacing}
                   style={{
@@ -453,7 +458,7 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                           size={actualScale}
                           color={logoColors.baseColor}
                           accentColor={logoColors.accentColor}
-                          strokeWidth={2}
+                          strokeWidth={2.2}
                         />
                       ) : (
                         (() => {
@@ -474,12 +479,24 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
 
               // CASE B: Row 1, Col 0 starts the vertical "Lucide" text running downwards through row 2
               if (hasVerticalHeader && col === 0 && row === 1) {
+                // Proportions matching official 36px icon / 20px font / 8px margin (8/24 ratio)
+                const effectiveLogoSize = actualScale * config.badgeScale;
+                const proportionalMargin = effectiveLogoSize * (8 / 24);
+                const proportionalFontSize = effectiveLogoSize * (20 / 24);
+
+                // Calculate vertical position: start below the logo by exactly proportionalMargin
+                // Logo bottom edge is at startY + cellHeight / 2 + effectiveLogoSize / 2
+                // Since this cell starts at cellY (startY + cellHeight + gridGapY), we offset from cellY
+                const logoBottomInPoster = startY + cellHeight / 2 + effectiveLogoSize / 2;
+                const textTargetTop = logoBottomInPoster + proportionalMargin;
+                const textOffsetY = textTargetTop - cellY;
+
                 return (
                   <g
                     key="branding-text-cell"
                     id="branding-text-cell"
                     data-name={`Header - ${config.headerTitle || 'Lucide'}`}
-                    transform={`translate(${cellX + cellWidth / 2}, ${cellY + (cellHeight * 0.14)})`}
+                    transform={`translate(${cellX + cellWidth / 2}, ${cellY + textOffsetY})`}
                     className="cursor-default"
                   >
                     <title>{config.headerTitle || 'Lucide'}</title>
@@ -489,10 +506,11 @@ export const PosterCanvas = forwardRef<SVGSVGElement, PosterCanvasProps>(
                       transform="rotate(90)"
                       fill={config.textColor}
                       fillOpacity={config.textOpacity}
-                      fontSize={Math.round(cellSize * 0.44)}
+                      fontSize={proportionalFontSize}
                       fontWeight="600"
-                      letterSpacing={config.letterSpacing + 0.6}
+                      letterSpacing={config.letterSpacing}
                       dominantBaseline="central"
+                      textAnchor="start"
                       style={{
                         fontFamily: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
                         fontWeight: 600,

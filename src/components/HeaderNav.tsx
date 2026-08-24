@@ -98,17 +98,19 @@ export function HeaderNav({
         <button
           type="button"
           onClick={onReturnToHome}
-          className="flex items-center gap-2.5 hover:opacity-80 transition-opacity text-left cursor-pointer group"
+          className="flex items-center hover:opacity-80 transition-opacity text-left cursor-pointer group"
           title="Volver a la Landing Page"
         >
-          <LucideSwirlLogo size={24} color="#1A1815" accentColor="#DE5D53" strokeWidth={2.2} />
-          <span className="text-lg sm:text-xl font-bold font-sans tracking-tight text-[#1A1A1A] group-hover:text-rose-600 transition-colors">
-            Lucide
-          </span>
-          <span className="text-sm">|</span>
-          <span className="text-xl font-bold font-sans tracking-tight opacity-40 hidden sm:inline-block">
-            Poster Studio
-          </span>
+          <LucideSwirlLogo size={36} color="#1A1815" accentColor="#DE5D53" strokeWidth={2.2} className="mr-2" />
+          <div className="flex items-center gap-2">
+            <span className="text-lg sm:text-xl font-bold font-sans tracking-tight text-[#3c3c43] group-hover:text-[#DE5D53] transition-colors">
+              Lucide
+            </span>
+            <span className="text-sm">|</span>
+            <span className="text-xl font-bold font-sans tracking-tight opacity-40 hidden sm:inline-block">
+              Poster Studio
+            </span>
+          </div>
         </button>
 
         {/* Live specs badge */}
