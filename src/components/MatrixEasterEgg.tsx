@@ -140,8 +140,8 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
       'WAKE UP, NEO...',
       'THE MATRIX HAS YOU...',
       'FOLLOW THE LUCIDE CODE...',
-      'NATIVE VECTOR FONT ENGINE: ALL 1,779 GLYPHS ACTIVE.',
-      'PRESS [R] TO SHUFFLE • [SPACE] TO CHANGE THEME • [ESC] TO EXIT.'
+      '1,779 VECTOR GLYPHS ACTIVE.',
+      'PRESS [R] SHUFFLE • [SPACE] THEME • [ESC] EXIT'
     ];
 
     let msgIndex = 0;
@@ -397,11 +397,11 @@ export function MatrixEasterEgg({ isOpen, onClose }: MatrixEasterEggProps) {
           </span>
         </div>
         <div
-          className="text-sm sm:text-base font-bold tracking-wider max-w-xl h-6 flex items-center"
+          className="text-sm sm:text-base font-bold tracking-wider max-w-xl h-6 flex items-center whitespace-nowrap overflow-hidden"
           style={{ color: currentThemeInfo.head, textShadow: `0 0 12px ${currentThemeInfo.glow}` }}
         >
-          <span>{typewriterText}</span>
-          <span className="w-2 h-4 ml-1 bg-current animate-pulse inline-block" />
+          <span className="truncate">{typewriterText}</span>
+          <span className="w-2 h-4 ml-1 bg-current animate-pulse shrink-0 inline-block" />
         </div>
       </div>
 
